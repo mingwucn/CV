@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ming Wu - Academic CV and Research Portfolio">
+    <title>Ming Wu - Academic CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="profile.jpg" type="image/jpeg">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="profile-header">
+                <img src="profile.jpg" alt="Ming Wu" class="profile-photo" id="profilePhoto">
+                <div class="name-section">
+                    <h1 id="fullName">Ming Wu</h1>
+                    <div class="language-toggle">
+                        <button id="langToggle" class="lang-btn">中文</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info" id="contactInfo">
+                <!-- Contact info will be populated by JS -->
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="researchVision" class="section">
+                <h2 class="section-title" data-en="Research Vision" data-zh="研究愿景"></h2>
+                <div class="section-content" id="researchVisionContent"></div>
+            </section>
+
+            <section id="education" class="section">
+                <h2 class="section-title" data-en="Education" data-zh="教育背景"></h2>
+                <div class="section-content" id="educationContent"></div>
+            </section>
+
+            <section id="appointments" class="section">
+                <h2 class="section-title" data-en="Academic Appointments" data-zh="职业经历"></h2>
+                <div class="section-content" id="appointmentsContent"></div>
+            </section>
+
+            <section id="grants" class="section">
+                <h2 class="section-title" data-en="Research Grants & Secured Funding" data-zh="研究资助与项目经历"></h2>
+                <div class="section-content" id="grantsContent"></div>
+            </section>
+
+            <section id="publications" class="section">
+                <h2 class="section-title" data-en="Publications" data-zh="学术发表"></h2>
+                <div class="section-content" id="publicationsContent">
+                    <div class="pub-section" id="journalPapers">
+                        <h3 data-en="Journal Papers" data-zh="期刊论文"></h3>
+                        <div id="journalPapersContent"></div>
+                    </div>
+                    <div class="pub-section" id="conferences">
+                        <h3 data-en="Conference Papers" data-zh="会议论文"></h3>
+                        <div id="conferencesContent"></div>
+                    </div>
+                    <div class="pub-section" id="patents">
+                        <h3 data-en="Patents" data-zh="专利"></h3>
+                        <div id="patentsContent"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="teaching" class="section">
+                <h2 class="section-title" data-en="Teaching & Mentorship Competencies" data-zh="教学活动"></h2>
+                <div class="section-content" id="teachingContent"></div>
+            </section>
+
+            <section id="innovation" class="section">
+                <h2 class="section-title" data-en="Innovation & Technology Transfer" data-zh="专利及成果转化"></h2>
+                <div class="section-content" id="innovationContent"></div>
+            </section>
+
+            <section id="miscellaneous" class="section">
+                <h2 class="section-title" data-en="Miscellaneous" data-zh="其他信息"></h2>
+                <div class="section-content" id="miscellaneousContent"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p id="footerText" data-en="© 2026 Ming Wu. This CV is automatically generated from LaTeX source files." 
+               data-zh="© 2026 吴明。本简历由 LaTeX 源文件自动生成。"></p>
+        </div>
+    </footer>
+
+    <script src="parser.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
