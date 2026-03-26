@@ -1,0 +1,410 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+\ExplSyntaxOn
+\cs_generate_variant:Nn \fp_set:Nn { NV }
+\cs_generate_variant:Nn \fp_gset:Nn { NV }
+\ExplSyntaxOff
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+
+\addbibresource[label=paper]{MyPaper_modified.bib} % Your .bib file
+\addbibresource[label=conference]{MyConference_modified.bib} % Your .bib file
+\addbibresource[label=patent]{MyPatent_modified.bib} % Modified MyPatent.bib
+
+\newcommand{\note}[1]{%
+    \colorbox{yellow!30}{\textcolor{OliveGreen}{#1}}%
+}
+\newcommand{\cnote}[1]{{#1}}
+\newcommand{\enote}[1]{}
+% \newcommand{\note}[1]{{#1}}
+
+\begin{document}
+% \nocite{*} % Include all references from the .bib file
+% \pagenumbering{gobble} % suppress displaying page number
+
+\name{吴明}
+\vspace{2mm}
+
+% \info{\email{mingwucn@outlook.com}}{\href{mailto:ming.wu1@kuleuven.be}{ming.wu1@kuleuven.be}}{}{}
+% \info{\phone{(+86) 134-5046-8806, (+32) 488-390-167}}{}{}{}
+% \info{{\linkedin{}{}\href{https://www.linkedin.com/in/mingwucn}{linkedin.com/in/mingwucn}}}{\github{}{\href{https://github.com/mingwucn}{github.com/mingwucn}}}{}{}{}
+% \info{\orcidlink{0000-0002-3582-4881} \href{https://orcid.org/0000-0002-3582-4881}{0000-0002-3582-4881}}{\homepage{}{}\href{https://www.kuleuven.be/wieiswie/en/person/00144381}{KU Leuven page}}{}{}
+
+
+\info{\email{mingwucn@outlook.com}}{\href{mailto:ming.wu1@kuleuven.be}{ming.wu1@kuleuven.be}}{}{}
+\info{\phone{(+86) 134-5046-8806, (+32) 488-390-167}}{}{}{}
+\info{{\linkedin{}{}\href{https://www.linkedin.com/in/mingwucn}{linkedin.com/in/mingwucn}}}{\github{}{\href{https://github.com/mingwucn}{github.com/mingwucn}}}{}{}{}
+\info{\orcidlink{0000-0002-3582-4881} \href{https://orcid.org/0000-0002-3582-4881}{0000-0002-3582-4881}}{\homepage{}{}\href{https://www.kuleuven.be/wieiswie/en/person/00144381}{KU Leuven page}}{}{}
+
+\yourphoto{0.15}
+% \github{MingWu}{https://github.com/mingwucn}\\
+
+% \orcidlink{0000-0002-3582-4881}0000-0002-3582-4881\\
+
+\section{教育背景}
+\datedsubsection{\textbf{广东工业大学}, 机械工程, \textit{博士}}{2016.09 - 2020.12}
+\begin{itemize} [parsep=1ex]
+  \item \textbf{国家重点实验室}: 省部共建精密电子制造技术与装备国家重点实验室
+  \item \textbf{学位论文}: 基于多物理场模型和机器学习模型的掩膜电射流加工表面微结构的理论与试验研究
+\end{itemize}
+
+\datedsubsection{\textbf{广东工业大学}, 机械工程, \textit{硕士}}{2013.09 - 2016.07}
+\begin{itemize} [parsep=1ex]
+  \item \textbf{国家重点实验室}: 省部共建精密电子制造技术与装备国家重点实验室
+  \item \textbf{学位论文}: 电液束掩膜印制表面微织构仿真与实验研究
+        \vspace*{-0.4cm}
+  \item \datedsubsection{\normalsize{\textbf{香港理工大学}, 微纳米精密实验室, \textit{暑期课程}}}{\normalsize{2013.07 - 2013.08}}
+\end{itemize}
+
+\datedsubsection{\textbf{东莞城市学院}, 机械设计制造及其自动化, \textit{学士}}{2008.09 - 2012.07}
+% \textit{Master student} in Electronics Engineering (EE), expected March 2016
+% \datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
+% \textit{B.S.} in Electronics Engineering (EE)
+
+\vspace{5mm}
+\section{职业经历}
+\datedsubsection{\textbf{KU Leuven} (2024 泰晤士世界大学排名 45), \textbf{长聘}副研究员}{2024.03 - 至今}
+双学科:
+\begin{itemize}
+  \item 制造系统与工程, 机械科学学院(\textit{Manufacturing Processes and Systems (MaPS)}, Department of Mechanical Engineering)
+  \item 声明式语言与人工智能, 计算机学院 (\textit{Declarative Languages and Artificial Intelligence (DTAI)}, Department of Computer Science)
+\end{itemize}
+\par
+% \vspace{1mm}
+% \textbf{研究方向:}
+% \begin{itemize}[parsep=0.5ex]
+%   \item 基于数据-物理双驱动机制的增/减材制造表面结构优化方法研究
+%         \\ - \textit{项目: \projectcite{AF3}. \\
+%           - 论文:
+%           \hyperref[wu2025Investigationsontheconsistency]{CIRP Journal of Manufacturing Science and Technology (Under review),
+%           \hyperref[he2024exploringelectrolyte]{Micromachines (2024)}
+%           }
+%         }
+
+%   \item 基于人工智能的增/减材制造过程监测与控制技术研究
+%         \\ - \textit{项目: \projectcite{MuSIC}. \\
+%           - 论文:
+%           \hyperref[wu2025data-drivenModelswithphysicalinterpretability]{EAAI (Under review) },
+%           \hyperref[wu2025athreshold-freeandlabel-free]{Procedia CIRP (2025)},
+%           \hyperref[yao2025toolwearevaluation]{CIRP ISEM (2025)}
+%           \hyperref[yao2024predictionmicroedm]{JIM (2024)}
+%           - 会议:
+%           \hyperref[wu2025data-drivevapprochetoidentify]{Belgium, 2025}
+%         }
+
+%   \item 基于数据-物理双驱动机制的制造工艺参数优化方法研究
+%         \\ - \textit{项目: \projectcite{MuSIC}, \projectcite{AF3}. \\
+%           - 论文:
+%           \hyperref[wu2025dataapproachtoIdentify]{Procedia CIRP (2025)}
+%           \hyperref[wu2025deeplearning-basedcharacterization]{Procedia CIRP (2025)}
+%           - 会议:
+%           \hyperref[Wu2025FMFFF]{Belgium,2025}
+%         }
+
+%   \item 基于人工智能辅助的三维产品智能设计与制造工艺协同规划方法研究
+%         \\ - \textit{项目: \projectcite{AutoCAM}. \\
+%           - 论文:
+%           \hyperref[wu2025geometricalfeatureclassification]{Procedia CIRP (2025)},
+%           - 会议:
+%           \hyperref[Wu2025FMAutoCAM]{Belgium,2025}
+%           - 指导学位论文:
+%           \hyperref[thesis:co-pilot]{KU Leuven 2025}
+%         }
+% \end{itemize}
+
+\vspace*{-2mm}
+\datedsubsection{\textbf{KU Leuven} (2024 泰晤士世界大学排名 45), 博士后}{2021.03 - 2024.03}
+双学科:
+\begin{itemize}
+  \item 制造系统与工程, 机械科学学院(\textit{MaPS}, Department of Mechanical Engineering)
+  \item 声明式语言与人工智能, 计算机学院 (\textit{DTAI}, Department of Computer Science)
+\end{itemize}
+% \vspace{1mm}
+% \textbf{研究方向:}
+% \begin{itemize}[parsep=0.5ex]
+%   \item 基于数据驱动的增/减材制造工艺参数优化方法研究
+%   \item 基于机器学习与人工智能的增/减材制造过程智能监测与实时反馈控制技术研究
+%   \item 基于计算机视觉的工业产品智能检测技术研究
+% \end{itemize}
+
+\vspace*{-2mm}
+\datedsubsection{\textbf{KU Leuven} (2024 泰晤士世界大学排名 45), 访问学者}{2019.09 - 2020.09}
+\textbf{广东省高校优秀青年科研人才国际培养计划} \\
+% \vspace{1mm}
+% \textbf{研究方向:}
+% \begin{itemize}[parsep=0.5ex]
+%   \item 基于非传统制造工艺的微尺度表面结构制备技术研究
+%   \\
+% \end{itemize}
+
+\vspace*{-2mm}
+\datedsubsection{\textbf{Tokyo University of Agriculture and Technology}, 访问学者 }{2023.11}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{日本科学技术振兴机构（JST）} 樱花科技交流计划资助
+\end{itemize}
+
+\datedsubsection{\textbf{葡萄牙机械工业科学与工程研究院访问学者}, 访问学者}{2018.01 - 2018.01}
+
+\datedsubsection{\textbf{瑞士洛桑联邦理工学院城市交通系统实验室}, 访问学者}{2017.07 - 2017.07}
+
+\vspace{5mm}
+\section{研究经历}
+\datedsubsection{\textbf{- 研究方向:}}{}
+\begin{itemize}[parsep=0.5ex]
+  \item 人工智能与机器学习应用
+  \item 多物理场建模
+  \item 精密加工多传感在线监测与控制
+        % \item 增材制造（激光粉末床熔融/电弧增材制造/熔融沉积成型）
+        % \item 表面微结构
+  \item 非传统制造
+\end{itemize}
+% \more{Recent involved projects}
+% \vspace{1mm}
+\datedsubsection{\textbf{- 项目经历 (博士毕业后)}}{}
+
+% \datedsubsubsection{\textbf{SmartDent}, Belgium}{2025.1 - present}
+% \label{SmartDent}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{Description~} Global Seed Fund: Patient-Specific Machine Learning-assisted Additive Manufacturing and Real-Time Tracking of Dental Implants \item \textbf{Total project budget~} \SLASH60K Euros
+%   \item \textbf{Responsibility~} \underline{Co-PI, Propsal drafter, lead researcher and daily supervisor for Ph.D. candidates} Investigations on AI-assisted optimization of dental implant design and manufacturing for patient-specific implants
+% \end{itemize}
+
+\datedsubsubsection{\textbf{GSF2025}}{2026-2027}
+\label{project:AI4AM}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} Global Seed Fund
+  \item \textbf{关键合作伙伴~} 浙江大学优青祝毅团队
+  \item \textbf{职责~} \underline{CO-PI}
+\end{itemize}
+
+% \datedsubsubsection{\textbf{SYSTEMATIC}, HEU2025}{已申报, 2026年中出结果}
+% \label{project:SYSTEMATIC}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{项目描述~} 欧盟地平线项目2025
+%   \item \textbf{关键合作伙伴~} Ansys 等
+%   \item \textbf{职责~} \underline{CO-PI}
+% \end{itemize}
+
+% \datedsubsubsection{\textbf{AI4AM}, HEU2025}{已申报, 2026年中出结果}
+% \label{project:AI4AM}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{项目描述~} 欧盟地平线项目2025
+%   \item \textbf{关键合作伙伴~} Gemini 等
+%   \item \textbf{职责~} \underline{CO-PI}
+% \end{itemize}
+
+\datedsubsubsection{\textbf{AutoCAM\_SBO}, Belgium}{2024.10 - 至今}
+\label{project:AutoCAM}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 比利时战略基础研究：基于人工智能的CAD-to-CAM加工方案规划与过程优化
+  \item \textbf{项目总预算~} \SLASH275万欧元
+  \item \textbf{职责~} \underline{申报书起草者之一、研究骨干（1/1 DTAI团队，1/2 MaPS 团队）及博士研究生的招聘与管理} 基于生成式AI辅助的三维产品智能设计与制造工艺协同规划方法研究，结合产品的结构与性能要求、可用资源等约束，制定加工方案与并对工艺参数进行优化
+\end{itemize}
+
+\datedsubsubsection{\textbf{MuSIC\_SBO}, Belgium}{2022.10 - 至今}
+\label{project:MuSIC}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 比利时战略基础研究：多传感器融合的在线控制(Multi-Sensor Fusion and In-process Control, MuSIC)
+  \item \textbf{项目总预算~} \SLASH350万欧元
+  \item \textbf{职责~} \underline{申报书起草者之一，研究骨干 （1/2 DTAI 团队）} 基于人工智能的激光粉末床熔融（LPBF）和电弧增材制造（WAAM）过程缺陷检测与控制
+\end{itemize}
+
+\datedsubsubsection{\textbf{AF3}, Belgium}{2022.10 - 至今}
+\label{project:AF3}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 自适应熔融沉积成型(Adaptive Fused Filament Fabrication, AF3)
+  \item \textbf{项目总预算~} \SLASH22万欧元
+  \item \textbf{职责~} \underline{研究骨干(1/2 DTAI团队)} 基于数据-物理双驱动机制的线材打印工艺参数优化研究，利用热成像、声发射等多传感器数据进行实时监测与控制
+\end{itemize}
+
+\datedsubsubsection{\textbf{CTO Action}, Belgium}{2022.06 - 2022.12}
+\label{project:project:}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} Flanders make CTO Action 2022
+  \item \textbf{项目总预算~} \SLASH9.5万欧元
+  \item \textbf{职责~} \underline{研究人员 (2/2 MaPS 团队)}  修订比利时工业5.0百科全书部分词条 (Triple helix, 人工智能、数字孪生、数字资产等部分).
+\end{itemize}
+
+\datedsubsubsection{\textbf{ADAVI}, Belgium}{2021.03 - 2024.03}
+\label{project:ADAVI}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 比利时跨学科合作研究项目：基于主动视觉检测的异常检测(Anomaly Detection by Active Visual Inspection, ADAVI)
+  \item \textbf{项目总预算~} \SLASH300万欧元
+  \item \textbf{职责~} \underline{研究人员 （2/2  MaPS 团队）} 基于单目条纹投影的工业产品三维测量与表面缺陷检测
+\end{itemize}
+
+\datedsubsubsection{\textbf{MicroMan}, EU H2020}{2019.09-2020.09}
+\label{project:MicroMan}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 欧盟地平线2020计划：精密工程与微制造 (MicroMan)
+  \item \textbf{项目总预算~} \SLASH450万欧元
+  \item \textbf{职责~} \underline{合作研究人员 (4/4 MaPS 团队)} 精密工程领域的微电火花加工（EDM）/微电化学加工（ECM）研究
+\end{itemize}
+
+\datedsubsubsection{\textbf{ProSurf}, EU H2020}{2019.09-2020.09}
+\label{project:ProSurf}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{项目描述~} 欧盟地平线2020计划：高性能功能表面结构的制造(ProSurf)
+  \item \textbf{项目总预算~} \SLASH475万欧元
+  \item \textbf{职责~} \underline{合作研究人员 (4/4 MaPS 团队)} 基于电化学加工（ECM）的表面微结构制造研究
+\end{itemize}
+
+% \datedsubsubsection{\textbf{National Natural Science Foundation of China}, China}{2016.09-2019.09}
+% \label{project:NSFC2016}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{Description~} A new method and application investigation on micro surface fabrication by mask micro electrochemical discharge machining
+%   \item \textbf{Total project budget~} 800K CNY
+%   \item \textbf{Responsibility~} \underline{Lead researcher} A novel electrochemical machining process comprising scanning electrode + photolithography was investigated.
+% \end{itemize}
+
+% \datedsubsubsection{\textbf{National Natural Science Foundation of China}, China}{2016.09-2019.09}
+% \label{project:NSFCJoint}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{Description~} Fundamental studies on precision electrochemical machining of thin-walled micro-grooved plates for difficult-to-machine materials
+%   \item \textbf{Total project budget~} 800K CNY
+%   \item \textbf{Responsibility~} \underline{Lead researcher} A novel Micro-Electrochemical Discharge Method for machining thin-Walled Structures was studied.
+% \end{itemize}
+
+% \datedsubsubsection{\textbf{National Natural Science Foundation of China}, China}{2018.09-2019.09}
+% \label{project:NSFCMagnet}
+% \begin{itemize}[parsep=0.5ex]
+%   \item \textbf{Description~} Investigation on a new approach of manufacturing surface functional microstructures using magnetic powder electrode discharge.
+%   \item \textbf{Total project budget~} 800K CNY
+%   \item \textbf{Responsibility~} \underline{Proposal drafter, Lead researcher} A novel method of self-adaptive EDM for surface microstructure fabrication was developed.
+% \end{itemize}
+
+\datedsubsection{\textbf{- 学术服务}}{}
+\begin{itemize}[parsep=0.5ex]
+  \item 为\textbf{40+}种学术期刊完成\textbf{300+}次审稿工作，包括EAAI、ESWA、JMP等中科院一区TOP期刊
+  \item 担任 International Journal of Industrial and Manufacturing Systems Engineering 编委
+  \item 担任 Symmetry (Q1: General Mathematics) 特刊学术编辑
+  \item 自2022年起担任美国机械工程师学会（ASME）会员
+  \item 自2022年起担任电气与电子工程师学会（IEEE）会员
+  \item 自2021年起担任比利时弗兰德斯制造(Flanders Make) 协会会员
+        % \item 自2021年起担任广东省机械工程学会会员
+\end{itemize}
+
+\vspace{5mm}
+\section{学术发表}
+\subsection{期刊论文}
+% \begin{refsection}[paper]
+%   \nocite{*}
+%   \printbibliography[heading=none, title={ }]
+% \end{refsection}
+
+\begin{enumerate}
+  \subsubsection{一作/通讯}
+  \item \fcite{Wu2020Fabricationsurfacemicrostructures}
+  \item \fcite{Wu2025DataDrivenModels}
+  \item \fcite{Yao2026Noninvasiveradio}
+  \item \fcite{Yao2025Advancementsprocessmonitoring}
+  \item \fcite{Ge2025Tacklingdatascarcity}
+  \item \fcite{Yao2025Intelligentdischargestate}
+  \item \fcite{Wu2023ExperimentalNumericalInvestigations}
+  \item \fcite{Lin2025EnhanceFuseAlign}
+  \item \fcite{Wu2022MultiIonBased}
+  \item \fcite{Wu2020FastFabricationComplex}
+  \item \fcite{Zhang2025ReviewNonfully}
+  \item \fcite{Shao2026AeroThermodynamicPhysics}
+  \item \fcite{Shao2026Compositefinitetime}
+  \item \fcite{Shi2025DesignManufactureFlexible}
+  % EI
+  \item \fcite{Wu2025DeepLearningbased}
+  \item \fcite{Wu2025DataDrivenApproach}
+  \item \fcite{Wu2025ThresholdFreeLabel}
+  \item \fcite{Wu2025GeometricalFeatureClassification}
+  \item \fcite{Wu2022ProfilepredictionECM}
+  \item \fcite{Wu2021FabricationSurfaceMicro}
+  \item \fcite{Wu2018Modelingsimulationmaterial}
+  \item \fcite{Wu2015Investigationpulseelectrocheimical}
+        % Co-author
+        \subsubsection{合作}
+  \item \fcite{Ye2025Interpretabledeeptemporal}
+  \item \fcite{Chen2025Predictivemodellingsurface}
+  \item \fcite{Zhu2025Abrasiveflowmachining}
+  \item \fcite{Ge2025DatadrivenCFRP}
+  \item \fcite{Ding2025EnhancingCavitationErosion}
+  \item \fcite{Liang2025shellfishinspiredbionic}
+  \item \fcite{Li2025Cavitationintensitymechanism}
+  \item \fcite{Li2025AnisotropicTensileProperties}
+  \item \fcite{Xu2025Hybridhightemperature}
+  \item \fcite{He2024ExploringElectrochemicalDirect}
+  \item \fcite{Yao2025Predictioncratermorphology}
+  \item \fcite{Yao2023Positiondependentmilling}
+  \item \fcite{Yao2025Toolwearevaluation}
+  \item \fcite{Saxena2022‘virtualsensing’framework}
+  \item \fcite{Arshad2022ExperimentalInvestigationsMachining}
+  \item \fcite{Zhuang2022ExperimentalStudyElectrode}
+  \item \fcite{Bellotti2020ToolWearMaterial}
+  \item \fcite{Liu2020ElectrochemicalDischargeGrinding}
+  \item \fcite{Zhuang2020StudyInjectionMolding}
+  \item \fcite{Wen2019simulationexperimentalstudy}
+  \item \fcite{Chen2018Jetelectrochemicalmachining}
+  \item \fcite{He2018onestephot}
+  \item \fcite{Qin2018Extraordinaryopticaltransmission}
+  \item \fcite{Zhang2018Preparationsuperhydrophobic}
+  \item \fcite{Zhou2016ExperimentalStudyCathode}
+  \item \fcite{Sun2015Developmentapplicationwall}
+  \item \fcite{Sun2015SimulationExperimentalStudy}
+  \item \fcite{Tang2015DevelopmentsApplicationsJet}
+\end{enumerate}
+
+\subsection{会议}
+% \begin{refsection}[conference]
+%   \nocite{*}
+%   \printbibliography[heading=none, title={ }]
+% \end{refsection}
+\begin{enumerate}
+  \item \fcite{Wu2025DatadrivenApproche}
+  \item \fcite{Wu2025DeepLearningbaseda}
+  \item \fcite{Wu2025Linking3Dmodels}
+  \item \fcite{Wu2025ClassificationFusedFilament}
+  \item \fcite{Wu2024SurfaceInspectionHighly}
+  \item \fcite{Wu2024EnhancedPulseClassification}
+  \item \fcite{Wu2023Representationmachiningstate}
+  \item \fcite{Wu2023machinelearningmodel}
+  \item \fcite{Wu2017Investigationpulseelectrochemical}
+  \item \fcite{Wu2021Datadrivenframework}
+  \item \fcite{Wu2023unsupervisedlearningmethod}
+  \item \fcite{Wu2014Investigationpulseelectrochemical}
+  \item \fcite{Wu2014Developmentsapplicationsjet}
+  % cop
+  \item \fcite{Yao2023Materialremovalidentification}
+  \item \fcite{Ye2022PredictionmillingmuEDM}
+  \item \fcite{Arshad2022AnalysispassivationECM}
+  \item \fcite{Saxena2020Multiphysicssimulationenabled}
+\end{enumerate}
+
+\vspace{5mm}
+\section{专利及成果转化}
+\datedsubsection{\textbf{- 专利}}{}
+\begin{refsection}[patent]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+\datedsubsection{\textbf{- 其他 }}{}
+\begin{enumerate}
+  \item 基于深度学习的网页版电化学加工实时工艺参数预测：\href{https://mingwucn.github.io/SmartECM/}{mingwucn.github.io/SmartECM/}
+  \item 电火花加工自适应脉冲分类桌面应用，已作为开源软件发布
+  \item 面向高反射率回转体表面的单目结构光桌面软件，受KU Leuven 产权保护
+\end{enumerate}
+
+\section{教学活动}
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{博士生导师}: 鲁汶大学博士 (2025): Al-assisted CAD-to-CAM optimization for Machining Processes
+  \item \textbf{客座讲师}: 鲁汶大学2024冬季研究生课程 \textit{AI in Manufacturing}
+  \item \textbf{硕士生导师}: 鲁汶大学硕士论文 (2025) Co-pilot for function-driven product design: automated generation of 3D designs tailored to specific functional requirements
+  \item \textbf{硕士生导师}: 鲁汶大学硕士论文 (2022): Experimental investigation of µ-ECM/µ-LECM process with machine learning
+        \label{thesis:co-pilot}
+  \item \textbf{志愿者讲师}: 2021年贵州ICARE在线课程公益项目（5月-6月）
+\end{itemize}
+
+% \vspace{5mm}
+% \section{Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Languages: English - C1, Mandarin - Native speaker
+%   \item Administrator of the Channel with \SLASH1k followers
+% \end{itemize}
+\end{document}

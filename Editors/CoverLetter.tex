@@ -1,0 +1,104 @@
+\documentclass[a4paper,9pt]{article}
+\usepackage[bottom=1.5in, left=1.5in, right=1.5in, top=1in]{geometry}
+% \usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm,paperwidth=20cm,paperheight=30cm]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{textcomp} % For the bullet point symbol
+\usepackage{enumitem} % For customizing list items
+\usepackage{xcolor} % For text color
+% \usepackage{natbib}
+\usepackage[backend=bibtex, style=science]{biblatex}
+\addbibresource{ref.bib}
+\definecolor{mygray}{gray}{0.2}
+% \setcitestyle{aysep={,}} % Set author-year separator to comma
+\usepackage{multicol,parskip}
+\definecolor{KULBlue_A}{RGB}{212, 231, 243}
+\definecolor{KULBlue_C}{RGB}{20, 127, 161}
+\definecolor{KULBlue_D}{RGB}{0, 64, 112}
+\definecolor{wrongultramarine}{rgb}{0.07, 0.04, 0.56}
+
+%\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing*{\paragraph}{10pt}{1ex}{0.01ex}
+\titlespacing*{\subsubsection}{0pt}{1ex}{0.01ex}
+
+% Define a bullet with some horizontal spacing
+\newcommand{\mybullet}{\textbullet\hspace{0.5em}}
+% Customize the section titles to be bold and have no numbering
+%\titleformat{\subsubsection*}
+%  {\normalfont\bfseries}{\thesection}{1em}{}
+
+% Removes numbering from sections
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+\nocite{*}
+
+% No title, author, or date in the header
+% No title, author, or date in the header
+\noindent
+\begin{minipage}[t]{0.15\textwidth}
+    \vspace*{-1.2cm} % Adjust the value as needed
+    %\vspace{0pt} % Ensures that the top of the image aligns with the top of the text
+    \includegraphics[width=3cm]{Logos/KU_Leuven_logo.png} % University logo
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace*{-3.0cm} % Adjust the value as needed
+
+    %\vspace{35pt} % Ensures that the top of the text aligns with the top of the image
+    % {\color{black} \today \\ 3001 Leuven, Belgium \color{mygray}\small\newline Phone: (+32)488390167\color{mygray}\small\newline Email: ming.wu1@kuleuven.be}
+    % Additional details here
+\end{minipage}
+
+% Add vertical space to position the horizontal line just below the picture minipage
+% Adjust this space as needed to align the line correctly
+\vspace{-0.5cm}
+
+\noindent\rule{\linewidth}{1.2pt} % Horizontal rule
+% \bigskip
+\vspace{0.01cm}
+% Opening salutation
+
+\noindent Dear Editor Broad, 
+
+This letter is to express my keen interest in the Associate Editor position for \textit{Energy Sources, Part A: Recovery, Utilization, and Environmental Effects}, as advertised. My academic background and extensive experience in the peer review process are well-aligned with the journal's scope and the responsibilities of this role. My research, which centers on the application of artificial intelligence and machine learning for the optimization and in-process monitoring of advanced manufacturing systems, has direct implications for several of the journal's key areas, including energy efficiency, the decarbonization of energy systems, and the implementation of smart technologies in energy applications. I am enthusiastic about the prospect of contributing to a publication that addresses such critical global challenges.
+
+My qualifications in academic publishing are demonstrated by my service on the Editorial Board of the \textit{International Journal of Industrial and Manufacturing Systems Engineering} and my completion of over 120 review activities for more than 30 distinct academic journals. This background has provided me with a comprehensive understanding of all stages of the manuscript handling process, from initial submission to final decision. Having published extensively as a first author and corresponding author, I am intimately familiar with the author's perspective and the importance of constructive, professional communication throughout the peer review cycle. My active memberships in professional organizations such as ASME and IEEE  and my role as a lead researcher on multiple internationally funded projects  have established me as a recognized contributor within my discipline and have cultivated a broad network of academic and industrial contacts.
+
+To ensure a thorough and speedy peer review process, I would implement a systematic workflow for the 20-30 manuscripts anticipated. This process would involve:
+\begin{enumerate}
+    \setlength{\itemsep}{0em}
+    \item \textbf{Initial Screening:} A prompt and rigorous initial assessment of each manuscript's suitability, originality, and adherence to the journal's scope and ethical standards.
+    \item \textbf{Reviewer Selection:} Leveraging my extensive professional network and databases to identify and invite a minimum of two to three highly qualified, impartial reviewers with specific expertise in the manuscript's subject matter.
+    \item \textbf{Process Management:} Diligent use of the online peer review management system to monitor review progress, send timely reminders, and ensure deadlines are met. My research in data-driven modeling and AI  provides me with a strong technical facility for mastering such platforms.
+    \item \textbf{Decision Synthesis:} A careful and critical evaluation of reviewer reports to synthesize feedback, identify consensus, and formulate a clear, evidence-based editorial recommendation.
+    \item \textbf{Author Communication:} Maintaining prompt, consistent, and professional correspondence with authors at every stage, providing clear guidance and constructive feedback to facilitate manuscript improvement.
+\end{enumerate}
+I am fully prepared to dedicate the required 5-10 hours per week to these responsibilities and to upholding the rigorous ethical standards of the journal, in accordance with COPE guidelines.
+
+My vision for the journal involves actively promoting submissions in emerging, interdisciplinary areas where energy systems intersect with artificial intelligence, such as smart grid optimization and data-driven approaches to energy storage and waste valorization. I am confident that my expertise and commitment would be a valuable asset to the editorial team.
+
+Thank you for your time and consideration. My curriculum vitae is attached for your review. I look forward to the possibility of discussing my application further.
+
+% \vspace{0.5cm}
+% We believe that this manuscript will be of interest to the readers of \textit{\journalname} due to its interdisciplinary nature, combining cutting-edge machine learning techniques with practical applications in manufacturing. The findings presented have the potential to drive forward research in both AI and industrial process optimization, making it a valuable contribution to the broader scientific community.
+
+\vspace{0.5cm}
+Sincerely,
+
+\vspace{0cm}
+\textcolor{KULBlue_D}{\textbf{Ming Wu, PhD}}\\
+\textcolor{KULBlue_C}{Research associate}
+
+\vspace{0cm}
+\color{KULBlue_D}
+\textbf{KU Leuven}\\
+\color{KULBlue_C}
+Department of Computer Science, 3001 Leuven, KU Leuven\\
+Department of Mechanical Engineering, 3001 Leuven, KU Leuven\\
+\underline{\textcolor{KULBlue_D}{ming.wu1@kuleuven.be}}
+\color{black}
+% \bibliographystyle{ieeetr}
+% \bibliography{ref.bib}
+% \printbibliography
+\end{document}

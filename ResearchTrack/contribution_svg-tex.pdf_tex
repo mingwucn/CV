@@ -1,0 +1,148 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'contribution_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{481.88976378bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.14705882)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{contribution_svg-tex.pdf}}%
+    \put(0.06485109,1.03295564){\color[rgb]{0.96078431,1,0.98039216}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}\textbf{Gap}\end{tabular}}}}%
+    \put(0.38554315,1.11636876){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Production of complex parts\end{tabular}}}}%
+    \put(0.19149195,1.08200312){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}1. Process quality control\end{tabular}}}}%
+    \put(0.62134031,1.08212472){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}2.Lab-to-industry\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{contribution_svg-tex.pdf}}%
+    \put(0.05443321,1.10123769){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}\textbf{Target}\end{tabular}}}}%
+    \put(0.33726345,1.04511715){\color[rgb]{0,0,0}\transparent{0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Synergistic accuracy in \\multi-stage manufacturing chains\end{tabular}}}}%
+    \put(0.70057849,1.04511715){\color[rgb]{0,0,0}\transparent{0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Coupling and domain adaptation of \\heterogeneous process data\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{contribution_svg-tex.pdf}}%
+    \put(0.17003982,0.98520905){\color[rgb]{0,0,0}\rotatebox{-8.530715}{\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Lithography\end{tabular}}}}}%
+    \put(0.05352223,0.98456424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}1.Lithography of \\   micro-scale\\   pattern\end{tabular}}}}%
+    \put(0.21574857,0.93929686){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}2.Jet-electrolyte\\   manufacturing\end{tabular}}}}%
+    \put(0.06123447,0.90855059){\color[rgb]{0,0,0}\rotatebox{-4.4457832}{\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}3.Multi-scale pattern\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{contribution_svg-tex.pdf}}%
+    \put(0.06305201,0.63455227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Hybrid manufacturing process for scalability, \\consistency, and cross-scale integration\end{tabular}}}}%
+    \put(0.19357455,0.83118533){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}A novel hybrid multi-scale process\end{tabular}}}}%
+    \put(0.19054228,0.66584343){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Synergistic control of heterogeneous parameters\end{tabular}}}}%
+    \put(0.10902271,0.80037213){\color[rgb]{0,0.37254902,0.02352941}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Lithography\\parameters\end{tabular}}}}%
+    \put(0.19789886,0.69639861){\color[rgb]{0,0.05882353,0.63529412}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Flow field parameters\end{tabular}}}}%
+    \put(0.27795513,0.80232928){\color[rgb]{0.57254902,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Electrochemical\\parameters\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{contribution_svg-tex.pdf}}%
+    \put(0.10502763,0.60091701){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\lineheight{1.29999995}\smash{\begin{tabular}[t]{l}\textbf{1. Methodology innovations}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{contribution_svg-tex.pdf}}%
+    \put(0.40493357,0.59947362){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\lineheight{1.29999995}\smash{\begin{tabular}[t]{l}\textbf{2. Theoretical contribution}\end{tabular}}}}%
+    \put(0.36295738,0.63455227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Fully coupled physics modeling for fidelity,\\robustness, and system-level insight\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{contribution_svg-tex.pdf}}%
+    \put(0.35760043,0.98006344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Fully coupled\\physical model\end{tabular}}}}%
+    \put(0.46806645,0.97882624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Numerical \\simulation\end{tabular}}}}%
+    \put(0.55620638,0.97970952){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Experimental\\validation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{contribution_svg-tex.pdf}}%
+    \put(0.49634498,0.83232866){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Fully coupled multi-physics model\end{tabular}}}}%
+    \put(0.38313954,0.85914429){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Flow field\end{tabular}}}}%
+    \put(0.37250784,0.87956383){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Ion migration\end{tabular}}}}%
+    \put(0.36835857,0.89848165){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Reaction current\end{tabular}}}}%
+    \put(0.40355427,0.91864249){\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Material removal\end{tabular}}}}%
+    \put(0.40362267,0.93910661){\makebox(0,0)[t]{\lineheight{0.89999998}\smash{\begin{tabular}[t]{c}Geometric Shape\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{contribution_svg-tex.pdf}}%
+    \put(0.43245033,0.58127634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}\textit{Int. J. Mach. Tools Manuf., 2020}\\\textit{J. Manuf. Sci. Eng. Trans. ASME.,}\\\textit{Procedia CIRP, 2018}\\\textit{Micromachines, 2022}\\\textit{Procedia CIRP, 2022}\\\textit{J. Manuf. Process, 2025}\end{tabular}}}}%
+    \put(0.38974879,0.57958127){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}7-24\\7-13\\7-29\\7-17\\7-18\\7-10\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{contribution_svg-tex.pdf}}%
+    \put(0.4915701,0.66584343){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}High-efficiency multi-scale discrete modeling\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{contribution_svg-tex.pdf}}%
+    \put(0.35542843,0.79879503){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Zonal adaptive\\density mesh\end{tabular}}}}%
+    \put(0.51783353,0.80584667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Virtual gap \\methodology for \\nanoscale \\interface tracking\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{contribution_svg-tex.pdf}}%
+    \put(0.53509504,0.68791096){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Virtual gap \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{contribution_svg-tex.pdf}}%
+    \put(0.68584182,0.60068297){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\lineheight{1.29999995}\smash{\begin{tabular}[t]{l}3. Industrially-ready AI development\end{tabular}}}}%
+    \put(0.64420794,0.63455227){\color[rgb]{0.66666667,0.2,0.46666667}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Explainable and label-efficient AI for process \\state perception, monitoring, and quality control\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{contribution_svg-tex.pdf}}%
+    \put(0.78899402,0.66501263){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Explainable AI for process states perception\end{tabular}}}}%
+    \put(0.72825461,0.80227257){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\lineheight{1.20000005}\smash{\begin{tabular}[t]{l}Machining method\\Process parameters\\...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{contribution_svg-tex.pdf}}%
+    \put(0.89468707,0.78507181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}XAI\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{contribution_svg-tex.pdf}}%
+    \put(0.73085843,0.72647907){\color[rgb]{0.38431373,0.12941176,0.37647059}\makebox(0,0)[lt]{\lineheight{1.20000005}\smash{\begin{tabular}[t]{l}Data acquisition\\Multi-source signals\\...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{contribution_svg-tex.pdf}}%
+    \put(0.74457653,0.7953916){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Process \\states\end{tabular}}}}%
+    \put(0.7428807,0.71867653){\color[rgb]{0.45098039,0.15294118,0.44313725}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}In-process\\data\end{tabular}}}}%
+    \put(0.82811423,0.74890137){\color[rgb]{0.13333333,0.53333333,0.2}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Predictions\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{contribution_svg-tex.pdf}}%
+    \put(0.88731169,0.70123563){\color[rgb]{0.13333333,0.53333333,0.2}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}predictions\end{tabular}}}}%
+    \put(0.93060065,0.7093472){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\\by analyzing the                      \\to decouple the influence of              \\for the perception of                             \end{tabular}}}}%
+    \put(0.83881185,0.70890193){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}With explainable AI (XAI)\end{tabular}}}}%
+    \put(0.90500864,0.69111068){\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}inputs\end{tabular}}}}%
+    \put(0.8772178,0.68194997){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}process states\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{contribution_svg-tex.pdf}}%
+    \put(0.65629147,0.97926526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Adaptive \\computation of \\signal similarity\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{contribution_svg-tex.pdf}}%
+    \put(0.90566193,0.91836082){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}High\end{tabular}}}}%
+    \put(0.90561929,0.85274829){\color[rgb]{0.66666667,0.2,0.46666667}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Low\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{contribution_svg-tex.pdf}}%
+    \put(0.80835921,0.93350085){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}Material removal rate\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{contribution_svg-tex.pdf}}%
+    \put(0.8174898,0.97916166){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}Clustering with \\active learning\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{contribution_svg-tex.pdf}}%
+    \put(0.78830799,0.83112104){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.10000002}\smash{\begin{tabular}[t]{l}Label-efficient AI for process monitoring\end{tabular}}}}%
+    \put(0.73432281,0.58127634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{l}\textit{Procedia CIRP, 2025}\\\textit{Procedia CIRP, 2025}\\\textit{Procedia CIRP, 2025}\\\textit{Procedia CIRP, 2025}\\\textit{Procedia CIRP, 2022}\\\textit{MSSP, 2023}\\\textit{J. Intell. Manuf, 2024}\\\textit{Appl. Sci, 2020}\\\textit{CIRP-JMST, 2025}\end{tabular}}}}%
+    \put(0.69162122,0.57958127){\color[rgb]{0,0.26666667,0.53333333}\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}7- 4\\7- 5\\7- 6\\7- 7\\7-16\\7-14\\7-12\\7-21\\7-  1\end{tabular}}}}%
+    \put(0.6608551,0.4081367){\color[rgb]{0.66666667,0.2,0.46666667}\makebox(0,0)[rt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{r}mingwucn.github.io/SmartECM\\github.com/mingwucn/HDRFringeprojection\end{tabular}}}}%
+    \put(0.70408298,0.42087102){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.14999998}\smash{\begin{tabular}[t]{r}Softwares\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{contribution_svg-tex.pdf}}%
+    \put(0.06518899,0.28104302){\color[rgb]{1,1,1}\rotatebox{90}{\makebox(0,0)[lt]{\smash{\begin{tabular}[t]{l}App\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{contribution_svg-tex.pdf}}%
+    \put(0.23214847,0.28250723){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}2. AI-assisted process parameter optimization\end{tabular}}}}%
+    \put(-0.36703817,0.15731058){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.29999995}\smash{\begin{tabular}[t]{c}Involment: \end{tabular}}}}%
+    \put(0.2488816,0.30316934){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}1. AI-assisted manufacturing work plan generation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{contribution_svg-tex.pdf}}%
+    \put(0.48840966,0.34334851){\color[rgb]{1,1,1}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Quality inspection and control for the precision mass production of complex parts\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{contribution_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

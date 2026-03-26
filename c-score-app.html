@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering C‑Score Calculator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e1e8ed;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .score-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .controls-below {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .score-display {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #27ae60;
+            padding: 15px;
+            background: #ecf9f2;
+            border-radius: 10px;
+            border: 2px dashed #2ecc71;
+            min-width: 180px;
+            text-align: center;
+        }
+
+        .metrics-compact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .metric-compact-box {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-align: center;
+            border-left: 3px solid #3498db;
+            min-width: 60px;
+        }
+
+        .metric-compact-label {
+            font-size: 0.8em;
+            color: #7f8c8d;
+            margin-bottom: 2px;
+        }
+
+        .metric-compact-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .controls-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-end;
+        }
+
+        .threshold-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .threshold-control input {
+            width: 70px;
+            padding: 5px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        button#saveBtn {
+            background: #ffffff;
+            color: rgb(0, 133, 22);
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button#saveBtn:hover {
+            background: #229954;
+            color: white;
+        }
+
+        button#zeroBtn {
+            background: #ffffff;
+            color: #e74c3c;
+            /* border: 2px solid #e74c3c; */
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button#zeroBtn:hover {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .paper-count {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+
+        .positive-count {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .column-toggle {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 10px 15px;
+            /* background: #f8f9fa; */
+            border-radius: 8px;
+            /* border: 1px solid #e1e8ed; */
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        .col-toggle {
+            padding: 5px 12px;
+            border-radius: 20px;
+            background-color: #27ae60;
+            color: white;
+            font-size: 0.9em;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+
+        .col-toggle.active {
+            background-color: #27ae60;
+            /* bright green */
+            color: white;
+            border: 2px solid #27ae60;
+        }
+
+        .col-toggle.inactive {
+            background-color: white;
+            color: #27ae60;
+            border: 2px solid #27ae60;
+            opacity: 1;
+        }
+
+        .hidden-column {
+            display: none !important;
+        }
+
+        .panel {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e1e8ed;
+            margin-bottom: 30px;
+        }
+
+        #tableContainer {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: auto;
+            min-width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            padding: 8px 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            white-space: nowrap;
+        }
+
+        td:nth-child(1),
+        th:nth-child(1) {
+            /* Index */
+            width: auto;
+            min-width: 30px;
+            text-align: center;
+        }
+
+        td:nth-child(2),
+        th:nth-child(2) {
+            /* Title */
+            min-width: 300px;
+            max-width: 400px;
+            white-space: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td:nth-child(3),
+        th:nth-child(3) {
+            /* Journal */
+            min-width: 200px;
+            max-width: 300px;
+            white-space: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td:nth-child(4),
+        th:nth-child(4) {
+            /* Year */
+            width: 60px;
+        }
+
+        td:nth-child(5),
+        th:nth-child(5) {
+            /* Authors */
+            min-width: 150px;
+            max-width: 250px;
+            white-space: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        td:nth-child(6),
+        th:nth-child(6) {
+            /* Role */
+            width: 70px;
+        }
+
+        td:nth-child(7),
+        th:nth-child(7) {
+            /* Citations */
+            width: 80px;
+        }
+
+        td:nth-child(8),
+        th:nth-child(8) {
+            /* NCS */
+            width: auto;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        td:nth-child(9),
+        th:nth-child(9) {
+            /* NCSF */
+            width: auto;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        td:nth-child(10),
+        th:nth-child(10) {
+            /* NCSFL */
+            width: auto;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            padding-right: 30px;
+        }
+
+        th:hover {
+            background-color: #2980b9;
+        }
+
+        th.sort-asc::after {
+            content: ' ▲';
+            position: absolute;
+            right: 10px;
+            font-size: 0.9em;
+        }
+
+        th.sort-desc::after {
+            content: ' ▼';
+            position: absolute;
+            right: 10px;
+            font-size: 0.9em;
+        }
+
+        tr:hover {
+            background-color: #f5f7fa;
+        }
+
+        .citation-input {
+            width: 70px;
+            padding: 5px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        .error {
+            background: #fdeaea;
+            color: #c0392b;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.9em;
+            border-top: 1px solid #ecf0f1;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="score-section">
+            <div id="scoreDisplay" class="score-display">Loading...</div>
+            <div class="metrics-compact" id="metricsGrid">
+                <!-- filled by JS -->
+            </div>
+        </div>
+    </header>
+
+    <div class="panel">
+        <!-- <h2>📚 Publications & Contributions</h2> -->
+        <div class="controls-below">
+            <div class="threshold-control">
+                <label for="thresholdInput" style="font-weight: 600; color: #2c3e50;">Threshold:</label>
+                <input type="number" id="thresholdInput" step="0.050" min="0" value="1.897">
+            </div>
+            <button id="saveBtn">💾 Save Changes</button>
+            <button id="zeroBtn" title="Set all citations to zero">🗑️ Zero All</button>
+            <div class="paper-count">
+                Cited/Total papers: <span id="positivePapers" class="positive-count">0</span>/<span
+                    id="totalPapers">0</span>
+            </div>
+        </div>
+        <div id="loadingPapers" class="loading">Loading papers...</div>
+        <div id="tableContainer" style="display: none;">
+            <!-- <div class="column-toggle">
+                <span class="col-toggle active" data-col="title">Title</span>
+                <span class="col-toggle active" data-col="journal">Journal</span>
+                <span class="col-toggle active" data-col="year">Year</span>
+                <span class="col-toggle active" data-col="authors">Authors</span>
+                <span class="col-toggle active" data-col="role">Role</span>
+                <span class="col-toggle active" data-col="citations">Citations</span>
+                <span class="col-toggle active" data-col="ncs">NCS</span>
+                <span class="col-toggle active" data-col="ncsf">NCSF</span>
+                <span class="col-toggle active" data-col="ncsfl">NCSFL</span>
+            </div> -->
+            <table id="papersTable">
+                <thead>
+                    <tr>
+                        <th data-col="index">#</th>
+                        <th data-sort="title" data-col="title">Title</th>
+                        <th data-sort="journal" data-col="journal">Journal</th>
+                        <th data-sort="year" data-col="year">Year</th>
+                        <th data-sort="authors" data-col="authors">Authors</th>
+                        <th data-sort="role" data-col="role">Role</th>
+                        <th data-sort="citations" data-col="citations">Citations</th>
+                        <th data-sort="ncs" data-col="ncs">NCS</th>
+                        <th data-sort="ncsf" data-col="ncsf">NCSF</th>
+                        <th data-sort="ncsfl" data-col="ncsfl">NCSFL</th>
+                    </tr>
+                </thead>
+                <tbody id="papersBody">
+                    <!-- filled by JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <div class="footer">
+        <p>C‑score algorithm from <code>c‑score.py</code>. Coefficients: NC=0.0881, H=0.2162, Hm=0.2598, NCS=0.1025, NCSF=0.0919, NCSFL=0.0908.</p>
+        <p>Threshold for Engineering: 2.0000 | Team size assumption: 7 authors.</p>
+    </div> -->
+
+    <script>
+        // Configuration – same as in c-score.py
+        const COEFFS = {
+            "NC": 0.08810111,
+            "H": 0.21621749,
+            "Hm": 0.25977242,
+            "NCS": 0.10252264,
+            "NCSF": 0.09185340,
+            "NCSFL": 0.09075539,
+        };
+        const THRESHOLD = 2.0000;
+
+        // State
+        let papers = []; // array of {title, year, authors, role, citations, num_authors, ncs, ncsf, ncsfl}
+        let originalCitations = {}; // map title -> original citation count from server
+
+        // DOM elements
+        const scoreDisplay = document.getElementById('scoreDisplay');
+        const totalPapersSpan = document.getElementById('totalPapers');
+        const positivePapersSpan = document.getElementById('positivePapers');
+        const metricsGrid = document.getElementById('metricsGrid');
+        const papersBody = document.getElementById('papersBody');
+        const loadingPapers = document.getElementById('loadingPapers');
+        const tableContainer = document.getElementById('tableContainer');
+        const saveBtn = document.getElementById('saveBtn');
+        const zeroBtn = document.getElementById('zeroBtn');
+        const thresholdInput = document.getElementById('thresholdInput');
+
+        // --------------------------------------------------------------------
+        // 0. UTILITY FUNCTIONS
+        // --------------------------------------------------------------------
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func.apply(this, args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // --------------------------------------------------------------------
+        // 1. METRIC CALCULATIONS (same as before)
+        // --------------------------------------------------------------------
+        function calculateEngineeringCScore(papers) {
+            let nc_total = 0;
+            let ncs_total = 0;
+            let ncsf_total = 0;
+            let ncsfl_total = 0;
+            const citations_list = [];
+            const fractional_citations_list = [];
+
+            for (const p of papers) {
+                const cites = p.citations;
+                const n_auth = p.num_authors;
+                const role = p.role;
+
+                nc_total += cites;
+                citations_list.push(cites);
+                fractional_citations_list.push(n_auth > 0 ? cites / n_auth : 0);
+
+                const is_single = (role === 'single');
+                const is_first = (role === 'first');
+                const is_last = (role === 'last');
+
+                const p_ncs = is_single ? cites : 0;
+                const p_ncsf = (is_single || is_first) ? cites : 0;
+                const p_ncsfl = (is_single || is_first || is_last) ? cites : 0;
+
+                ncs_total += p_ncs;
+                ncsf_total += p_ncsf;
+                ncsfl_total += p_ncsfl;
+
+                p.ncs = p_ncs;
+                p.ncsf = p_ncsf;
+                p.ncsfl = p_ncsfl;
+            }
+
+            citations_list.sort((a, b) => b - a);
+            let h_index = 0;
+            for (let i = 0; i < citations_list.length; i++) {
+                if (citations_list[i] >= i + 1) h_index = i + 1;
+                else break;
+            }
+
+            fractional_citations_list.sort((a, b) => b - a);
+            let hm_index = 0;
+            for (let i = 0; i < fractional_citations_list.length; i++) {
+                if (fractional_citations_list[i] >= i + 1) hm_index = i + 1;
+                else break;
+            }
+
+            const score = (
+                COEFFS.NC * Math.log(nc_total + 1) +
+                COEFFS.H * Math.log(h_index + 1) +
+                COEFFS.Hm * Math.log(hm_index + 1) +
+                COEFFS.NCS * Math.log(ncs_total + 1) +
+                COEFFS.NCSF * Math.log(ncsf_total + 1) +
+                COEFFS.NCSFL * Math.log(ncsfl_total + 1)
+            );
+
+            return {
+                score,
+                metrics: {
+                    NC: nc_total,
+                    H: h_index,
+                    Hm: hm_index,
+                    NCS: ncs_total,
+                    NCSF: ncsf_total,
+                    NCSFL: ncsfl_total
+                },
+                papers
+            };
+        }
+
+        // --------------------------------------------------------------------
+        // 2. UI UPDATES
+        // --------------------------------------------------------------------
+        function updateUI(result) {
+            const { score, metrics, papers } = result;
+
+            // Score
+            scoreDisplay.textContent = score.toFixed(5);
+            updateScoreColor(score);
+            // Set formula as tooltip
+            scoreDisplay.title = 'C = 0.0881·ln(NC+1) + 0.2162·ln(H+1) + 0.2598·ln(Hm+1) + 0.1025·ln(NCS+1) + 0.0919·ln(NCSF+1) + 0.0908·ln(NCSFL+1)';
+
+            // Paper counts
+            const total = papers.length;
+            const positive = papers.filter(p => p.citations > 0).length;
+            totalPapersSpan.textContent = total;
+            positivePapersSpan.textContent = positive;
+
+            // Metrics grid (compact)
+            const metricDescriptions = {
+                NC: 'Total citation count across all papers.',
+                H: 'Hirsch index (h‑index).',
+                Hm: 'Modified h‑index (fractional authorship).',
+                NCS: 'Citations to papers where you are the sole author.',
+                NCSF: 'Citations to papers where you are the first or sole author.',
+                NCSFL: 'Citations to papers where you are the first, sole, or last author.'
+            };
+            metricsGrid.innerHTML = '';
+            for (const [key, value] of Object.entries(metrics)) {
+                const div = document.createElement('div');
+                div.className = 'metric-compact-box';
+                div.title = metricDescriptions[key] || '';
+                div.innerHTML = `
+                    <div class="metric-compact-label">${key}</div>
+                    <div class="metric-compact-value">${value}</div>
+                `;
+                metricsGrid.appendChild(div);
+            }
+
+            // Show table, hide loading
+            loadingPapers.style.display = 'none';
+            tableContainer.style.display = 'block';
+
+            // Render table with updated papers
+            renderTable();
+        }
+
+        function updateScoreColor(score) {
+            const threshold = parseFloat(thresholdInput.value) || 1.9;
+            scoreDisplay.style.color = score >= threshold ? '#27ae60' : '#e74c3c';
+        }
+
+        // --------------------------------------------------------------------
+        // 3. COLUMN TOGGLE (hides/shows columns)
+        // --------------------------------------------------------------------
+        function toggleColumnVisibility(colName, show) {
+            // Find all th and td with data-col matching colName (exclude buttons)
+            const selector = `th[data-col="${colName}"], td[data-col="${colName}"]`;
+            document.querySelectorAll(selector).forEach(el => {
+                if (show) {
+                    el.classList.remove('hidden-column');
+                } else {
+                    el.classList.add('hidden-column');
+                }
+            });
+        }
+
+        // --------------------------------------------------------------------
+        // 4. SORTING
+        // --------------------------------------------------------------------
+        let currentSort = null;
+        let sortDirection = 'asc'; // 'asc' or 'desc'
+
+        function sortPapers(sortKey) {
+            if (currentSort === sortKey) {
+                // Toggle direction
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort = sortKey;
+                sortDirection = 'asc';
+            }
+
+            papers.sort((a, b) => {
+                let valA = a[sortKey];
+                let valB = b[sortKey];
+                // Handle numeric fields
+                if (sortKey === 'year' || sortKey === 'citations' || sortKey === 'ncs' || sortKey === 'ncsf' || sortKey === 'ncsfl') {
+                    valA = Number(valA);
+                    valB = Number(valB);
+                }
+                // Handle string fields
+                if (typeof valA === 'string') valA = valA.toLowerCase();
+                if (typeof valB === 'string') valB = valB.toLowerCase();
+
+                if (valA < valB) return sortDirection === 'asc' ? -1 : 1;
+                if (valA > valB) return sortDirection === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            // Update header classes
+            document.querySelectorAll('th[data-sort]').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+                if (th.dataset.sort === currentSort) {
+                    th.classList.add(`sort-${sortDirection}`);
+                }
+            });
+
+            // Re‑render table (but keep the same papers array)
+            renderTable();
+        }
+
+        function renderTable() {
+            papersBody.innerHTML = '';
+            papers.forEach((p, idx) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td data-col="index">${idx + 1}</td>
+                    <td data-col="title">${p.title}</td>
+                    <td data-col="journal">${p.journal || ''}</td>
+                    <td data-col="year">${p.year}</td>
+                    <td data-col="authors">${p.authors}</td>
+                    <td data-col="role">${p.role}</td>
+                    <td data-col="citations"><input type="number" class="citation-input" data-title="${p.title}" value="${p.citations}" min="0"></td>
+                    <td data-col="ncs">${p.ncs}</td>
+                    <td data-col="ncsf">${p.ncsf}</td>
+                    <td data-col="ncsfl">${p.ncsfl}</td>
+                `;
+                papersBody.appendChild(row);
+            });
+
+            // Re‑attach input listeners
+            document.querySelectorAll('.citation-input').forEach(input => {
+                input.addEventListener('input', debounce(function () {
+                    const title = this.dataset.title;
+                    const newCite = parseInt(this.value) || 0;
+                    const paper = papers.find(p => p.title === title);
+                    if (paper) paper.citations = newCite;
+                    // Recalculate automatically
+                    const result = calculateEngineeringCScore(papers);
+                    updateUI(result);
+                }, 300));
+            });
+        }
+
+        // --------------------------------------------------------------------
+        // 4. API COMMUNICATION
+        // --------------------------------------------------------------------
+        async function loadPapersFromAPI() {
+            try {
+                const response = await fetch('/api/papers');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const papers = await response.json();
+                // Store original citations
+                originalCitations = {};
+                papers.forEach(p => originalCitations[p.title] = p.citations);
+                return papers;
+            } catch (err) {
+                console.error('Failed to load papers:', err);
+                showError('Failed to load papers from server. Is the backend running?');
+                return null;
+            }
+        }
+
+        async function saveCitationsToAPI() {
+            const updates = papers.map(p => ({ title: p.title, citations: p.citations }));
+            try {
+                const response = await fetch('/api/citations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(updates)
+                });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const result = await response.json();
+                alert('Changes saved successfully!');
+                // Reload papers to ensure consistency
+                const fresh = await loadPapersFromAPI();
+                if (fresh) {
+                    papers = fresh;
+                    const result = calculateEngineeringCScore(papers);
+                    updateUI(result);
+                }
+            } catch (err) {
+                console.error('Failed to save citations:', err);
+                showError('Failed to save changes to server.');
+            }
+        }
+
+        function showError(msg) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error';
+            errorDiv.textContent = msg;
+            document.querySelector('.panel').prepend(errorDiv);
+            console.error(msg);
+        }
+
+        // --------------------------------------------------------------------
+        // 5. ZERO ALL CITATIONS
+        // --------------------------------------------------------------------
+        function zeroAllCitations() {
+            if (!confirm('Set all citations to zero? This will affect the C‑score and cannot be undone unless you reload the page.')) {
+                return;
+            }
+            papers.forEach(p => p.citations = 0);
+            const result = calculateEngineeringCScore(papers);
+            updateUI(result);
+        }
+
+        // --------------------------------------------------------------------
+        // 6. INITIALIZATION & EVENT HANDLERS
+        // --------------------------------------------------------------------
+        async function init() {
+            console.log('Loading papers from API...');
+            papers = await loadPapersFromAPI();
+            if (!papers) return;
+            const result = calculateEngineeringCScore(papers);
+            updateUI(result);
+            attachEvents();
+        }
+
+        function attachEvents() {
+            saveBtn.addEventListener('click', saveCitationsToAPI);
+            zeroBtn.addEventListener('click', zeroAllCitations);
+
+            // Header sorting
+            document.querySelectorAll('th[data-sort]').forEach(th => {
+                th.addEventListener('click', () => {
+                    sortPapers(th.dataset.sort);
+                });
+            });
+
+            // Threshold control (on input change)
+            thresholdInput.addEventListener('input', () => {
+                const score = parseFloat(scoreDisplay.textContent);
+                if (!isNaN(score)) {
+                    updateScoreColor(score);
+                }
+            });
+
+            // Column toggle pills (hides/shows columns)
+            document.querySelectorAll('.col-toggle').forEach(pill => {
+                pill.addEventListener('click', function () {
+                    const col = this.dataset.col;
+                    const isActive = this.classList.contains('active');
+                    const newActive = !isActive;
+                    this.classList.toggle('active', newActive);
+                    this.classList.toggle('inactive', !newActive);
+                    toggleColumnVisibility(col, newActive);
+                });
+            });
+        }
+
+        // Start
+        window.addEventListener('error', function (e) {
+            console.error('Global error:', e.error);
+            showError('Script error: ' + e.message);
+        });
+        init().catch(e => {
+            console.error('Init failed:', e);
+            showError('Initialization failed: ' + e.message);
+        });
+    </script>
+</body>
+
+</html>

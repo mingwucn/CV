@@ -1,0 +1,75 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[a4paper,
+  total={6in, 8in},
+  left=0.55in,
+  right=0.55in,
+  top=0.70in,
+  bottom=0.25in,
+  nohead
+]{geometry}
+
+% Essential packages for formatting
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage{enumitem} % For better list control
+\usepackage{parskip}  % Adds space between paragraphs instead of indentation
+
+% Title Setup
+\title{\textbf{Teaching Statement}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-4em} % Adjust vertical space to reduce gap after title
+
+\section*{Pedagogical Goal: The Bilingual Engineer}
+
+The modern mechanical engineer must be bilingual. They require fluency in the language of \textbf{Physical Mechanics} (thermodynamics, stress, dynamics) and the language of \textbf{Data Science} (sensors, Python, neural networks). My teaching philosophy focuses on bridging this gap. I aim to graduate students who treat AI not as a ``magic box,'' but as an engineering tool subject to the same rigorous validation principles as Finite Element Analysis (FEA).
+
+\section*{Methodology: The 4C Framework}
+
+To operationalize this philosophy, I use a framework I developed called the \textbf{``4C Model for AI in Manufacturing''}: Critical Thinking, Creativity, Co-work, and Culture. This model moves students from passive operation of software to active engineering reasoning.
+
+\subsection*{1. Critical Thinking: The ``Expert-in-the-Loop''}
+In an era of generative AI, code is cheap, but engineering judgment is scarce. My primary rule in the classroom is that AI generates hypotheses, but the engineer provides validation.
+
+\textbf{Implementation:} In Advanced Manufacturing modules, when an AI model suggests process parameters for Laser Powder Bed Fusion (LPBF), I require students to calculate the resulting energy density and validate if it lies within the physical melt-pool stability window. This reinforces core physics knowledge while building digital literacy.
+
+\subsection*{2. Creativity: Tools as Ingredients}
+I teach engineering software (CAD/CAM) not as rigid utilities, but as programmable ingredients.
+
+\textbf{Implementation:} In Design Methodologies, I move beyond standard GUI-based CAD to parametric modelling. Students learn to link CAD parameters with external scripts (e.g., thermal simulation data), allowing them to automate design iterations. This teaches them to solve problems that standard off-the-shelf software cannot address.
+
+\subsection*{3. Co-work: Translation Skills}
+A major bottleneck in Industry 4.0 is the ``language gap'' between computer scientists and mechanical engineers. Drawing on my joint appointment at KU Leuven (MechE and CS), I explicitly teach translation skills.
+
+\textbf{Implementation:} I design problem sets where students must translate a physical factory-floor challenge (e.g., tool wear in a CNC mill) into a data problem (time-series classification of acoustic signals), and then translate the computational output back into a manufacturing decision (maintenance scheduling).
+
+\subsection*{4. Culture: Ethics and Net-Zero}
+Finally, I emphasize the question: \textit{``Should we do this?''} not just \textit{``Can we do this?''}
+
+\textbf{Implementation:} As the University of Birmingham prioritizes Net-Zero, I integrate sustainability metrics into grading rubrics. Students are evaluated not just on the performance of their manufacturing plan, but on its material efficiency and energy consumption. We examine case studies where algorithmic optimization led to fragile or wasteful supply chains, instilling a culture of responsible engineering.
+
+\section*{Teaching Competencies \& Course Proposal}
+I am qualified to teach core undergraduate mechanics and advanced graduate modules. I propose the following contributions to the Department’s curriculum:
+
+\subsubsection*{A. Core Undergraduate Curriculum}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Manufacturing Technology:} Fundamental processes (Subtractive, Additive, Forming) with a focus on process physics and material interactions.
+    \item \textbf{Applied Mechanics \& Dynamics:} Kinematics of machine tools, vibration analysis, and applied fluid dynamics (e.g., flow in cooling channels).
+    \item \textbf{Design for Manufacturing (DfM):} Tolerance analysis, GD\&T, and parametric design integration.
+\end{itemize}
+
+\subsubsection*{B. Specialized ``Digital Engineering'' Modules}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Applied AI for Engineers:} An introduction to Machine Learning specifically tailored for physical systems. The focus is on regression, time-series analysis, and physics-informed constraints, rather than generic image recognition.
+    \item \textbf{Cyber-Physical Systems \& Digital Twins:} A project-based course where students integrate physical sensors (thermocouples, accelerometers) with data acquisition systems (DAQ) to build a real-time monitoring dashboard.
+\end{itemize}
+
+\section*{Mentorship and Inclusion}
+My mentorship strategy is research-led. I treat students as junior collaborators, encouraging them to contribute to open-source projects (such as my SmartECM platform). I am also committed to inclusive education. As a volunteer lecturer for the ICARE Guizhou non-profit program, I developed simplified technical modules to support under-resourced students. At Birmingham, I will apply these principles by using diverse assessment methods (project-based vs. exam-based) to ensure students with different learning strengths can demonstrate their engineering competence.
+
+\end{document}

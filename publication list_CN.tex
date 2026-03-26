@@ -1,0 +1,36 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/
+\addbibresource[label=paper]{MyPaper_modified.bib} % Your .bib file
+\addbibresource[label=conference]{MyConference_modified.bib} % Your .bib file
+\addbibresource[label=patent]{MyPatent_modified.bib} % Modified MyPatent.bib
+\usepackage[normalem]{ulem}
+% \newcommand\hl{\bgroup\markoverwith
+%     {\textcolor{yellow}{\rule[-.5ex]{.1pt}{2.5ex}}}\ULon}
+  
+\usepackage{svg}
+\usepackage[off]{svg-extract}
+\svgsetup{inkscapeversion=1,inkscapepath=./figures/, inkscapedpi=300, inkscapearea=page, inkscapelatex=true, extractformat={pdf,eps},clean=true}
+\begin{document}
+\nocite{*} % Include all references from the .bib file
+% \pagenumbering{gobble} % suppress displaying page number
+\section{完整学术发表清单}
+\subsection{学术期刊}
+\begin{refsection}[paper]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+\subsection{会议/墙报}
+\begin{refsection}[conference]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+% \vspace{5mm}
+% \section{专利}
+% \begin{refsection}[patent]
+%   \nocite{*}
+%   \printbibliography[heading=none, title={ }]
+% \end{refsection}
+
+\end{document}

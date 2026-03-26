@@ -1,0 +1,191 @@
+% \documentclass[9pt,a4paper]{article}
+\documentclass{ResearchStatement}
+\usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{outline}
+\addbibresource[label=paper]{../MyPaper_modified.bib} % Your .bib file
+\addbibresource[label=conference]{../MyConference_modified.bib} % Your .bib file
+\addbibresource[label=patent]{../MyPatent_modified.bib} % Modified MyPatent.bib
+\author{ }
+% \graphicspath{{../images}}
+% 
+% \bibliographystyle{ieeetr}
+% adjust the page margins
+
+\newcommand{\enote}[1]{%
+    \colorbox{yellow!30}{\textcolor{OliveGreen}{#1}}%
+}
+\newcommand{\note}[1]{}
+\newcommand{\cnote}[1]{}
+% \newcommand{\enote}[1]{#1}
+
+\begin{document}
+\title {Research Track}
+\date{}
+\maketitle
+
+\input{../paper_main.tex}
+\input{../paper_cop.tex}
+\input{../conf_main.tex}
+\input{../conf_cop.tex}
+\nocite{*}
+
+% \noindent
+% \begin{minipage}{\textwidth}
+\section{Major academic achievements}
+\subsection{Personal Background and Relevant Academic Experience}
+The key breakthrough directions for manufacturing complex components lie in achieving digital control over both form and properties (``consistence control") and in enabling the cross-domain transfer of process knowledge between laboratory and industrial environments. My research has long focused on addressing the two core scientific challenges at the heart of this pursuit: achieving multi-scale process consistency and developing multi-condition, adaptive intelligent manufacturing systems.
+
+I completed my Ph.D. in December 2020 at Guangdong University of Technology (GDUT) within the team of President Chen Xin at the State Key Laboratory of Electronic Manufacturing Technology and Equipment; the Engineering discipline at GDUT is notably ranked in the top 0.3‰ globally by ESI. Following this, I joined KU Leuven, Belgium (QS World Ranking 2025: 63) as a postdoctoral researcher with a dual affiliation across:\\
+- The Manufacturing Processes and Systems (MaPS) research unit (Department of Mechanical Engineering)\\
+- The Declarative Languages and Artificial Intelligence (DTAI) section (Department of Computer Science)\\
+I conducted this interdisciplinary research under the supervision of Prof. Dominiek Reynaerts (Chair of the MaPS research unit) and Prof. Mathas Verbeke, and was subsequently appointed as an Associate Researcher in 2024.
+
+The transfer of precision manufacturing processes from the laboratory to industrial scale is fundamentally a process of discovering and mapping physical laws, necessitating a synergistic breakthrough in both process innovation and knowledge migration. Within the context of large-scale manufacturing of complex components, this presents two fundamental scientific problems:\\
+% \begin{itemize}
+\, - 1. Synergistic accuracy in multi-stage precision process chains: Advanced, multi-stage hybrid manufacturing processes introduce complex operating conditions accompanied by non-linear, multi-physics coupling effects. This poses a significant challenge to achieving synergistic control of precision across the different stages of the process chain.\\
+\, - 2. Coupling and cross-domain migration of multi-source heterogeneous data: The spatio-temporal heterogeneity of multi-source process data complicates data fusion, which in turn limits the accuracy of process prediction and control. This sensitivity to operational disturbances results in models with poor generalization capabilities, making the migration of process knowledge from laboratory to industrial settings a persistent and formidable challenge.\\
+% \end{itemize}
+To address these scientific problems, my work has centered on the industrial-ready precision manufacturing of complex components. Starting from process innovation and leveraging both physics-driven and data-driven theoretical approaches, I have conducted the following systematic work focused on consistency and precision in scalable, multi-scale manufacturing processes. This research has established a complete chain from process innovation to theoretical modeling and finally to industrial commercialization, structured around three core pillars:\\
+% \begin{itemize}
+\, - \textbf{(a) Methodology:} Synergistic manufacturing process innovation for cross-scale consistency control in mass precision production.\\
+\, - \textbf{(b) Theory:} A robust, cross-scale, fully coupled multi-physics theoretical framework that enables numerical simulations with boosted precision and system-level insight.\\
+\, - \textbf{(c) Industry-Oriented AI:} Explainable and label-efficient AI studies for condition perception and quality control, which facilitate the lab-to-industry transfer of process knowledge through state decoupling and accurate outcome prediction.\\
+% \end{itemize}
+
+\clearpage
+\noindent\makebox[\textwidth][c]{%
+    \centering
+    \includesvg[width=170mm]{Contribution.svg}
+}
+\begingroup
+\captionof{figure}{
+    Research framework and core breakthroughs for the precision manufacturing of complex components, encompasses three pillars:\\
+    \, - \textbf{(a) Methodology:} Synergistic manufacturing process innovation for cross-scale consistency control in mass precision production.\\
+    \, - \textbf{(b) Theory:} Robustness, cross-scale, fully coupled multi-physics theoretical framework that enables numerical simulations with boosted precision and system-level insight.\\
+    \, - \textbf{(c) Industry-orientied AI:} Explainable, label efficient, AI studies for condition perception and quality control that facilitates the lab-to-industry transfer of process knowledge through state decoupling and accurate outcome prediction. \\
+}
+\label{fig:contribution}
+\endgroup
+% \end{minipage}
+% \end{figure}
+
+\subsection{Scientific Research Achievements}
+\subsubsection{Research Achievement 1: Precision Manufacturing Technology for Cross-Scale Synergy and Consistency Control}
+This research aspect introduced a novel hybrid manufacturing process chain designed to achieve synergistic accuracy control for complex, multi-scale components. To address the key industry challenge of reconciling high throughput with structural consistency, I proposed and developed a process that integrates photolithography with jet electrochemical machining (Jet-ECM). Through synergistic control and optimization of the hybrid process parameters, this method successfully fabricates large batches (on the order of $10^3$) of multi-scale microstructures (spanning $10^1 \upmu$m to $10^3 \upmu$m) on difficult-to-machine metallic materials. The process achieves exceptional consistency, with dimensional deviations as low as $\pm 0.02\upmu$m across a 3-inch diameter machinable area.
+\subsubsubsection{Innovation and Scientific Significance}
+Modern precision manufacturing is challenged by the integration of multiple processes and the fabrication of features across different physical scales. The significant non-linear coupling effects between parameters and part quality make it difficult to guarantee consistency, highlighting the challenge of achieving true synergy within a hybrid process chain. While combining photolithography with electrochemical machining (ECM) is a known strategy—valued for its non-thermal, stress-free nature—it is limited by non-uniform flow fields that disrupt process stability and prevent effective accuracy control in large-scale fabrication.
+
+My work overcomes this barrier by introducing a photolithography-masked jet-electrochemical technique. This innovation creates a stable and predictable manufacturing platform where synergistic control is possible, enabling the fabrication of large-area, high-fidelity microstructures.
+
+- \textbf{(1). A novel hybrid photolithography-Jet ECM method}
+This work breaks through the limitations of single-process modalities by proposing a new, synergistic hybrid process. By integrating the sub-micron positioning of photolithography with the multi-physics control of Jet-ECM, this method overcomes the traditional trade-off between feature fidelity and efficiency when fabricating microstructures across three orders of magnitude in scale ($10^1 \upmu$m to $10^3 \upmu$m). Experimental results demonstrate a feature size precision error as low as 0.039\% over a 3-inch diameter processing area.
+
+- \textbf{(2). A System for controllable, cross-Scale process parameter regulation}
+I established a governing model for process parameter optimization based on multi-physics coupling. Through the synergistic matching of jet pressure, electric field strength, and the electrolyte flow field, this model resolves the challenge of controlling aspect ratio consistency, achieving a dimensional precision error in the depth direction as low as $\pm 0.02 \upmu$m. This technology provides a reliable and controllable foundation for producing complex microstructures, and its governing model is the key to unlocking the synergistic control of the entire process chain, making it amenable to digitization and intelligent control.
+
+\subsubsubsection{Representative Achievements and Personal Contribution}
+This body of work has resulted in 4 national patents (Chinese) and 7 first-author publications. Representative works have been published in top-tier international journals, including the International Journal of Machine Tools and Manufacture, the Journal of Materials Processing Technology, and the Journal of Manufacturing Science and Engineering, Trans. ASME. This research has also led to 4 collaborative publications.
+
+\subsubsubsection{Representative Third-Party Evaluations}
+The hybrid precision manufacturing process I developed has been positively cited in review articles by prominent international research groups. Notably, the team of \textbf{Prof. Adam Clare} at the University of Nottingham (Editor-in-Chief of \textit{Additive Manufacturing}, Fellow of the Royal Academy of Engineering (FREng), and Fellow of the International Academy for Production Engineering (CIRP)), and Prof. Wataru Natsu (Fellow of the Japan Academy of Engineering) have commended the process for its consistency and manufacturing efficiency. In addition, Prof. Di Zhu (Fellow of the Chinese Academy of Engineering) has positively evaluated multiple research outcomes derived from this work, fully affirming its significant contribution to the field of complex microstructure fabrication.
+
+Beyond direct citations on the effectiveness, the foundational concepts of this work have inspired further process development within the precision manufacturing community. Multiple independent research teams have built upon this hybrid process framework to achieve their own breakthrough results, including in the fabrication of microstructures for energy equipment (\textit{J. Manuf. Process, 2021}) and the development of novel mask-based hybrid processes (\textit{Int. J. Mach. Tools Manuf., 2024}).
+
+
+\noindent\makebox[\textwidth][c]{%
+    \centering
+    \includesvg[width=160mm]{Citations/Method_en.svg}
+}
+\begingroup
+\captionof{figure}{Third-Party Recognition of the Proposed \textbf{Synergistic Manufacturing Process Chain}}
+\label{fig:citation_method}
+\endgroup
+
+\clearpage
+\subsubsection{Research Achievement 2: Cross-Scale Multi-Physics Coupled Modeling and Material Removal Mechanisms}
+To address the foundational challenge of balancing spatio-temporal resolution with computational efficiency in predictive modeling, I established a theoretical analysis framework combining a hybrid-scale, zoned variable-density mesh with a virtual gap methodology. This computational strategy, through a discrete modeling approach and a synergistic algorithm for solving ion concentration gradient fields, enables sub-micron resolution simulations of the material removal process while offering a significant improvement in computational efficiency over traditional finite element methods. The work revealed the non-linear coupling mechanisms between the jet pressure field, the electrochemical migration field, and the evolution of the surface morphology. This provides a predictive, computationally-efficient engine crucial for any future digital manufacturing system.
+
+\subsubsubsection{Innovation and Scientific Significance}
+
+- \textbf{(1). An open-boundary, fully coupled multi-physics model}
+I established a fully-coupled model for the photolithography-masked Jet-ECM process, linking multi-ion migration, the fluid flow field, and dynamic surface morphology. By constructing the governing control equations for dynamic jet-shape evolution under open-boundary conditions (a coupled Level-Set + Navier-Stokes-Poisson-Nernst-Planck system), a synergistic solving mechanism was created for the ion concentration gradient field, convective-diffusive transport, and interface movement. This work elucidated the spatio-temporally asymmetric evolution of the material removal rate as influenced by the flow field. Based on multi-dimensional, in-situ observational data from high-speed imaging, a quantitative transfer model linking process parameters to flow field vorticity and morphological evolution was built, providing essential theoretical guidance for high-precision manufacturing.
+
+- \textbf{(2). A computationally efficient, cross-scale discrete modeling method}
+I proposed a hybrid-scale discrete modeling method based on a virtual gap assumption, which optimizes the balance between computational efficiency and accuracy by employing a zoned, variable-density mesh. Fine grids are used in the micron-scale machining zone to precisely resolve interface reactions, while sparse grids are used in the macro-scale flow field region to efficiently simulate jet dynamics. By quantitatively determining the optimal grid density ratio for key regions, the computational cost of the multi-physics simulation was significantly reduced while maintaining the predictive accuracy of the material removal rate. This modeling framework, for the first time, established a dynamic, cross-scale mapping relationship between the jet pressure field, the electrochemical migration field, and interface evolution, providing a theoretical tool with both high computational accuracy and practical engineering applicability for nano- and micro-scale precision manufacturing.
+
+\subsubsubsection{Representative Achievements and Personal Contribution}
+This body of theoretical work has produced 5 first-author publications, with representative work published in top-tier journals such as the International Journal of Machine Tools and Manufacture, the Journal of Manufacturing Science and Engineering, Trans. ASME, and Procedia CIRP. My expertise in multi-physics simulation has also led to high-level international and industrial collaborations:
+\begin{itemize}
+    \item In collaboration with Prof. Yong Chen (ASME Fellow) at the University of Southern California, I contributed to the theoretical modeling and validation of abrasive flow machining for finishing microchannels in laser powder bed fusion parts (J. Manuf. Process, 2025)
+    \item In collaboration with Prof. Wujun Wang's team at KTH (Tribology International, 2025), I contributed on developing the underlying theoretical multi-physics model to explain the observed wear transitions.
+    \item I collaborated with Xi'an Jiaotong University and the National Key Laboratory of High-Performance Tools on the "Design and Manufacture of a Flexible Adaptive Fixture for Precision Grinding of Thin-Walled Bearing Rings." My primary contribution was to bridge the gap between theoretical design and industrial application; I developed and executed the finite element analysis simulations for modal and stress-displacement analysis, using the simulation results to guide the optimization of the fixture's mechanical structure to ensure its stability and performance in a real-world manufacturing environment.
+\end{itemize}
+\subsubsubsection{Representative Third-Party Evaluations}
+In a comprehensive review on multi-physics hybrid mechanisms published in the International Journal of Machine Tools and Manufacture, the research teams of Prof. Dragos Axinte (Fellow of CIRP; Editor-in-Chief, J. Mater. Process. Technol.) and Prof. Adam Clare (Fellow of RAE and CIRP; Editor-in-Chief, Additive Manufacturing) cited my coupled thermo-mechanical-electrical dynamics model as a key theoretical support. They further referenced its application in elucidating the mechanisms of dynamic error formation in the field of precision manufacturing.
+
+\noindent\makebox[\textwidth][c]{%
+    \centering
+    \includesvg[width=160mm]{Citations/Simulation_en.svg}
+}
+\begingroup
+\captionof{figure}{Third-Party Recognition of the Proposed \textbf{Robust, Fully Coupled Multi-Physics Model with System-level Insight}}
+\label{fig:citation_simulation}
+\endgroup
+
+\clearpage
+
+\subsection{Research Achievement 3: Label-Efficient and Multi-Source Condition Perception for Process Monitoring and Quality Control}
+To facilitate the low-cost, high-fidelity transfer of advanced manufacturing knowledge from the laboratory to the production line, my research addresses two core challenges that impede the adoption of AI in precision manufacturing: the prohibitive cost of data annotation and the difficulty of perceiving the true process state from multi-source sensor signals that are corrupted by complex operating conditions. To solve this, I proposed and developed a novel framework for "limited-label, multi-source condition perception" for process monitoring and quality control. This framework utilizes an innovative weakly-supervised active learning paradigm, which only requires the annotation of a few representative cluster samples to efficiently drive model learning, dramatically reducing the cost of data labeling. Concurrently, by deeply fusing multi-source sensor data (electrical, thermal, fluidic), the resulting predictive models significantly outperform traditional multi-physics simulations in forecasting manufacturing outcomes. Building on this, I leveraged Explainable AI (XAI) to successfully decouple the influence of specific operating conditions (e.g., laser path, tool trajectory), effectively isolating signal interference. This provides a solid foundation for accurately perceiving the true process state and enhancing model generalization.
+
+\subsubsection{Innovation and Scientific Significance}
+
+- \textbf{(1). A label-efficient method for process monitoring}
+Data-driven models in precision manufacturing are often constrained by their dependence on large, accurately labeled datasets. I proposed and built a new paradigm for intelligent monitoring and prediction based on "label-efficient learning and condition decoupling." I created an active learning predictive framework using dynamic similarity computation and unsupervised clustering, which requires only a minimal number of labeled samples per category to effectively guide model learning, thus greatly reducing the dependency on annotated data.
+
+- \textbf{(2). A Framework for multi-source condition perception and decoupling}
+Complex and variable operating conditions (e.g., laser scan paths in additive manufacturing, tool trajectories in EDM milling) interfere with multi-source sensor signals, making it difficult for models to reflect the true process state. I developed a hybrid neural network model for condition perception that fuses multi-source sensor information. Validated with data from multiple scenarios including electrical discharge machining, its accuracy and efficiency in predicting process outcomes were significantly superior to traditional multi-physics simulation models, enabling precise prediction and near-real-time response. Furthermore, I proposed a method for decoupling the influence of operating conditions using Explainable AI (XAI). By designing a feature-stripping quantification algorithm, this method can quantitatively analyze and isolate the dynamic signal components caused by specific changes in operating conditions (e.g., laser paths or tool trajectories ), effectively separating them from the signal components that reflect the true process state (e.g., melt pool stability, discharge status).
+
+\subsubsection{Representative Achievements and Personal Contribution}
+This body of work has produced 5 first-author publications, with representative work published in Procedia CIRP. My expertise in developing industry-oriented AI has also led to key contributions in several international collaborations:
+\begin{itemize}
+    \item With University College Dublin and LUT University, I contributed to a study on overcoming data scarcity for AI in manufacturing. My primary contribution was designing the novel hybrid AI framework that integrated a Broad Learning System with Virtual Sample Generation (BLS-VSG), demonstrating its effectiveness in mitigating data scarcity—a critical barrier to deploying AI in industrial settings where experimental data is costly.
+    \item For a collaboration with the University of Edinburgh, I co-developed the core architecture of the interpretable neural network (DTNN), ensuring the model was not a "black box." This provided the explainability necessary for adoption in high-reliability industrial applications and enabled the closed-loop control demonstrated in the study.
+    \item I also collaborated with Xi'an Jiaotong University on a project for predictive modeling in precision grinding. My contribution centered on designing the feature fusion methodology for the multi-source heterogeneous data, which was key to the model achieving its high predictive accuracy and demonstrating a viable path for real-time quality control in industrial production.
+\end{itemize}
+\subsubsection{Representative Third-Party Evaluations}
+In a joint study, the research teams of Dr. A. Klink (Chairman of the VDI Technical Committee on EDM, RWTH Aachen University) and Prof. T. Bergs (Director of the Fraunhofer Institute for Production Technology IPT and the WZL Machine Tool Laboratory, RWTH Aachen University) cited my innovative research on the intelligent prediction of machining parameters. Their work pointed to the importance of considering operating conditions, such as process parameters, in accurately predicting manufacturing outcomes. Furthermore, Prof. Pradeep V. Jadhav (Dean of the College of Engineering, Bharati Vidyapeeth Deemed University, Pune) and his team positively cited my research on the hybrid neural network model for condition perception. They explicitly noted that it reduced the workpiece profile prediction error in pulse ECM to an MSE of 7.60, significantly improving machining accuracy and reducing the costs associated with trial-and-error experiments.
+
+\noindent\makebox[\textwidth][c]{%
+    \centering
+    \includesvg[width=160mm]{Citations/AI_en.svg}
+}
+\begingroup
+\captionof{figure}{Third-Party Recognition of the Proposed \textbf{Explainable, Label efficient, AI Studies for Manufacturing industry}}
+\label{fig:citation_ai}
+\endgroup
+
+% \clearpage
+% \section{Full Publication List}
+% % \printbibliography[title={Journal Papers}, label=paper]
+% % \printbibliography[title={Conference Papers}, label=conference]
+% % \printbibliography[title={Patents}, label=patent]
+% \subsection{Journal Paper}
+% \begin{refsegment}
+%     \nocite{*}
+%     \printbibliography[segment=1, heading=none, keyword=paper]
+% \end{refsegment}
+
+% \clearpage
+% \subsection{Poster/Conference}
+% \begin{refsegment}
+%     \nocite{*}
+%     \printbibliography[segment=2, heading=none, keyword=conference]
+% \end{refsegment}
+
+% \clearpage
+% \section{Valorization}
+% \begin{refsegment}
+%     \nocite{*}
+%     \printbibliography[segment=3, heading=none,  keyword=patent, title={ }]
+% \end{refsegment}
+% \end{document}

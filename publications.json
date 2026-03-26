@@ -1,0 +1,668 @@
+[
+  {
+    "ID": "Wu2020Fabricationsurfacemicrostructures",
+    "author": "Wu, M and Liu, J and He, J and Chen, X and Guo\\ast , Z",
+    "journal": "International Journal of Machine Tools and Manufacture",
+    "title": "{F}abrication of surface microstructures by mask electrolyte jet machining",
+    "year": "2020",
+    "abstract": "This paper presents a novel electrochemical processing technique, mask electrolyte jet machining (MEJM), for the fabrication of surface microstructures. MEJM combines jet electrochemical micromachining (Jet-ECM) and through-mask electrochemical micromachining (TMEMM), combining the advantages of TMEMM, which is a high-throughput process, and of Jet-ECM, with its adjustable flow field. The effects of a mobile nozzle on electrolyte flow are investigated, and a new modeling approach for large translational movements is proposed. An analysis of the accuracy and reliability of the proposed method is presented. Microprotrusions and microdimples are produced to high precision and with excellent consistency of dimensional variation (maximum standard deviation 2.171 \\mu m). The results suggest the possibility of an affordable technique for batch fabrication of surface microstructures with high efficiency and precision.\n\nIn normal electrolyte jet machining, the minimum feature size depends on the inner diameter of the jet nozzle and the need for point-to-point processing means that the method is time-consuming. Lithography has been applied in this technique to construct microfeatures, thereby transforms the sequential process to a parallel one. The processing accuracy then depends strongly on the resolution of the lithographic procedure. Therefore, technically, triangular, quadrilateral features with sizes of several microns can be fabricated on various metal materials.\nThe theoretical part of the study described here has revealed the dramatic variations in the electrolyte flow velocity vector that occur with MEJM, and the simulation results suggest that the products of electrochemical processing will be carried away efficiently. Thus, compared with TMEMM, better dimensional symmetry is achieved.\nThe experimental part has demonstrated that microdimples and microprotrusions of the patterned photoresist will be replicated faithfully on the workpiece surface under certain conditions. The excellent consistency of the dimensional variation of microfeatures within each nozzle travel path, indicated by an \nof 0.29\\textendash 1.84\\% in width, demonstrates the reliability of MEJM. An analysis of different regions processed by MEJM provides an explanation for the trend of variation of the standard deviation observed in experiments. Both the theoretical and the experimental work suggest that a faster nozzle translation speed can improve the uniformity of microstructures in batch fabrication.\nIn conclusion, our results suggest the possibility of an affordable technology for batch fabrication of surface microstructures with high precision and reliability and indicate its potential for industrial application.",
+    "comment": "\\textbackslash textbf中科院1区 TOP, IF=14"
+  },
+  {
+    "ID": "He2024ExploringElectrochemicalDirect",
+    "author": "He, J and Chen, W and Wang, J and Wu, M and Zhou, L and Chen, R and Liang, H",
+    "journal": "Micromachines",
+    "title": "{E}xploring {E}lectrochemical {D}irect {W}riting {M}achining of {P}atterned {M}icrostructures on {Z}r702 with {P}olyacrylamide {P}olymer {E}lectrolyte",
+    "year": "2024",
+    "abstract": "Zirconium alloys possess excellent wear resistance, which ensures the durability and longevity of the components, making them widely used in medical and other fields. To enhance the functionality of these materials, it is often necessary to fabricate functional microstructures on their surfaces. Electrochemical machining (ECM) techniques demonstrate excellent machining performance for these metals, particularly in the processing of microstructures on complex curved surfaces. However, ECM often faces challenges due to the fluid nature of the electrolyte, resulting in low machining accuracy and localization. This paper proposes a novel method for fabricating complex patterned microstructures using a maskless electrochemical direct writing technique with a polyacrylamide (PAM) polymer electrolyte. By leveraging the non-Newtonian properties of PAM, this method effectively confines the electrolyte to specific areas, thus addressing the issue of poor localization in traditional ECM and reducing stray corrosion. To elucidate the electrochemical removal mechanism of Zr702 in the presence of PAM, polarization curves, viscosity characteristics, and current efficiency parameters were analyzed. Additionally, an experimental study was conducted using a custom-designed nozzle structure. The results showed that the PAM electrolyte could effectively reduce the \nEF, positively impacting machining accuracy and localization. By controlling the nozzle’s motion trajectory, complex microstructures were successfully fabricated through direct writing, demonstrating promising application prospects.",
+    "comment": "\\textbackslash textbf中科院3区"
+  },
+  {
+    "ID": "Zhuang2022ExperimentalStudyElectrode",
+    "author": "Zhuang, H and Guo, Z and Wu, M and Wang, J",
+    "journal": "Machinery Design \\& Manufacture",
+    "title": "{E}xperimental {S}tudy on {E}lectrode {M}achining of {M}icro-{P}it {A}rrays by {S}canning {J}et {M}ask",
+    "year": "2022",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2020FastFabricationComplex",
+    "author": "Wu, M and Kumar Saxena, K and Guo, Z and Qian, J and Reynaerts, D",
+    "journal": "Micromachines",
+    "title": "{F}ast {F}abrication of {C}omplex {S}urficial {M}icro-{F}eatures {U}sing {S}equential {L}ithography and {J}et {E}lectrochemical {M}achining",
+    "year": "2020",
+    "abstract": "This paper presents fabrication of complex surficial micro-features employing a cross-innovative hybrid process inspired from lithography and Jet-ECM. The process is referred here as mask electrolyte jet machining (MEJM). MEJM is a non-contact machining process which combines high resolution of lithography and greater flexibility of Jet-ECM. It is a non-contact process which can fabricate variety of microstructures on difficult-to-machine materials without need of expensive tooling. The presented work demonstrates the process performance of this technology by statistical analysis and multivariate kernel density estimation (KDE) based on probabilistic density function. Micro-letters are fabricated as an example of complex surficial structure comprising of multiple intersecting, straight and curved grooves. The processing response is characterized in terms of geometrical size, similarity ratio, and cumulative shape deviation. Experimental results demonstrated that micro letters with good repeatability (minimum SD of shape error ratio 0.297\\%) and shape accuracy (minimum shape error of 0.039\\%) can be fabricated with this technology. The results suggest MEJM could be a promising technology for batch manufacturing of surface microstructures with high productivity.\n\nFor conventional jet electrochemical machining (Jet-ECM), the minimal feature size depends on the inner diameter of the jet nozzle, so point-to-point processing of fine features will be time-consuming as it requires complex toll path planning. In this paper, a Jet-ECM variant is proposed which employs lithography before to fabricate surficial micro-features, which transforms Jet-ECM, the sequential process which fabricates microstructures one by one, to a parallel machining process, which numbers of microstructures can be fabricated at once. The processing accuracy depends strongly on the process voltage, mask resolution and nozzle speed. For microfabrication\\textemdash in contrast with the traditional process, that is, milling and drilling, the free of tool wear cost make ECM based process economically; in contrast with Jet-ECM, the free of tool path design, the free of jet nozzle manufacturing and assembling, and the capacity to fabricate numerous microstructures at once make MEJM time-saving and effective; in contrast with TMEMM, the update and replacement of the electrolyte flow field constantly make batch fabrication with good reliability and repeatability. These pros offer the opportunity to fabricate complex surficial features with sizes of several microns on various metallic materials.\nThe present work demonstrated that the micro-letters of a patterned photoresist will replicate accurately (minimum shape error of 0.039\\%) on the workpiece surface at certain conditions. The excellent consistency of dimensional variation of 112 micro-features within per nozzle travel path indicated from SD (minimum SD of shape error ratio 𝜁𝑠:0.297\\%) demonstrates the reliability of MEJM. The experimental results suggest that a faster nozzle speed can improve the uniformity of microstructures in batch fabrication.\nThe conclusions of this work can be summarized as follows:\n1.\nA hybrid process of lithography and Jet-ECM is presented and the process capability is demonstrated through fabrication of complex microstructures such as micro letters, fishbone and concentric circle.\n-\nquantitative assessment of machining depth and similarity ratio is presented in probability density function of distribution.\n-\nthe probability density value of similarity ratio and machining depth both influenced by intergranular corrosion, and the value of the similarity ratio also susceptible to mask failure.\n2.\nsurface structuring with good repeatability (minimum SD of shape error ratio 𝜁𝑠:0.297\\%) and shape accuracy (minimum shape error of 0.039\\%) is achieved.\n3.\nby analyzing the distribution of experimental results, faster nozzle speed suggests less mask failure possibility hence beneficial for improving shape accuracy. For applied voltage of U = 50 V, with the nozzle speed decreased from 2400 \\mu m/s to 800 \\mu m/s, the probability density value of similarity ratio decreased by 71.917\\%, where as the value of machining depth decreased by 47.790\\%.\n4.\nby analyzing the standard deviation of experimental results, a faster nozzle speed can improve the uniformity of microstructures in batch fabrication. The mean value of 𝑆𝐷\nof the similarity ratio 𝜁𝑠 decreased from 2.008 to 0.297, and mean value of 𝑆𝐷 of depth decreased from 0.747 to 0.080 as nozzle speed increased from 800 \\mu m/s to 2400 \\mu m/s.\nFurther studies should consider the fundamental mechanism of MEJM with coupled multiphysical fields in terms of electrolyte flow, electro-migration, concentration polarization, and other aspects. Factors influencing the process, such as the inter-electrode gap, the tool size, the nozzle travel speed, and the electrolyte flow rate, should be investigated. For other complex shapes, consideration should also be given to the use of a pulsed power supply and more sophisticated photoresist patterns. Strategies for determining the nozzle travel path when machining larger surfaces should also be the focus of future studies.\nIn conclusion, our results suggest a promising technology for fast and batch fabrication of surface microstructures and indicate its potential for industrial applications.",
+    "comment": "\\textbackslash textbf中科院3区"
+  },
+  {
+    "ID": "Bellotti2020ToolWearMaterial",
+    "author": "Bellotti, M and Wu, M and Qian, J and Reynaerts, D",
+    "journal": "Applied Sciences",
+    "title": "{T}ool {W}ear and {M}aterial {R}emoval {P}redictions in {M}icro-{E}DM {D}rilling: {A}dvantages of {D}ata-{D}riven {A}pproaches",
+    "year": "2020",
+    "abstract": "In micro electrical discharge drilling, regression models are commonly used for predicting the material removal rate (MRR) and tool wear rate (TWR) from the applied processing parameters. However, these models can be inaccurate since the processing parameters might not always be representative of the actual machining conditions, which depend on several other factors such as the tool length or gap flushing efficiency. In order to increase the prediction accuracy, the present work investigates the capability of data-driven regression models for tool wear and material removal prediction. The errors in predicting the MRR and TWR are shown to decrease of about 65\\% and 85\\% respectively when using data collected through process monitoring as input of the regression models. Data-driven approaches for in-process tool wear prediction have also been implemented in drilling experiments, demonstrating that a more accurate control of the hole depth (50\\% average reduction of the depth error) can be achieved by using data-driven predictive models.\n\nMethodologies for predicting the material removal rate (MRR) and tool wear rate (TWR) are crucial for precisely controlling the hole depth in micro-EDM drilling. In this work, the capacity and advantages of multiple linear regression (MLR) models, in which data collected through process monitoring are used, have been tested and verified. Data collected by following a Design of Experiments (DoE) have been used for training the MLR models. Validation experiments by applying random processing parameters within the process window defined by the DoE have been used. This way, the prediction accuracy of the different models could be tested in experimental conditions which differ from the ones applied when recording the training data.\nThe accuracy in predicting the MRR and TWR has been shown to significantly increase when using data-driven approaches rather than traditional methods based only on a correlation between the process performance indicators and the processing parameters. Experiments have also been performed by applying data-driven approaches for real-time tool wear prediction during the drilling process, showing that implementing data-driven MLR models into the process control strategy can lead to a more precise control of the hole depth.\nThis work has confirmed the advantages of data-driven approaches for tool wear and material removal prediction. Future work will aim to extend the dataset by considering holes of higher aspect ratio (i.e., higher than 30) in order to investigate the applicability of data-driven regression models on a wider variety of industrial applications of the micro-EDM process. With more extensive datasets, future research will also focus on studying more advanced approaches for extracting information from the monitored signals rather than using the average values as well as on investigating different methods than linear regression.",
+    "comment": "\\textbackslash textbf中科院3区"
+  },
+  {
+    "ID": "Zhuang2020StudyInjectionMolding",
+    "author": "Zhuang, H and Guo, Z and Wang, J and Wu, M",
+    "journal": "Journal of Guangdong University of Technology",
+    "title": "{S}tudy of {I}njection {M}olding {M}icrostructure of {S}tainless {S}teel {B}ased on {J}et {M}ask {E}lectrochemical {M}achining",
+    "year": "2020",
+    "abstract": "The wettability of the solid surface is affected by surface roughness and surface microstructure. On the basis of analyzing and summarizing several common surface microstructure processing techniques, the jet mask electrolytic processing method is proposed to process the micro-pit array structure on the surface of stainless steel, and study the influence of processing voltage on the size of the micro-pit and influences of the wettability on the microstructure. The stainless steel micro-pit structure is used as a mold, and the micro-convex structure is injection molded by PDMS (polydimethylsiloxane). The static contact angle is measured by fluorosilane and the contact angle is (151.7\\pm 0.51)\\textdegree .",
+    "comment": ""
+  },
+  {
+    "ID": "Wen2019simulationexperimentalstudy",
+    "author": "Wen, L and Guo, Z and Chen, C and Chen, X and Wu, M and Deng, Y",
+    "journal": "Modern Manufacturing Engineering",
+    "title": "{T}he simulation and experimental study of the mask {J}et-{E}CM machining inner wall micro-structure",
+    "year": "2019",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "He2018onestephot",
+    "author": "He, J and Wu, M and Zhang, R and Liu, J and Deng, Y and Guo, Z",
+    "journal": "Journal of Manufacturing Processes",
+    "title": "{A} one-step hot-embossing process for fabricating a channel with superhydrophobic inner walls",
+    "year": "2018",
+    "abstract": "To produce microfluidic chips cheaply, efficiently, and by mass production, a \\textquotedblleft one-step\\textquotedblright  method is proposed herein for fabricating a chip channel and its superhydrophobic inner walls. The flake bulge and micro-pit structure were prepared by chemically etching an S45C steel mold. The influences of etching-solution concentration and etching time on the formation of the hydrophobic structure were studied. A superhydrophobic mold was obtained with a surface contact angle of 156.29\\textdegree  and a sliding angle of 4\\textdegree . The channel and its inner walls were then duplicated by hot embossing with a poly (methyl methacrylate) substrate. The influences of temperature, pressure, and pressure-holding time on the reproduction accuracy of the superhydrophobic structure were investigated. Stable chip replication was obtained with the following optimal combination of process parameters: a temperature of 145\\textdegree C, a pressure of 0.8 MPa, and a pressure-holding time of 120 s. The average duplication accuracy achieved was 99.29\\%, the average surface contact angle was 151.37\\textdegree , and the average surface sliding angle was 9.3\\textdegree . The bottom and inner walls of the channel were both observed to be hydrophobic.\n\nIn this study, an MC channel and its inner-wall superhydrophobic surface texture were fabricated by a one-step method that can be used to manufacture channels efficiently, cheaply, and in bulk. The factors pertaining to the formation of the channel and its inner-wall microstructure were analyzed through single-factor and orthogonal experiments. The channel could be replicated highly accurately.\n1)\nS45C steel was used as the substrate, which was etched for 2\\hspace{0.167em}min with an HF solution with a concentration of 15\\hspace{0.167em}wt\\%. Staggered convex island-shaped structures and concave pits were fabricated successfully on the surface of the mold. SEM observations showed that the convex island-shaped structures contained many sheet-shaped structures that were roughly 100\\hspace{0.167em}nm thick. In the concave pits were distributed densely many micro-pits with a diameter of 1\\hspace{0.167em}\\mu m. Using modification by fluorosilane, a superhydrophobic surface was obtained with a maximum average contact angle of 156.29\\textdegree  and a sliding angle of 4\\textdegree .\n2)\nA series of experimental studies on replication by hot embossing showed that the melt flowed better at higher temperatures and pressures, thereby improving the replication of the superhydrophobic structure. However, extremely high temperatures and pressures increased the deformation of the side length of the sample. The pressure-holding time had negligible effect on the hot-embossing efficacy when the former exceeded 120\\hspace{0.167em}s. Therefore, to shorten the hot-embossing time, we advise choosing 120\\hspace{0.167em}s as the optimal pressure-holding time.\n3)\nOrthogonal experiments showed that the optimal process parameters are 145\\hspace{0.167em}\\textdegree C, 0.8\\hspace{0.167em}MPa, and a pressure-holding time of 120\\hspace{0.167em}s. The relative standard deviation was calculated to investigate the repeatability and reliability of the mold. The relative standard deviation (k) of the channel upper width was roughly 0.5\\%, the contact-angle variation fluctuated at 0.57\\%, and the rolling angle changed by 13.44\\%. The relative standard deviation is deemed to be sufficiently low that the mold can be reused.\n4)\nThe hydrophobicity of the channel bottom and inner wall was observed qualitatively. The results showed that a liquid droplet remained spherical on the bottom of the hydrophobic channel. According to SEM images of the inner walls, the superhydrophobic microstructure of the channel inner walls was replicated well. Liquid \\textquotedblleft trailing\\textquotedblright  caused by adhesion to the inner walls was eliminated on the replicated hydrophobic channels.",
+    "comment": "\\textbackslash textbf中科院1区"
+  },
+  {
+    "ID": "Chen2018Jetelectrochemicalmachining",
+    "author": "Chen, XL and Dong, BY and Zhang, CY and Wu, M and Guo, ZN",
+    "journal": "Journal of Materials Processing Technology",
+    "title": "{J}et electrochemical machining of micro dimples with conductive mask",
+    "year": "2018",
+    "abstract": "Micro dimples as a typical surface texture has been used in many fields for enhancing the functionality and performance. Electrochemical machining (ECM) is a promising approach for generating micro dimple. However, due to the isotropy of metal dissolution, the lateral undercutting of micro dimple is inevitable in ECM, which reduces the machining localization. This paper proposed a method of conductive mask jet electrochemical machining to reduce the undercutting of micro dimple and improve the machining localization. In this method, a conductive patterned mask instead of insulated patterned mask was covered on the workpiece directly during machining, which could decrease the undercutting of micro dimple by reducing the electric field intensity at the edge of micro dimple. In addition, a metallic nozzle (inner diameter of 2 mm) was employed to provide a stable columnar jet flow for enhancing the attachment between the mask and workpiece as well as the renewal of electrolyte in machining area, which was useful for generating deep micro dimple. Simulated results showed that the conductive mask could reduce the electric field identity at the edge of micro dimple effectively, and the undercutting of the profile was evidently reduced compared to that generated with insulated mask. Experimental results indicated that with conductive mask JEM, the undercutting of micro dimple was just 9 \\mu m when the depth increased to 55 \\mu m, the etch factor (EF) reached to 6.11, and it was four times greater than that with insulated mask. With the depth increased from 45 \\mu m to 85 \\mu m, the undercutting of micro dimple enlarged from 7 \\mu m to 15 \\mu m. The material removal rate in depth was evidently faster than that in diameter, which showed a low undercutting and high machining localization. In addition, compared with pulse current, direct current was more appropriate for generating deep micro dimple in conductive mask JEM.\n\nThis paper proposed a method of conductive mask JEM for generating micro dimple. In this method, a conductive mask instead of insulated mask was introduced to JEM for reducing the undercutting of micro dimple. Based on the simulation and experimental results, the following conclusions can be drawn:\n1\nSimulation results indicated that conductive mask used in JEM weakened the electric field intensity at the edge of micro dimple, and the undercutting of micro dimple was reduced significantly. By machining micro dimple with the same depth of 55 \\mu m, the etch factor (EF) of micro dimple increased from 1.47 to 6.11 when the insulated mask was replaced with conductive mask, and the machining localization was improved.\n2\nIn conductive mask JEM, with the depth increased from 45 \\mu m to 85 \\mu m, the undercutting of micro dimple enlarged from 7 \\mu m to 15 \\mu m. The material removal rate in depth was evidently faster than that in diameter, which showed a low undercutting and high machining localization.\n3\nWith pulse current, the diameter of micro dimple had little change in different pulse duty cycles and frequencies. However, the depth of micro dimple had significant decrease in pulse duty cycle of 20\\% with increasing frequency. Compared with pulse current, direct current was more appropriate for generating deep micro dimple in conductive mask JEM.\n4\nThe conductive mask could improve the machining localization, but the current efficiency was lower than that in insulated mask.",
+    "comment": "\\textbackslash textbf中科院2区"
+  },
+  {
+    "ID": "Zhang2018Preparationsuperhydrophobic",
+    "author": "Zhang, R and Guo, Z and Jiang, S and Wu, M and Luo, H and Wang, G",
+    "journal": "Corrosion Science and Protection Technology",
+    "title": "{P}reparation of super-hydrophobic surface of {S}iC/2024{A}L composite through chemical etching and its properties",
+    "year": "2018",
+    "abstract": "Super- hydrophobic surface of SiC/2024Al composite was prepared firstly via a simple chemical etching method and then finishing with fluoroalkyl silane. The surface morphology of the etched SiC/2024Al composite was characterized by means of FSEM. Results show that after chemical etching, the polished surface of SiC particulates within SiC/2024Al composite becomes a surface with composite structures both in micro- and nano-scales, which was highly similar to that of the lotus-leaf surface. The optimal etching parameters were acquired that the concentration of etchant was 15\\% (mass fraction) HCl solution and the etching time was 2 min. After the post finishing with, the prepared super-hydrophobic surface exhibits a water contact angle of 157.02\\textdegree  and a tilting angle of 5\\textdegree . The super-hydrophobic surface possesses comprehensive performance such as good stability and wear-resistance, as well as acid- and alkali-resistance. In addition, results of potentiodynamic polarization measurement reveal that the superhydrophobic surface can obviously enhance the corrosion resistance of the composite material in 3.5\\% (mass fraction) NaCl aqueous solution. \\textcopyright  2018, Chinese Academy of Sciences. All rights reserved.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Qin2018Extraordinaryopticaltransmission",
+    "author": "Qin, Y and He\\ast , J and Yang, F and Zhang, Z and Yuan, Z and Wu, M",
+    "journal": "Optik",
+    "title": "{E}xtraordinary optical transmission properties of a novel {B}i-layered plasmonic nanostructure array",
+    "year": "2018",
+    "abstract": "The optical transmission properties of a novel bi-layer plasmonic nanostructure array (BPNA), consisting of an array of gold nanoholes, glass and an array of gold nanodisks, was investigated by the finite element method. A well-defined localized surface plasmon (LSP) resonance peak appeared in the transmission spectra due to the coupling between the LSP of the metal nanoholes and the LSP of the nanodisks. The position and the intensity of the coupled LSP resonance peak depended strongly on the distance between the nanohole and the nanodisk arrays, the diameters of the arrays and the thickness of the nanohole or nanodisk arrays. The coupled LSP resonance peak exhibited a higher figure of merit compared to that for either the nanohole array or the nanodisk array. Results indicated that the bi-layer nanodevice was a highly sensitive detector for tunable plasmas, and should aid in better understanding of the mechanisms for extraordinary optical transmission phenomena.\n\nIn this study, a novel periodic structure combining metal nanohole and nanodisk arrays has been proposed and studied systematically. The transmittance spectra and the normalized electric field distributions of the metal nanohole and nanodisk arrays were investigated using the finite element method. The simulated results showed that the transmission properties of the metal nanohole and nanodisk arrays strongly depended on the structural parameters, the distance between the metal nanohole and nanodisk arrays, and the diameter and thickness of the nanoholes and nanodisks. The resonance signals between the metal nanohole and the nanodisk arrays were due to the localized surface plasmon (LSP) coupling between the metal nanohole and nanodisk arrays. In addition, a high FOM was observed for the resonance of the proposed nanostructure, which is important for sensitive detection and distinction of the device by means of experiment. Thus, bi-layer plasmonic nanostructure arrays show great potential for plasmonic applications. The performance attributes of the proposed structure may be helpful for the design and development of highly sensitive plasma detectors, tunable plasmonic filters, and for understanding the mechanisms of LSP resonance.",
+    "comment": "cite: 5"
+  },
+  {
+    "ID": "Zhou2016ExperimentalStudyCathode",
+    "author": "Zhou, C and Zhang, Y and Liu, G and Wu, M and Yao, Y",
+    "journal": "Electromachining \\& Mould",
+    "title": "{E}xperimental {S}tudy {O}n {C}athode {O}ptimized {E}CM-shaped {H}ole",
+    "year": "2016",
+    "abstract": "To solve the processing stability and shape precision electrochemical machining type holes and other issues, this paper established the hole electrochemical machining stability during machining gap mathematical model to analyze the tool cathode structure and the uniformity of the electric field processing region and non-processing areas and its impact on the current density and processing effects, improved by optimizing the structure of the electric field distribution of the workpiece machining gap, so that significantly improve the accuracy of the workpiece shape, and the relevant test to verify the results of the simulation. Concluded: under the same electrolysis process parameters, tool electrode structure has a significant influence on the shape accuracy of the workpiece, by optimizing the tool electrode structure, improve the electric field distribution and current density machining gap, so that the flow field inside the machining gap more stable, so that the workpiece sidewall verticality increase and improve the shape accuracy and process stability ECM.",
+    "comment": ""
+  },
+  {
+    "ID": "Sun2015Developmentapplicationwall",
+    "author": "Sun, T and Yu, Z and Wu, M and Wang, G",
+    "journal": "Modern Manufacturing Engineering",
+    "title": "{D}evelopment and application of wall surface micro-machining technology",
+    "year": "2015",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2015Investigationpulseelectrocheimical",
+    "author": "Wu, M and Guo, Z and Sun, T and Luo, H and Song, Q",
+    "journal": "Modern Manufacturing Engineering",
+    "title": "{I}nvestigation on pulse electrocheimical machining by coated electrode",
+    "year": "2015",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Sun2015SimulationExperimentalStudy",
+    "author": "Sun, T and Yu, Z and Wu, M and Wang, G and Cheng, L",
+    "journal": "Electromachining \\& Mould",
+    "title": "{S}imulation and {E}xperimental {S}tudy on {F}low {F}ield of the {S}piral {E}lectrode {E}lectrochemical {M}icro-machining",
+    "year": "2015",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Tang2015DevelopmentsApplicationsJet",
+    "author": "Tang, Y and Luo, H and Wu, M and Sun, T and Yin, X",
+    "journal": "Electromachining \\& Mould",
+    "title": "{D}evelopments and {A}pplications of {J}et {E}lectrochemical {M}achining",
+    "year": "2015",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Liang2025shellfishinspiredbionic",
+    "author": "Jionghong Liang and Aiyi Chen and Wu, M and Xiaolong Tang and Haixing Feng and Jiangwen Liu\\ast  and Guie Xie\\ast ",
+    "journal": "Journal of the Mechanical Behavior of Biomedical Materials",
+    "title": "{A} shellfish-inspired bionic microstructure design for biological implants: enhancing protection of antibacterial silver-loaded coatings and promoting osseointegration",
+    "year": "2025",
+    "abstract": "Implants incorporating multi-level micro-nano structures and antibacterial coatings offer a promising approach to overcoming the shortcomings of titanium and its alloys in stimulating bone growth and preventing bacterial infections. Silver ions have been identified as promising antibacterial agents. However, silver-loaded surface coatings are susceptible to damage from direct friction, and excessive release of silver ions can lead to cytotoxicity, thereby limiting their practical application. Inspired by the wear-resistant surface structure of natural shellfish, this study developed a biomimetic micro/nano multi-level structure on the titanium alloy (TC4) surfaces. The structure incorporated a biomimetic microgroove structure (BMS) with alkaline heat treatment (AH) of sodium titanate and chitosan/silver (CS/Ag) micro-nanostructured coatings (BMS/AH/CS/Ag). The microstructural armor effectively reduced external mechanical friction, safeguarding the coatings from damage. Compared to the unstructured sample, the biomimetic micro-groove armor group with a large micro-groove angle (\\texttheta ) exhibited significantly reduced wear volume and only a marginal decrease of 1.86\\% in inhibition against Staphylococcus aureus (S. aureus) post-wear, highlighting the protective effect of this microstructure on the coating. The outstanding improvement was primarily attributed to the increased micro-groove angle, which enhanced the stability of the microstructure and effectively mitigated the friction. Additionally, the biomimetic micro-nano multi-level structure and coating have shown a significant ability to improve the bioactivity for the implant, promoting the adhesion, proliferation, collagen secretion, and extracellular matrix mineralization of human mesenchymal stem cells (hMSCs), which suggests the potential for enhanced osteogenic differentiation and indicates that this method can effectively improve the clinical performance of the implant.\n\nIn this study, inspired by the structure of natural shellfish, we introduced a new method for preparing biomimetic micro-nano multi-level structures to improve the friction resistance, biocompatibility, and osteogenic differentiation of titanium-based implants, which was expected to provide a promising clinical application for silver-loaded titanium implants. The primary contributions and innovations of this paper are:\n(1)\nBoth theoretical and experimental investigations indicated that a larger bionic microgroove angle can enhance the under-friction stability and protect the silver-loaded coating compared to the implant surface without microstructure. Meanwhile, antibacterial properties following friction were also decreased with a larger bionic microgroove angle, suggesting that the large angle BMS with a shellfish-like structure had the best ability to protect the silver-loaded coating.\n(2)\nExperimental evidence shows that integrating multi-level micro-nanostructures and biocompatible polymers stimulates HAP deposition, hMSC adhesion and proliferation, and osteogenic differentiation.\n(3)\nThe findings above revealed that the biomimetic micro/nano multi-level structure might significantly increase the wear resistance, biocompatibility, and bone regeneration of silver-loaded implants.\nIn summary, this study presents a groundbreaking investigation for silver-loaded implants, promising enhanced clinical applications through theoretical and practical experimental validations. Future research can delve deeper into developing even more durable and biocompatible multi-level structures and materials, opening up new avenues for revenue generation not only in biomanufacturing but also in the realm of bio-clinical design.",
+    "comment": ""
+  },
+  {
+    "ID": "Lin2025EnhanceFuseAlign",
+    "author": "Lin, Yuduo and Lin, Yanfeng and H. Wu\\ast  and M. Wu\\ast ",
+    "journal": "Sensors",
+    "title": "{T}he {E}nhance-{F}use-{A}lign principle: a new architectural blueprint for robust object detection, with application to {X}-Ray security",
+    "year": "2025",
+    "abstract": "Object detection in challenging imaging domains like security screening, medical analysis, and satellite imaging is often hindered by signal degradation (e.g., noise, blur) and spatial ambiguity (e.g., occlusion, extreme scale variation). We argue that many standard architectures fail by fusing multi-scale features prematurely, which amplifies noise. This paper introduces the Enhance-Fuse-Align (E-F-A) principle: a new architectural blueprint positing that robust feature enhancement and explicit spatial alignment are necessary preconditions for effective feature fusion. We implement this blueprint in a model named SecureDet, which instantiates each stage: (1) an RFCBAMConv module for feature Enhancement; (2) a BiFPN for weighted Fusion; (3) ECFA and ASFA modules for contextual and spatial Alignment. To validate the E-F-A blueprint, we apply SecureDet to the highly challenging task of X-ray contraband detection. Extensive experiments and ablation studies demonstrate that the mandated E-F-A sequence is critical to performance, significantly outperforming both the baseline and incomplete or improperly ordered architectures. In practice, enhancement is applied prior to fusion to attenuate noise and blur that would otherwise be amplified by cross-scale aggregation, and final alignment corrects mis-registrations to avoid sampling extraneous signals from occluding materials.",
+    "comment": ""
+  },
+  {
+    "ID": "Chen2025Predictivemodellingsurface",
+    "author": "Bohao Chen and Jun Zha\\ast  and Zhiyan Cai and Wu, M",
+    "journal": "CIRP Journal of Manufacturing Science and Technology",
+    "title": "{P}redictive modelling of surface roughness in precision grinding based on hybrid algorithm",
+    "year": "2025",
+    "abstract": "Aimed at predicting surface roughness (SR) of bearing outer rings under various grinding conditions, a model utilizing the DBO-1DCNN-LSTM algorithm was proposed. The structural parameters of the 1D convolutional neural network with long short-term memory neural networks (1DCNN-LSTM) combination model are optimized using Dung Beetle Optimization algorithm (DBO), and comparative experiments demonstrate the excellent performance in extracting features from multiple sources of signals during the grinding process. By utilizing the DBO-1DCNN-LSTM model to extract vibration and acoustic emission signal features in precision grinding of bearing outer rings, a predicting method for SR considering multi-source heterogeneous data is proposed. Signal characteristics with grinding parameters are combined to build a SR forecasting model of precision-ground outer rings under different operating conditions. Experimental results indicate that incorporating batch normalization layers and employing the grinding parameters as model input can effectively enhance the forecast accuracy. It achieves a coefficient of determination (R2) of 0.9910, average absolute error (MAE) of 0.0050, root mean square error (RMSE) of 0.0067, and mean absolute percentage error (MAPE) of 0.0491. Capable of accurately forecasting the SR of bearing outer rings across different grinding conditions by the proposed approach. The model can shorten the production cycle from machining to inspection, ensuring the qualification rate of workpieces directly during the machining process. This facilitates efficient quality control and timely comprehensive decision-making in bearing production, ultimately improving production efficiency.",
+    "comment": ""
+  },
+  {
+    "ID": "Ding2025EnhancingCavitationErosion",
+    "author": "Hongqin Ding and Yuhang Wang and Qing Tang and Yangfan Sun and Wu, M and Wujun Wang and Jie Bai\\ast  and Haibo Xie and Huayong Yang and Chao Zhang and Yi Zhu\\ast ",
+    "journal": "Tribology Transactions",
+    "title": "{E}nhancing {C}avitation {E}rosion {R}esistance of 316{L} Stainless {S}teel through {S}imultaneous {M}icrostructure {M}odification during {L}-P{B}F",
+    "year": "2025",
+    "abstract": "Laser powder bed fusion (L-PBF), a form of additive manufacturing technology, offers a means for the lightweight design of hydraulic fluid passages. Cavitation can lead to cavitation erosion damage and premature failure of hydraulic fluid passages. This study investigates the influence of simultaneous surface modification using secondary compensation scanning on the cavitation erosion resistance of 316L stainless steel, with a focus on the microstructure. The experimental outcomes provide evidence supporting the crucial role of simultaneous surface modification in enhancing resistance to cavitation erosion, particularly in the case of parallel modification. In vertical modification, the secondary scan with a significantly small hatch space generates a notably high energy density, resulting in the remelting of numerous previously solidified grains. Conversely, in parallel modification, the first and second scans are aligned parallelly, and the secondary scans exhibit very small hatch spaces. This configuration promotes epitaxial grain growth along the direction of heat flow, attributed to a small alpha angle, ultimately leading to the formation of large columnar grains with similar orientations. High angle grain boundaries (HAGB) possess higher grain boundary energy compared to low angle grain boundaries, indicating the presence of unstable grain boundaries. Analysis of the proportion and length of HAGBs aligns with the results obtained for cavitation erosion resistance. Furthermore, the occurrence of plastic deformation is initiated and accumulated on the grain boundaries as a consequence of the micro-jet and impact wave effects. The regions between adjacent grains become particularly susceptible to damage caused by cavitation erosion. The findings of this study carry significant implications for the optimization of L-PBF processes, as well as for enhancing the reliability and service life of hydraulic fluid passages. Simultaneous surface modification impacts cavitation erosion resistance. Parallel modification results in large columnar grains with similar orientations. High-angle grain boundaries have higher grain boundary energy affecting cavitation resistance. micro-jets and impact waves initials and accumulates plastic deformation on grain boundaries.",
+    "comment": ""
+  },
+  {
+    "ID": "Zhang2025ReviewNonfully",
+    "author": "Xinyue Zhang and Jianfeng\\ast  Wang and Jinqiao Wei and Xinyu Yuan and M. Wu\\ast ",
+    "journal": "Information",
+    "title": "{A} review of non-fully supervised deep learning for medical image segmentation",
+    "year": "2025",
+    "abstract": "Medical image segmentation, a critical task in medical image analysis, aims to precisely delineate regions of interest (ROIs) such as organs, lesions, and cells, and is crucial for applications including computer-aided diagnosis, surgical planning, radiation therapy, and pathological analysis. While fully supervised deep learning methods have demonstrated remarkable performance in this domain, their reliance on large-scale, pixel-level annotated datasets\\textemdash a significant label scarcity challenge\\textemdash severely hinders their widespread deployment in clinical settings. Addressing this limitation, this review focuses on non-fully supervised learning paradigms, systematically investigating the application of semi-supervised, weakly supervised, and unsupervised learning techniques for medical image segmentation. We delve into the theoretical foundations, core advantages, typical application scenarios, and representative algorithmic implementations associated with each paradigm. Furthermore, this paper compiles and critically reviews commonly utilized benchmark datasets within the field. Finally, we discuss future research directions and challenges, offering insights for advancing the field and reducing dependence on extensive annotation.",
+    "comment": ""
+  },
+  {
+    "ID": "Ge2025Tacklingdatascarcity",
+    "author": "Ge, Jia and Yao, Zequan and Wu\\ast , M and Almeida, Jos{\\'e} Humberto S. and Jin, Yan and Sun, Dan",
+    "journal": "Composites Part B: Engineering",
+    "title": "{T}ackling data scarcity in machine learning-based {C}FR{P} drilling performance prediction through a broad learning system with virtual sample generation ({B}LS-{V}SG)",
+    "year": "2025",
+    "abstract": "Machine learning (ML)-based data-driven method has emerged as a powerful tool for predicting the manufacturing performance of carbon fibre reinforced plastic (CFRP), particularly in CFRP machining where physics-based models are computationally expensive. However, the effectiveness of ML model is often constrained by limited datasets, due to the high cost and time required for experimental data acquisition. To address this, this paper presents the first study to apply virtual sample generation (VSG) techniques to enlarge the training dataset and mitigate data scarcity in the prediction of CFRP drilling performance. A novel hybrid ML framework integrating Broad Learning System (BLS) and VSG (BLS-VSG) is proposed, to combine BLS’s capability in small dataset prediction with the enlarged dataset generated by VSG. The model has been employed to predict the drilling thrust force and delamination damage under various drilling conditions (spindle speed, feed rate, point angle). Three different VSG methods (SMOTE, MD-MTD and CVT) and number of virtual samples were evaluated in detail. Results show that VSG can effectively enlarge the training dataset and improve the prediction performance of the ML model. Specifically, VSG reduced the mean square error (MSE) and mean absolute percentage error (MAPE) for thrust force prediction by 39.0\\% and 12.9\\% respectively, compared to the benchmark without VSG. For delamination factor Fda prediction, MSE and MAPE were reduced by 22.6\\% and 16.5\\%, respectively. The proposed BLS-VSG model outperforms other conventional ML models (BPNN, ELM, SVR and RT) for both scenarios (with/without VSG), providing a robust and data-efficient solution for CFRP drilling performance prediction.",
+    "comment": ""
+  },
+  {
+    "ID": "Ge2025DatadrivenCFRP",
+    "author": "Ge, Jia and Zhang, Jiduo and Xu, Moran and M. Wu and Yao, Zequan and Fu, Guoyu and Zhang, Wenchang and Falzon, Brian G. and Catalanotti, Giuseppe and Xu, Jinyang and Jin, Yan and Sun, Dan",
+    "journal": "Thin-Walled Structures",
+    "title": "{D}ata-driven {C}FR{P} machining performance prediction and optimization: {A}dvances, challenges and future prospects",
+    "year": "2025",
+    "abstract": "The global drive towards net-zero has accelerated the adoption of carbon fibre reinforced polymers (CFRP) for lightweight structures in various sectors such as aerospace, automotive, energy and biomedical. Mechanical machining of CFRP is often necessary to meet dimensional or assembly-related requirements. However, significant challenges including surface defects (delamination, burr, surface roughness), rapid tool wear and material transition issues in drilling CFRP/metal stack, underscore the need for effective, automated process prediction / optimization for improved machining performance. Conventional physics-based models often fall short due to their reliance on extensive computational resources and inability to capture CFRP’s complex machining dynamics arising from thermo-mechanical load coupling and process uncertainties. To address these limitations, recent advancements in artificial intelligence (AI) offer promising, data-driven solutions that reduce reliance on domain-specific knowledge while delivering fast, accurate predictions by uncovering patterns within dataset. This provides a promising solution towards intelligent CFRP machining process with improved quality and efficiency. To date, there is a lack of comprehensive, up-to-date review of data-driven methods in CFRP machining process prediction/optimization. This review fills this gap and provides a critical analysis of data-driven methods in four key application settings: (i) machining process characteristics and surface quality/defects prediction; (ii) tool wear prediction; (iii) material transition recognition in CFRP/metal stacks machining; (iv) vision-based surface defects recognition. By presenting a state-of-the-art overview of advances, challenges and future research directions, this review highlights the transformative potential of data-driven methods in advancing intelligent CFRP machining within the manufacturing value chain.",
+    "comment": ""
+  },
+  {
+    "ID": "Yao2023Positiondependentmilling",
+    "author": "Yao, Z and Shen, J and Wu, M and Zhang, D and Luo, M",
+    "journal": "Mechanical Systems and Signal Processing",
+    "title": "{P}osition-dependent milling process monitoring and surface roughness prediction for complex thin-walled blade component",
+    "year": "2023",
+    "abstract": "Freeform surface parts, such as blades, exhibit complex structures and excellent aerodynamic performance, making them widely utilized in aerospace propulsion systems. However, monitoring and ensuring surface quality during the milling process of such components is challenging, leading to high scrap rates and unguaranteed processing efficiency. To address these issues, this paper investigated the milling process monitoring and position-dependent surface roughness prediction for the thin-walled blade with the material of Ti-6Al-4 V. The monitored blade-root acceleration signal was utilized to develop a discrete spatial vibration model based on the machining characteristics of the blade. This involved using Fourier transform and inverse techniques to combine the frequency response functions and cutting force for acceleration calculation, which was then compared to measured values to validate the model’s monitorability. Aiming at the surface roughness prediction, a predictive method for the entire machined surface was proposed, consisting of signal pre-processing, feature extraction and selection, and construction of extreme learning machine (ELM) model. Time-domain, frequency-domain, and time\\textendash frequency-domain methods were adopted for feature extraction. To enhance the generalization ability and accuracy of the predictive model, the maximal information coefficient was employed for correlation analysis, resulting in the selection of 12 features as input for the ELM-based surface roughness prediction system. Comparison of the measured and predicted surface roughness results revealed that all errors were less than 14\\%, with an average error of only 6.70\\%, demonstrating the validity and reliability of the prediction method. Notably, the proposed monitoring method does not interfere with the milling process and enables prediction of surface roughness at arbitrary positions on the entire surface during variable-parameter processing of freeform surface parts, thereby improving the quality and precision of the machined surface. The potential application of this paper lies in the final inspection of defects in industrial products and reducing the service risk of non-conforming parts.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2023ExperimentalNumericalInvestigations",
+    "author": "Wu, M and Hazak Arshad, M and Kumar Saxena, K and Reynaerts, D and Guo, Z and Liu\\ast , J",
+    "journal": "Journal of Manufacturing Science and Engineering -Transactions of the ASME",
+    "title": "{E}xperimental and {N}umerical {I}nvestigations on {F}abrication of {S}urface {M}icrostructures {U}sing {M}ask {E}lectrolyte {J}et {M}achining and {D}uckbill {N}ozzle",
+    "year": "2023",
+    "abstract": "The consistency in the fabrication of microsurface structures on large workpieces remains a challenge for existing production techniques. Mask electrolyte jet machining (MEJM) is a hybrid mask-based electrochemical machining (ECM) process that combines the flexibility of Jet-ECM to flush the electrochemical by-products and the high throughput processing feature of through-mask electrochemical micromachining (TMEMM). In the present study, a duckbill-shaped nozzle is employed in the MEJM for the batch fabrication of microsurface structures which facilitates more uniform current density distribution over the entire machining area, resulting in better consistency. With a larger slit length, the duckbill nozzle will not only cover more processing area but also facilitates more uniform current density distribution over the entire machining area, resulting in a better consistency for batch fabrication. Thresholds of the ratio of slit length to the machining area were derived from a quantitative analysis, namely the efficient threshold and the performance threshold. The slit length of the duckbill nozzle should be at least twice as large as the machining area to wipe out any observable deviation on current density distribution in the machining area. An efficient and high-performance numerical simulation framework with a virtual gap concept is developed for the mask-based ECM processes to simulate microcavity profiles and associated current density distribution. The concept of a virtual gap is proposed to solve the simulation dilemma of elements being consumed in the mask-based ECM process. Quantitative analyses were carried out to study how the virtual gap influences the electric current density distribution in the interelectrode gap. A virtual gap smaller than 100 nm is recommended. Guidelines on how to ensure a smooth electric field transition across the coarse and fine-meshed zones are presented by conducting a quantitative analysis. As an example, this work has successfully fabricated several cavity arrays with different processing parameters. Both the experimental results and the numerical simulation frameworks are easy-to-implement and easy-to-extend for all the mask-based ECM processes.",
+    "comment": "\\textbackslash textbf中科院2区 (2022年)"
+  },
+  {
+    "ID": "Yao2025Advancementsprocessmonitoring",
+    "author": "Zequan Yao and Jia Ge and Peiyao Cao and M. Wu\\ast  and Jun Qian and Yong Li and Dominiek Reynaerts\\ast ",
+    "journal": "Journal of Materials Processing Technology",
+    "title": "{A}dvancements in process monitoring and quality control for electrical discharge machining: {A} comprehensive review",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Yao2025Predictioncratermorphology",
+    "author": "Yao, Z and Ye, L and Wu, M and Qian, J and Reynaerts, D",
+    "journal": "Journal of Intelligent Manufacturing",
+    "title": "{P}rediction of crater morphology and its application for enhancing dimensional accuracy in micro-{E}DM",
+    "year": "2025",
+    "abstract": "As a non-conventional machining technique, the micro electrical discharge machining (micro-EDM) process primarily involves the removal of material from the workpiece through high-frequency discharges. The machined surface is covered with multiple overlapping craters to form geometric features with specific surface quality and dimensional accuracy. Consequently, there is a significant need to explore the crater morphology induced by the discharge pulses, which contributes to the precise control of component size and shape. This study targets the identification of material removal in relation to pulse-crater matching within micro-EDM. Initially, pertinent parameters of both pulses and craters are characterized and correlated through a single pulse discharge experiment. Subsequently, accompanied by a pulse classification, a continuous pulse discharge experiment is designed to establish a one-to-one correspondence between erosion craters and the discharge pulses associated with normal discharge, effective discharge, and arc phenomena, which all contribute to material removal. The impact of different discharge pulse types on workpiece material removal is further investigated, with explanations based on energy density and the fraction of energy entering the workpiece. Employing machine learning methods, predictive models for crater-related parameters are developed based on the monitored electrical signals. A comparison of the prediction results from different regression models with various inputs confirms the profound nonlinearity and stochastic nature of the EDM process. Ultimately, the artificial neural network model shows to be optimal in predictive performance, yielding relative errors of 7.81\\%, 12.49\\%, and 18.82\\% for crater diameter, depth, and volume, respectively. Notably, the prediction error for cumulative material removal is only 1.64\\%, affirming the soundness of the proposed material removal identification for different discharge pulses. Other material removal volume calculation approaches often hinge on machining parameters or statistical distributions. Contrarily, the distinctive characteristic of this approach lies in its implementation of precise pulse-crater correlations of various discharge types based on in-process data. This method is further applied to the prediction of the total material removal volume in micro-EDM drilling. The results are promising for enhancing geometric dimension control in EDM, particularly regarding machining depth.",
+    "comment": "\\textbackslash textbf中科院2区"
+  },
+  {
+    "ID": "Li2025AnisotropicTensileProperties",
+    "author": "Guotai Li and Peichen Hu and Yuzhan Fan and Wu, M and Mingjun Chen and Tianyu Yu",
+    "journal": "Materials Science and Engineering: A",
+    "title": "{A}nisotropic {T}ensile {P}roperties and {H}igh-{C}ycle {F}atigue {B}ehavior of {T}i6{A}l4{V} Fabricated by {S}ingle and {D}ual {L}aser-{P}owder {B}ed {F}usion",
+    "year": "2025",
+    "abstract": "The development of multi laser-powder bed fusion (PBF) technology has significantly reduced the production time for large engine components. However, the impact of thermal effects and microstructural characteristics in the laser beam overlapping region on the anisotropic mechanical behavior of metallic materials remains unclear. This study investigated the anisotropic tensile properties and high-cycle fatigue behavior of Ti6Al4V produced by both single laser-PBF (SL-PBF) and dual laser-PBF (DL-PBF). As-built DL-PBF samples exhibited high strength (1404 MPa) but low ductility (3.6\\%). After heat treatment, the samples achieved a strength-ductility balance, with an ultimate tensile strength of 1089 MPa, and an elongation of 17.1\\%. The mechanical properties of Ti6Al4V produced by DL-PBF were influenced by the \\alpha  lath thickness, dislocation density and texture. The precipitation of small-angle grain boundaries during DL-PBF process was found to contribute to the strong anisotropy. Due to the influence of internal pore forming, the fatigue strength of the DL-PBF samples was lower than that of the SL-PBF samples. Pores in the dual-laser beam overlapping zone accelerated the fatigue crack propagation, resulting in a venation-like pattern. In contrast, cracks in the SL-PBF samples propagated in a circular pattern around internal pore. A high-speed camera was employed to capture the dual-laser beams dynamics during pore formation. This study provides a comprehensive analysis of the mechanical properties and pore formation mechanisms in the DL-PBF process.",
+    "comment": ""
+  },
+  {
+    "ID": "Zhu2025Abrasiveflowmachining",
+    "author": "Yi Zhu\\ast  and Dengting Li and Chao Zhang and Fangye Lin and Wu, M and Yong Chen",
+    "journal": "Journal of Manufacturing Processes",
+    "title": "{A}brasive flow machining of laser powder bed fusion fabricated mini-channels: {M}odelling and verification",
+    "year": "2025",
+    "abstract": "Abrasive flow machining (AFM) is efficient in polishing large channels while it faces challenges in post-processing mini-channels (diameters from 1 to 2 mm) fabricated by Laser-Powder Bed Fusion (L-PBF) due to an unpredictive material removal in the mini-channels. This paper aims to develop an accurate material removal model for L-PBF mini-channels accounting for an inhomogeneous channel profile. Ti6Al4V channels with a 2 mm diameter were fabricated using L-PBF. The surface topography of the mini-channels\\textquotesingle  inner wall, including circularity and surface roughness, was characterized using a micro-CT to study its evolution during the AFM process. An AFM model accounting for surface features of L-PBF fabricated mini-channels was developed, including transient erosion wear and steady-state abrasive wear. Results indicate that the material removal rate of the top region with high surface roughness is significantly high in the first 46 cycles of AFM, with nearly 79 \\% of the total material removal occurring in this period. During this time, the surface roughness Sa reduces to a saturation value of approximately 2.5 \\mu m. The proposed model predicts surface topography evolution during the AFM process, with an average deviation in material removal of 8 \\mu m (relative deviation 5.29 \\%), after reaching a steady state at 46 cycles. Such a tool provides engineers with a reference for minimal material removal and optimized processing time.\n\nThis paper developed and validated an AFM model for Ti-6Al-4V mini-channels (2 mm in diameter) fabricated using L-PBF by considering the initial profile and uneven surface roughness. The MR procedure during AFM is characterized and discussed. Conclusions can be drawn as follows.\n\\textbullet \nDuring the AFM process, due to erosive wear, the area with relatively high initial surface roughness at the top of the L-PBF mini-channel exhibited a higher material removal rate. Within the first 46 cycles of processing, the roughness of this area decreased rapidly, with 79 \\% of the total material removal occurring during this period. Subsequently, the reduction in roughness of the top area approached a saturation value of approximately 2.5 \\mu m, and the rate of decrease in surface roughness became comparable to that of other areas within the channel.\n\\textbullet \nThe proposed AFM material removal model accurately predicts the evolution of surface topography in various regions of the mini-channel. The deviation of the predicted surface roughness varies across regions but remains below 20 \\% compared to the measured values, demonstrating significantly higher accuracy than the traditional Preston model. Furthermore, the average deviation of material removal predictions after reaching steady state is 8 \\mu m (with a relative deviation of 5.29 \\%), further validating its superiority in depicting material removal behavior and processing outcomes.\n\\textbullet \nBased on the AFM model, surface topography along the channel wall can be estimated during AFM processing. The least MR and AFM processing time can be determined.\n\\textbullet \nThe model inputs include initial surface roughness, and modified parameters, which can be determined experimentally, and some flow parameters can be obtained by simulation.",
+    "comment": ""
+  },
+  {
+    "ID": "Xu2025Hybridhightemperature",
+    "author": "Ruiwen Xu and Yi Zhu and Jianxiong Wu and Pengfei Huang and Wu, M and Wujun Wang and Chao Zhang\\ast  and Huayong Yang",
+    "journal": "Tribology International",
+    "title": "{H}ybrid high-temperature wear mechanisms of additive manufactured {T}i-6{A}l-4{V} alloy",
+    "year": "2025",
+    "abstract": "This study investigates the high-temperature wear of additive-manufactured Ti6Al4V alloy against GH2132. The wear mechanism transitioned from abrasive and adhesive wear to oxidative wear with rising temperatures. The microstructure characteristics reveal the special hybrid high-temperature wear mechanisms: shear deformation-induced wear hardening and dynamic recrystallization-induced wear softening. At lower temperatures, the thinner oxide layer was easily removed and the worn surface in contact underwent work hardening, reducing the negative effects of thermal softening. At higher temperatures, the thicker oxide layer slightly reduced adhesive of the substrate but failed due to cracking and spalling. Combined with intensified thermal softening, recrystallization softening on the worn surface not only eliminated surface hardening but led to a sharp decline in wear resistance.",
+    "comment": ""
+  },
+  {
+    "ID": "Yao2025Intelligentdischargestate",
+    "author": "Yao, Z and Wu\\ast , M and Qian, J and Reynaerts\\ast , D",
+    "journal": "Expert Systems with Applications",
+    "title": "{I}ntelligent discharge state detection in micro-{E}DM process with cost-effective radio frequency ({R}F) radiation: {I}ntegrating machine learning and interpretable {A}I",
+    "year": "2025",
+    "abstract": "Machining state monitoring is an enabling technology that can ensure the smoothness of production efficiency and quality by indirectly understanding various discharge patterns and anomalous events. The predominant method for identifying discharge pulses in micro electrical discharge machining (micro-EDM) relies on electrical sensing near the machining zone, which may interfere with the process. To provide a complementary approach further from the machining zone and independent from machine wiring, this paper proposes a discharge state detection scheme for micro-EDM using cost-effective and non-invasive radio frequency (RF) signals during sparking. A threshold-based method is first employed for preliminary pulse classification, followed by manual correction to ensure data reliability. Based on RF signal characteristics, domain knowledge is incorporated to extract four feature categories as inputs for machine learning (ML) models. Tree-based ensemble learning methods are applied to predict discharge pulses, with XGBoost attaining the highest accuracy. SHapley Additive exPlanations analysis reveals that distribution features of RF signals contribute most to pulse recognition, while statistical features have a smaller impact. Furthermore, ML-based classifications are compared with deep learning models. The designed hybrid architecture combining temporal convolutional networks (TCN) and gated recurrent units, can improve the identification accuracy across all pulse types, with a macro F1-score larger than 94 \\%. Gradient-weighted class activation mapping shows that TCN modules emphasize the significance of information on dielectric breakdown and discharge maintenance stages. Despite potential data loss from reduced sampling rates, key signal characteristics remain intact, with prediction accuracy degradation below 1 \\%. This study demonstrates the feasibility of RF-based discharge state detection, offering an alternative to electrical sensing and providing insights for improving servo control and machining efficiency in future EDM processes.",
+    "comment": ""
+  },
+  {
+    "ID": "Li2025Cavitationintensitymechanism",
+    "author": "Li, Dengting and Zhang, Tianyu and Wu, M and Wang, Wujun and Ding, Hongqin and Lin, Fangye and Zhu, Yi",
+    "journal": "Journal of Manufacturing Science and Engineering -Transactions of the ASME",
+    "title": "{C}avitation intensity mechanism in hydrodynamic cavitation abrasive finishing",
+    "year": "2025",
+    "abstract": "The hydrodynamic cavitation abrasive finishing (HCAF) technology, as an innovative, clean, and efficient polishing method, has been proven effective for processing the internal surfaces of additive manufacturing (AM) flow channels. However, in-depth mechanistic studies on the key factors affecting cavitation intensity in HCAF processing remain limited, even though they play a crucial role in optimizing polishing performance and enhancing process stability. This study aims to apply the HCAF process to the flow channels fabricated by laser powder bed fusion (LPBF). By adjusting the abrasive inlet pressure and throat diameter, the optimal process parameter combination was obtained, resulting in a 90\\% reduction in surface roughness near the inlet. Fluent simulations and high-speed imaging were conducted to further validate its effect on cavitation intensity. Furthermore, the channel diameter was found to have a significant impact on polishing performance. Additionally, predictions of cavitation intensity were used to guide the application of HCAF polishing for channels of different diameters. The results indicate that although the abrasive inlet pressure has a minor effect on the incipient cavitation number, it significantly alters the pressure distribution in the mixed-flow chamber, thereby influencing cavitation dynamics. The high-pressure region accelerates cavitation bubble contraction and collapse, significantly reducing bubble lifespan and weakening both the intensity and persistence of the cavitation effect. This instability makes sustained cavitation enhancement in HCAF difficult, affecting material removal efficiency and jet stability. Therefore, the abrasive inlet pressure plays a crucial role in controlling cavitation behavior and enhancing machining performance.",
+    "comment": ""
+  },
+  {
+    "ID": "Ye2025Interpretabledeeptemporal",
+    "author": "Long Ye\\ast  and Cheng Guo and Wu, M and Jun Qian and Nan Yu and Dominiek Reynaerts",
+    "journal": "Journal of Manufacturing Systems",
+    "title": "{I}nterpretable deep temporal neural networks for in-situ monitoring under varying conditions in micro-electrical discharge machining",
+    "year": "2025",
+    "abstract": "Monitoring is critical enabler of digitalization in modern manufacturing, supporting enhanced process control, quality assurance, and real-time decision-making. By integrating data-driven techniques with the powerful capabilities of deep learning, monitoring systems can efficiently extract valuable insights from complex, high-dimensional time-series data. However, traditional data-driven approaches often lack interpretability, limiting their adoption in industrial applications that demand high reliability and accountability. To address this challenge, this paper proposes an interpretable monitoring framework based on a deep temporal neural network (DTNN). Designed with a modular architecture, the DTNN integrates key components for embedding, temporal feature learning and classification, enabling it to effectively capture complex underlying patterns in temporal process data and overcome the limitations of conventional methods. The DTNN’s capabilities are demonstrated in the context of micro-electrical discharge machining (micro-EDM), a prominent non-traditional machining process known for producing intricate and high-precision components. Through a pulse discrimination task utilizing a large dataset of reliable labels, the DTNN achieves superior classification accuracy under varying processing parameters while providing interpretable insights into discharge phenomena. Furthermore, the DTNN monitoring approach is applied to a deep-hole drilling process in micro-EDM, enabling closed-loop control of discharge status and ensuring long-term process stability. The DTNN’s modular design, interpretability and real-time adaptability underscore its potential for advancing data-driven monitoring systems in digital manufacturing.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2022MultiIonBased",
+    "author": "Wu, M and Guo, Z and Qian, J and Reynaerts\\ast , D",
+    "journal": "Micromachines",
+    "title": "{M}ulti-{I}on-{B}ased {M}odelling and {E}xperimental {I}nvestigations on {C}onsistent and {H}igh-{T}hroughput {G}eneration of a {M}icro {C}avity {A}rray by {M}ask {E}lectrolyte {J}et {M}achining",
+    "year": "2022",
+    "abstract": "The controllability and consistency in the fabrication of micro-textures on large-scale remains a challenge for existing production processes. Mask electrolyte jet machining (MEJM) is an alternative to Jet-ECM for controllable and high-throughput surface microfabrication with more consistency of dimensional tolerances. This hybrid configuration combines the high-throughput of masked-ECM and the adjustable flow-field of jet-ECM. In this work, a duckbill jet nozzle was introduced to make MEJM more capable of batch micro-structuring. A multiphysics model was built to simulate the distribution of electrochemical reaction ions, the current density distribution, and the evolution of the shape of the machined cavity. Experimental investigations are presented showing the influence of the machining voltage and nozzle moving speed on the micro cavity. Several 35\\texttimes 35 micro cavity arrays with a diameter of 11.73\\textendash 24.92 \\mu m and depth of 7.24\\textendash 15.86 \\mu m are generated on 304 stainless steel.",
+    "comment": "cite: 2"
+  },
+  {
+    "ID": "Wu2025DataDrivenModels",
+    "author": "Wu, M and Zequan Yao and Peter Karsmakers and Mathias Verbeke and Benjamin Gorissen and Dominiek Reynaerts\\ast ",
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "title": "{D}ata-driven models with physical interpretability for real-time cavity profile prediction in electrochemical machining processes",
+    "year": "2025",
+    "abstract": "The Electrochemical Machining (ECM) process can be effectively controlled by adjusting the process parameters, including electrolyte composition, current density, etc. However, this control strategy presents challenges associated with modeling the complex relationships between processing parameters and the resulting process outcomes. Data-driven approaches hold promise for real-time cavity profile prediction, while their black-box nature limits the interpretability. To address these issues, this study initiated by developing several Machine Learning (ML) models to predict cavity profiles using process parameters, in-process data, or a combination of both. Subsequently, these models were inspected by explainable artificial intelligence (XAI) methods. Using process parameters for model inspection provides preliminary guidance for achieving desired outcomes, while inspections with in-process data shed light on process dynamics and enable diagnostics by detecting anomalies through atypical model focus. Linear regression (LR), with high interpretability, offers moderate predictive accuracy, whereas neural networks (NN) and convolutional neural networks (CNN) perform better yet require XAI methods to interpret their decision-making mechanisms. Model inspection was conducted on global and local levels. Global inspection via SHapley Additive exPlanations (SHAP) for LR and NN models identified factors affecting cavity size, aligning predictions with ECM knowledge. Local inspection through Gradient-weighted Class Activation Mapping (Grad-CAM) examined CNN predictions, revealing temporal process dynamics and model focus during specific processing stages. The impact of unexpected events identified by the ML models was validated using a physics-based model. A web application was developed to integrate these insights, allowing for real-time cavity prediction and visualization based on process parameters and in-process data.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025SynergisticFrameworkCombining",
+    "author": "Wu, Ming and Yao, Zequan and Ye, Long and Ge, Jia and Zha, Jun and Zhu, Yi",
+    "journal": "",
+    "title": "{A} Synergistic {F}ramework {C}ombining {E}xplainable {A}i and {M}ultiphysical {S}imulation for {U}ncovering {P}rocess-{S}tructure {R}elationships in {M}ask {E}lectrolyte {J}et {M}achining",
+    "year": "2025",
+    "abstract": "A significant challenge in advanced manufacturing is the deep, physically-grounded understanding of complex process-structure relationships, which is essential for robust process optimization and control. This study introduces a novel \"Predict-Explain-Corroborate\" framework designed to address this challenge within the context of Mask Electrolyte Jet Machining (MEJM). The novelty of this work lies not in the individual deployment of predictive modeling, Explainable AI (XAI), or physical simulation, but in their synergistic integration into a structured methodology to uncover and validate complex physical mechanisms. A systematic evaluation of machine learning models identified XGBoost as the optimal predictor for micro-groove geometry (\\textbackslash \\textdollar R\\textbackslash textasciicircum2 \\textbackslash textgreater 0.94\\textbackslash \\textdollar ). The subsequent XAI analysis, leveraging multiple techniques for robust interpretation, provided transparent, physically-grounded insights into the process, identifying the dominant role of applied voltage and quantifying the significant impacts of edge effects and hydrodynamic influences. These data-driven insights were rigorously corroborated by multiphysical simulations. The practical impact of this framework is a clear pathway from black-box prediction to actionable, physics-based process optimization, with direct implications for improving manufacturing quality and consistency. This work establishes a structured, generalizable, best-practice template applicable to a wide range of complex manufacturing processes where the linkage between process parameters and outcomes is critical.",
+    "comment": ""
+  },
+  {
+    "ID": "Liu2020ElectrochemicalDischargeGrinding",
+    "author": "Liu, J and Huang, Q and Wu, M and Zou, Z and Lin, Z and Guo, Z and He\\ast , J and Chen\\ast , X",
+    "journal": "Science And Engineering Of Composite Materials",
+    "title": "{E}lectrochemical {D}ischarge {G}rinding of {M}etal {M}atrix {C}omposites {U}sing {S}haped {A}brasive {T}ools {F}ormed by {S}intered {B}ronze/diamond",
+    "year": "2020",
+    "abstract": "Electrochemical discharge machining (ECDM) is a well-known process for machining of particulate reinforced metal matrix composites (MMCs). However, ECDM process suffers several drawbacks such as the lower material removal rate (MRR), high risks of tool wear rate (TWR) and relatively poor surface quality, etc. This study proposes a kind of electrochemical discharge grinding machining (ECDGM) method which employs a special shaped tool electrode. During the process, not only the can the hybrid action of electrochemical dissolution, spark erosion, and abrasive grinding improve the performance of machining MMCs, but also the special shaped of the tool electrode can be used to discharge the machined debris. And thus a higher machining efficiency and lower TWR can be obtained. The performance of developed process was conducted on machining of SiC particulate reinforced aluminum workpiece. The role of peak curre+nt, pulse duration, duty cycle, rotary speed and abrasive grit size has been investigated on MMR and TWR using the nonabrasive round electrode, abrasive round electrode, and abrasive shaped electrode respectively. The experimental results showed that using the shaped abrasive electrode for machining MMCs can achieve a higher MRR and lower TWR, as compared to the non-abrasive round electrode, abrasive round electrode. Besides, the orthogonal method was employed to analyze the relative importance of the machining parameters on MRR and TWR, it has been observed that MRR is affected by the processing parameters following the order of rotary speed \\&gt; peak current \\&gt; duty cycle \\&gt; pulse duration, and TWR is following the order of peak current \\&gt; duty cycle \\&gt; pulse duration \\&gt; rotary speed.",
+    "comment": "cite: 7"
+  },
+  {
+    "ID": "Shi2025DesignManufactureFlexible",
+    "author": "Shi, Yao and He, Yu and Zha\\ast , Jun and Chen, Bohao and Shi, Chaoyu and M. Wu\\ast ,",
+    "journal": "Journal of Manufacturing and Materials Processing",
+    "title": "{D}esign and {M}anufacture of a {F}lexible {A}daptive {F}ixture for {P}recision {G}rinding of {T}hin-{W}alled {B}earing {R}ings",
+    "year": "2025",
+    "abstract": "Addressing the issues of easy deformation and difficult-to-control machining accuracy of thin-walled bearing rings during precision grinding due to clamping forces, existing research mainly employs methods such as elastic clamping, hydraulic control, pneumatic control, and vacuum adsorption to tackle the clamping problem. However, these methods still suffer from problems such as uneven clamping force, insufficient adaptability, and limited machining accuracy. In this paper, a novel fixture suitable for precision grinding of thin-walled bearing rings is designed. By analyzing the working principle of the fixture and considering the processing characteristics of thin-walled bearing rings, the fixture structure is designed and optimized to enhance its clamping stability and machining accuracy. Modal analysis and stress-displacement analysis are conducted to verify the stability and performance of the new fixture during the machining process. The research results show that the fixture can effectively reduce the deformation of thin-walled bearing rings, improve machining quality and efficiency, and provide a feasible solution for high-precision grinding of thin-walled bearing rings.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025ZTestSingle1",
+    "author": "Wu, M.",
+    "journal": "",
+    "title": "Z{T}est{S}ingle1",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025ZTestSingle2",
+    "author": "Wu, M.",
+    "journal": "",
+    "title": "Z{T}est{S}ingle2",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025ZTestSingle5",
+    "author": "Wu, M.",
+    "journal": "",
+    "title": "Z{T}est{S}ingle5",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025ZTestSingle3",
+    "author": "Wu, M.",
+    "journal": "",
+    "title": "Z{T}est{S}ingle3",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025ZTestSingle4",
+    "author": "Wu, M.",
+    "journal": "",
+    "title": "Z{T}est{S}ingle4",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Yao2026Noninvasiveradio",
+    "author": "Yao, Zequan and Wu\\ast , M and Qian, Jun and Reynaerts\\ast , Dominiek",
+    "journal": "Mechanical Systems and Signal Processing",
+    "title": "{N}on-invasive radio frequency ({R}F)-driven in-process monitoring and control for enhancing micro-electrical discharge machining stability and efficiency",
+    "year": "2026",
+    "abstract": "The extremely narrow inter-electrode gap and complex gap conditions in micro-electrical discharge machining (micro-EDM) cause highly stochastic and dynamic nature of discharge behaviour. Process monitoring is essential for enhancing machining stability and efficiency by detecting discharge patterns and anomalies, particularly when combined with control strategies. Traditional EDM monitoring approaches predominantly rely on electrical sensors to discriminate pulses and infer machining states, which are subsequently used as control variables through statistical metrics. However, they suffer from high instrumentation cost, process interference, and inherent inability to capture transient dynamics. To address these challenges, this paper proposes a radio frequency (RF)-driven in-process monitoring and control scheme for micro-EDM at pulse-train level due to the non-invasive nature of RF radiation. Three machining states are defined from the integral value of voltage signals within a time window, simplifying the complex state labelling task. Given the high-frequency yet information-sparse nature of these RF signals, a low-dimensional feature dataset is constructed for machining state identification. A hybrid hierarchical deep learning model is introduced and evaluated, achieving over 90\\% classification accuracy under various working conditions, with average and weighted accuracies beyond 94\\% and 96\\%, respectively, highlighting its reliability and robustness. Based on the identified machining states, an adaptive servo control strategy is developed and applied to deep-hole drilling scenario, significantly improving the stability and efficiency. This study integrates deep learning and in-process control to establish a cost-effective and high-performance monitoring system for micro-EDM, offering a promising pathway toward intelligent micromachining. Future work will focus on the systematic engineering integration, exploring deep synergy with CNC platforms and edge computing to accelerate the smart manufacturing.",
+    "comment": ""
+  },
+  {
+    "ID": "Shao2026Compositefinitetime",
+    "author": "Shao, Zhongbo and Wu\\ast , M",
+    "journal": "Processes",
+    "title": "{C}omposite finite-time {A}DR{C} for flexible-joint manipulators with frequency-domain separation",
+    "year": "2026",
+    "abstract": "Flexible-joint manipulators suffer from severe performance degradation due to the coupling of joint elasticity and varying loads. To address this, we propose a composite finite-time active disturbance rejection control (CFT-ADRC) strategy utilizing a frequency-domain separation architecture. A recursive least squares (RLS) algorithm identifies slow-varying load parameters, while an extended state observer (ESO) compensates for high-frequency unmodeled dynamics and external disturbances, effectively preventing loop interference. A finite-time control law guarantees rapid tracking error convergence. Comprehensive simulations confirm that this approach significantly outperforms standard ADRC and neural network-based methods (RBFNN-ASMC). Under 50\\% load variations, it achieves an RMS tracking error of 2\\texttimes 10−3 rad and maintains robust stability during 200\\% instantaneous load mutations. The strategy presents a strong theoretical framework for future hardware implementation while maintaining an optimal balance of precision, robustness, and computational simplicity.",
+    "comment": ""
+  },
+  {
+    "ID": "Shao2026AeroThermodynamicPhysics",
+    "author": "Shao\\# , Zhongbo and Zhang\\#, Pengcheng and Rui, Bin and Wu\\ast , M",
+    "journal": "Energies",
+    "title": "{A}n aero-thermodynamic physics-informed neural network for small-sample performance prediction of variable-speed centrifugal {C}hillers",
+    "year": "2026",
+    "abstract": "Accurate performance prediction of variable-speed centrifugal chillers is important for building energy optimization and the development of digital twins in HVAC systems. In practice, obtaining extensive operational data is costly, creating a prevalent \\textquotedblleft small-sample\\textquotedblright  dilemma under which conventional data-driven models are prone to overfitting with poor extrapolation capability. While recent Physics-Informed Neural Networks (PINNs) incorporate system-level thermodynamic constraints (e.g., COP definitions), they typically treat the centrifugal compressor as a thermodynamic black box, neglecting its inherent fluid dynamic characteristics; consequently, extrapolated predictions may be physically inconsistent or fall into unsafe operating regions such as compressor surge. To address this gap, this paper proposes an Aero-thermodynamic Physics-Informed Neural Network (Aero-PINN) that introduces three mechanisms into the PINN loss function: (1) dimensionless aerodynamic similarity mapping governed by affinity laws, (2) a surge boundary constraint that prevents non-physical extrapolations, and (3) an aerodynamic\\textendash electrical energy coupling validation. Experimental validation on 420 real-world variable-speed test records shows that the Aero-PINN achieves a COP RMSE of 0.04 and a COP MAPE of 0.3\\%, outperforming standard MLP and polynomial baselines. Moreover, 100\\% of the extrapolated operating points satisfy all fluid dynamic safety and energy efficiency constraints. This framework provides a reliable, physics-constrained small-sample learning approach, facilitating factory calibration and reduced-test digital modeling for chiller plants.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2024SurfaceInspectionHighly",
+    "author": "Wu, M and Qian, J and Verbeke, M and Karsmakers, P and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{S}urface {I}nspection of {H}ighly {R}eflective {R}otary {P}roducts {U}sing {F}ringe {P}rojection with {H}igh {D}ynamic {R}ange",
+    "year": "2024",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2024EnhancedPulseClassification",
+    "author": "Wu, M and Yao, Z and Qian, J and Verbeke, M and Karsmakers, P and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{E}nhanced {P}ulse {C}lassification in {E}lectric {D}ischarge {M}achining through {S}emi-{S}upervised {L}earning with {D}ynamic {T}ime {W}arping",
+    "year": "2024",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Yao2023Materialremovalidentification",
+    "author": "Yao, Z and Ye, L and Saxena, KK and Wu, M and Qian, J and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{M}aterial removal identification of different pulse types in micro electrical discharge machining",
+    "year": "2023",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2023unsupervisedlearningmethod",
+    "author": "Wu, M and Qian, J and Ye, L and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{A}n unsupervised learning method for pulse classification in electrical discharge machining",
+    "year": "2023",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2023Representationmachiningstate",
+    "author": "Wu, M and Kushwaha, S and Qian, J and Reynaerts, D and Verbeke, M and Karsmakers\\ast , P",
+    "journal": "",
+    "title": "{R}epresentation of machining state and optimization of rough milling efficiency using machine learning",
+    "year": "2023",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2023machinelearningmodel",
+    "author": "Wu, M and Qian, J and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{A} machine learning model for profile precition in {E}CM",
+    "year": "2023",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Arshad2022AnalysispassivationECM",
+    "author": "Arshad, MH and Wu, M and Saxena, KK and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{A}nalysis of passivation during {E}CM and hybrid laser-{E}CM through automated current pulse analysis",
+    "year": "2022",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Ye2022PredictionmillingμEDM",
+    "author": "Ye, L and Wu, M and Saxena, KK and Qian, J and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{P}rediction of milling-\\mu {E}DM tool wear: the benefit of process monitoring and machine learning model",
+    "year": "2022",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2021Datadrivenframework",
+    "author": "Wu, M and Arshad, MH and Saxena, KK and Qian, J and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{D}ata-driven framework of {E}CM: {A} machine learning model for profile prediction",
+    "year": "2021",
+    "abstract": "Electrochemical machining (ECM) with pulsed power supply can decrease the stray current corrosion, and thus, provides better surface quality as well as machining accuracy. However, the non-linear nature of electrochemical reactions makes it challenging to predict the final profile of the machined feature through\nthe typical multi-physics based finite element (FEM) model. It is difficult to simulate the ECM process across wide range of processing parameters in the state-of-the-art commercial FE softwares due to several issues related to timestepping, convergence, excessive mesh distortion during moving mesh, model insensitivity to small change in parameters etc. In this article, we present a\nframework of data-driven ECM model, which is based on the supervised machine learning approach, for predicting the final profile of the machined feature in ECM process. After training this data-driven ECM model with different levels of pulsed peak voltage and electrolyte flow rate, predictions and experimental validations are conducted even outside the parameter window to demonstrate the performance of generalization and applicability to a wide range of machining parameters of our data-driven ECM model.",
+    "comment": ""
+  },
+  {
+    "ID": "Saxena2020Multiphysicssimulationenabled",
+    "author": "Saxena, KK and Wu, M and Chen, X and Qian, J and Reynaerts\\ast , D",
+    "journal": "",
+    "title": "{M}ultiphysics simulation enabled ‘virtual sensing’ approach for monitoring the parameters in the interelectrode gap during tool-based hybrid laser-electrochemical micromachining",
+    "year": "2020",
+    "abstract": "This paper presents a tool-based hybrid laser-electrochemical micromachining process that involves the simultaneous and coaxial application of electrochemical and laser process energies in the same machining zone. In this process, the tool serves both as a multimode waveguide for the laser as well as an ECM tool with sufficient conductive area. The process mechanism involves several multiphysics phenomena occurring in the interelectrode gap (IEG). The IEG is of the order of 20-50 \\mu m. The technological limitations of putting sensors in this small IEG limits monitoring of physical quantities (such as temperature, hydrogen and oxygen gas volume fraction, electrolyte conductivity, current density on the workpiece surface) during the process. This work proposes a ‘virtual sensing’ approach showing that these physical quantities can be effectively estimated by multiphysics simulations. The evolution of the aforementioned parameters in the IEG is monitored and supported by funda-mental explanations. This research is a first step towards making ECM-based processes deterministic and minimizing experimental efforts by development of process digital twins and virtual process-monitoring.",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2017Investigationpulseelectrochemical",
+    "author": "Wu, M and Guo\\ast , Z and Chen, X and Zhang, C",
+    "journal": "",
+    "title": "{I}nvestigation on pulse electrochemical machining of aluminum alloy 7075",
+    "year": "2017",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2014Investigationpulseelectrochemical",
+    "author": "Wu, M and Guo\\ast , Z and Tang, Y and Wang, G and Sun, T and Jiang, S",
+    "journal": "",
+    "title": "{I}nvestigation on pulse electrochemical machining by coated electrode",
+    "year": "2014",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2014Developmentsapplicationsjet",
+    "author": "Wu, M and Guo\\ast , Z and Sun, T",
+    "journal": "",
+    "title": "{D}evelopments and applications of jet electrochemical machining",
+    "year": "2014",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025DatadrivenApproche",
+    "author": "Wu, M and Shukla, S and Vrancken, B and Verbeke, M and Karsmakers\\ast , P",
+    "journal": "",
+    "title": "{D}ata-driven {A}pproche to {I}dentify {D}isortion of {A}coustic {S}ignals by {P}rocess {C}ontextural {I}nformation in {L}PB{F}",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025DeepLearningbaseda",
+    "author": "Wu, M and Zhang, J and Abts, R and Ferraris, E and Verbeke\\ast , M",
+    "journal": "",
+    "title": "{D}eep {L}earning-based {C}haracterization of {F}used {F}ilament {F}abrication from{T}emporal {T}hermal {D}ata",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025Linking3Dmodels",
+    "author": "Wu, M and Kushwaha, S and Jun, Q and Reynaerts, D and Verbeke\\ast , M",
+    "journal": "",
+    "title": "{L}inking 3{D} models and {M}anufacturing {O}perations through {P}oint-based {L}abelling for {C}AM {K}nowledge {D}igitalization",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025DeepLearningbased",
+    "author": "Wu, M and Zhang, J and Abts, R and Ferraris, E and Verbeke\\ast , M",
+    "journal": "Procedia CIRP",
+    "title": "{D}eep learning-based characterization of fused filament fabrication from temporal thermal data",
+    "year": "2025",
+    "abstract": "The stability of fused filament fabrication (FFF), crucial for achieving high production efficiency, is considerably affected by the manner in which temperature distributes and propagates throughout the printed region. The application of infrared (IR) thermal cameras for the collection of spatiotemporal thermal data during strand deposition is investigated in this research. A classification framework utilizing the X3D deep learning model was developed to categorize process states as Normal, Transition, or Failure. \nThe X3D model demonstrated high reliability in distinguishing Normal from Abnormal states with an accuracy of approximately 95\\% and a weighted F1-score of 0.95, although performance in categorizing Transition from Failure states was constrained to around 65\\%. \nThe effectiveness of the model in discerning stable and unstable process conditions has been affirmed through the findings, resulting in the provision of a practical tool for real-time quality assurance in FFF. \nIn addition, the X3D model showcased exceptional computational efficiency, processing a 1-second IR video clip (32\\textbackslash ,Hz) in 6 milliseconds while utilizing only 0.67 GB of GPU memory, making this setup suitable for in-process monitoring and control.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Yao2025Toolwearevaluation",
+    "author": "Zequan Yao and Wu, M and Jun Qian and Dominiek Reynaerts\\ast ",
+    "journal": "Procedia CIRP",
+    "title": "{T}ool wear evaluation and its evolution in micro-{E}DM using radio frequency ({R}F) signals",
+    "year": "2025",
+    "abstract": "",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Wu2022ProfilepredictionECM",
+    "author": "Wu, M and Arshad, MH and Saxena, KK and Qian, J and Reynaerts\\ast , D",
+    "journal": "Procedia CIRP",
+    "title": "{P}rofile prediction in {E}CM using machine learning",
+    "year": "2022",
+    "abstract": "ECM (Electrochemical Machining) with a micro-second pulsed power supply can decrease stray current corrosion and thus provide better surface quality on top of higher machining accuracy. However, the use of a pulsed power supply makes it challenging to predict the final workpiece profile based on the typical multi-physical-based FEM(Finite Element method) models. First, it is impractical to introduce high-frequency pulsed electric current (ns - \\mathrm{\\mu}s) into a multi-physical model because of time step limitations. Second, there arise problems of compatibility of the time-steps within each physical module, as e.g. hydrogen bubbles have a lifetime of ms, the power supply would use \\mu s, and thermal phenomena take ms. Multi-scale models have been proposed, but the prediction accuracies are rather low and computation times are very long. In this article, based on machine learning approaches, we present 3 data-driven ECM models for predicting the final workpiece profile when using pulsed-ECM: the linear regression (LR) model, the neural network (NN) model, and the convolutional neural network (CNN) model. After training this data-driven ECM model with different levels of pulse voltage and electrolyte flow conditions, predictions and experimental validation are conducted. Experiments with parameters outside the training parameter window are also carried out to show the performance and general applicability of our data-driven ECM model. The machine learning model shows a good generalizing ability, the CNN model presents a prediction MSE of 7.60. The present results also demonstrate that more accurate predictions will be achieved when using in-processing data. Hence, the prediction accuracy of data-driven models can be further improved on top of advancing in-processing monitoring systems.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Arshad2022ExperimentalInvestigationsMachining",
+    "author": "Arshad, MH and Wu, M and Saxena, KK and Qian, J and Huang, S and Reynaerts\\ast , D",
+    "journal": "Procedia CIRP",
+    "title": "{E}xperimental {I}nvestigations into {M}achining {C}haracteristics of {N}iobium {C}arbide {C}ermet with \\mathrm{\\mu}{E}CM / hybrid laser-\\mathrm{\\mu}{E}CM",
+    "year": "2022",
+    "abstract": "Niobium carbide (NbC) is a high hardness 1960 (HV30) cermet material which finds applications in the moulds for ceramic injection moulding as well as inserts for cutting tools. This material possesses excellent combination of hardness, toughness and thermal shock resistance. The use of nickel (Ni) binder makes it a promising material for such applications, especially in view of rising cobalt (Co) metal prices used as binder in conventional tungsten carbide (WC-Co) cermet. The tool-wear and tool-failure issues make it difficult for mechanical machining technologies to process this material, especially in the micromachining regime (< 2 mm). To address machinability challenges, electrically conductive Nb cermet has been developed inhouse with Ni as the binder material. This makes it a suitable workpiece candidate for electrochemical machining (ECM) and electrical discharge machining (EDM) processes.\nTherefore, experimental investigations are presented in this work to evaluate the machining characteristics of NbC cermet with micro-ECM process. Channels have been used as test-features for evaluating machinability. Furthermore, two different grades of NbC cermets have been machined to identify the effect of WC addition on the dissolution characteristics and possible passivation during ECM. A micro-second pulsed voltage source has been utilized for controlled and localized material removal. To further enhance removal mechanisms in terms of processing speed and weakening of passivating layer, the micro-ECM process has been assisted with a nano-second pulsed laser on an in-house developed hybrid machine-tool. The aim is to uniformly dissolve the NbC matrix and Ni binder with ECM process for a high integrity machined surface. The dissolution and passivation characteristics have been further analysed through a combination of current pulse acquisition and channel profile characterisation. Linear sweep voltammetry and channel machining revealed that the addition of WC has a significant impact on the stability of passive layer. Laser assistance could enhance the material removal for both the NbC grades and promote uniform dissolution, with the effect being more pronounced in the NbC grade without WC (41 \\% increase in average pulse peak current) due to the weaker passive film. The material dissolution was more localized in LECM of NbC grade with WC due to the strong passivation along the channel walls.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Saxena2022‘virtualsensing’framework",
+    "author": "Saxena, KK and Arshad, MH and Wu, M and Qian, J and Reynaerts\\ast , D",
+    "journal": "Procedia CIRP",
+    "title": "{A} ‘virtual sensing’ framework for \\mathrm{\\mu}{E}CM/hybrid laser- \\mathrm{\\mu}{E}CM for monitoring interelectrode gap conditions",
+    "year": "2022",
+    "abstract": "Micro-ECM (\\mathrm{\\mu}ECM) has capability to process wide class of conductive materials ranging from metals, cermets to bulk metallic glasses and shape memory alloys. The process efficiency and speed is further enhanced by hybridization of micro-ECM process with laser which can act as a localized heat source or a cutting energy source depending on the fluence on the workpiece surface. The hybridization of micro-ECM with laser facilitates machining of materials/alloys with conductivity variations and promotes their uniform dissolution. The process mechanism involves several multiphysics phenomena occurring in the interelectrode gap (IEG) which is of the order of 20-50 \\mathrm{\\mu}m. The technological limitations of putting sensors in this small IEG limits the monitoring of physical quantities (such as temperature, hydrogen and oxygen gas volume fraction, electrolyte conductivity, current density on workpiece surface) during the process. However, these physical quantities can be effectively estimated by multiphysics simulations.\nAt first, the experimental experience with different sensors (temperature sensor, current sensor, high speed imaging and particle image velocimetry (PIV)) is presented for \\mathrm{\\mu}ECM/hybrid laser-\\mathrm{\\mu}ECM process and their limitations are discussed. Subsequently, this work proposes a ‘virtual sensing’ approach enabled by multiphysics simulations. A detailed multiphysics model is developed in Comsol\\textregistered  software which models several phenomena occurring in \\mathrm{\\mu}ECM/hybrid laser-\\mathrm{\\mu}ECM process such as temperature-dependent electrolyte properties, hydrogen and oxygen gas generation, heat generation due to joule heating and laser heating, laminar fluid flow and electric currents. The properties are evaluated at 5 different (virtual sensor) locations inside the IEG, more specifically on the workpiece surface, tool surface, in the center of IEG, just at the exit of IEG and at a specified location. These virtual sensors are implemented in the Comsol\\textregistered  software by employing a dynamic point probe which probes the model-solution at a defined point in a moving geometry. The evolution of the aforementioned parameters in the IEG is monitored and supported by fundamental explanations as well as observational experiments. This research is a first step towards facilitating predictive sensing of ECM and allied multiphysics processes thereby supporting process design and minimizing experimental efforts by virtual process monitoring.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Wu2021FabricationSurfaceMicro",
+    "author": "Wu, M and Guo, Z and Qian, J and Reynaerts\\ast , D",
+    "journal": "Procedia CIRP",
+    "title": "{F}abrication of {S}urface {M}icro {L}etters by {E}lectrolyte {J}et {M}ask {M}achining",
+    "year": "2020",
+    "abstract": "This paper presents an experimental investigation employing lithography in Jet-ECM, namely mask electrolyte jet machining (MEJM). MEJM is a non-contact machining process which takes action to avoid manufacturing and assembling of tools (jet nozzles) in micro scale, and combines lithography with high resolution and Jet-ECM with great flexibility. The presented work investigates the effect of applied voltage and nozzle travel speed in a morphological study to test the feasibility of this hybrid process and to explore a method for complex manufacturing of surfaces features. As a case study, micro letters are produced. The process is characterized in terms of geometrical size, similarity ratio, and cumulative shape deviation. To evaluate the shaping accuracy, descriptive statistical analysis and box plot methods are employed. The results suggest MEJM could be a promising technology for batch manufacturing of micro surface structures.",
+    "comment": "cite: 2"
+  },
+  {
+    "ID": "Wu2018Modelingsimulationmaterial",
+    "author": "Wu, M and Guo\\ast , Z and He, J and Chen, X",
+    "journal": "Procedia CIRP",
+    "title": "{M}odeling and simulation of the material removal process in electrolyte jet machining of mass transfer in convection and electric migration",
+    "year": "2018",
+    "abstract": "Electrochemical jet machining (Jet-ECM) is a non-contact machining process which employed jetted column electrolyte as tool to impinge on the workpiece surface. Throughout the developments of this technique, the research on removal mechanism about mass transfer in Jet-ECM is of few interests. This paper presents a multi-physical approach for modeling the material removal process by coupling electrochemical reactions, fluid dynamics and mass transfer as a consequence of diffusion, convection and migration of ions in electrolyte and electrolyte-electrode interface. The electrolyte flow field is calculated for incompressible flow by Navier-Stokes equations. The distribution of ions is found to be a significant factor to current density distribution and geometry change. The consideration of mass transfer is closer to reality.",
+    "comment": "cite: 8"
+  },
+  {
+    "ID": "Wu2025ClassificationFusedFilament",
+    "author": "Wu, M and Zhang, J and Abts, R and Ferraris, E and Verbeke\\ast , M",
+    "journal": "",
+    "title": "{C}lassification of {F}used {F}ilament {F}abrication {S}tability {F}rom {T}emporal {I}nfrared {T}hermal {D}ata {U}sing {X}3D",
+    "year": "2025",
+    "abstract": "",
+    "comment": ""
+  },
+  {
+    "ID": "Abts20241022Investigationthermalanalysis",
+    "author": "Abts, Robrecht and Zhang, Jie and Wu, M and Verbeke, Mathias and Ferraris\\ast , Eleonora",
+    "journal": "",
+    "title": "{I}nvestigation for thermal analysis in {C}OM{S}OL for fused filament fabrication",
+    "year": "2024",
+    "abstract": "Proceedings of the COMSOL Conference 2024 Florence",
+    "comment": ""
+  },
+  {
+    "ID": "Wu2025DataDrivenApproach",
+    "author": "Wu, M and Shivam Shukla and Bey Vrancken and Mathias Verbeke and Peter Karsmakers\\ast ",
+    "journal": "Procedia CIRP",
+    "title": "{D}ata-driven approach to identify acoustic emission source motion and positioning effects in laser powder bed fusion with frequency analysis",
+    "year": "2025",
+    "abstract": "Acoustic signal analysis is a common technique for in-process monitoring of laser powder bed fusion (LPBF) to detect defects. However, the propagation of sound waves from the melting pool to sensors can introduce variability in the perceived acoustic signal due to the relative positioning between sensors and the melting pool. This study investigates this phenomenon using a data-driven approach. Sensors, both structural and airborne, not only capture process dynamics but also contextual factors in manufacturing, such as laser movement patterns, baseplate thickness, and printing positions. The frequency data derived from Fourier transforms of the acoustic signals per printing vector were employed as inputs for a 1D-Convolutional Neural Network (CNN) model that can classify these contextual factors. By leveraging Gradient-weighted Class Activation Mapping (Grad-CAM), frequencies crucial for printing positions and acoustic emission source dynamics were identified. The insights obtained from this research aid in developing robust acoustic monitoring systems for LPBF.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Wu2025ThresholdFreeLabel",
+    "author": "Wu, M and Zequan Yao and Robrecht Abts and Peter Karsmakers and Mathias Verbeke and Dominiek Reynaerts\\ast ",
+    "journal": "Procedia CIRP",
+    "title": "{A} threshold-free and label-free pipeline for adaptive pulse classification in electrical discharge machining",
+    "year": "2025",
+    "abstract": "The surface quality and process accuracy of Electrical Discharge Machining (EDM) are critical performance metrics, which rely on accurate estimations of tool wear rate (TWR) and material removal rate (MRR). These estimations, in turn, necessitate effective classification of electrical discharge pulses. However, the hybrid nature of modern EDM power supplies\\textemdash comprising resistor-capacitor (RC), inductor-capacitor (LC), and transistor modules\\textemdash renders traditional threshold-based pulse classification methods highly machine-specific, limiting their applicability. Moreover, the manual labeling of pulses is both time-consuming and resource-intensive.\nThis study proposes a threshold-free and label-free data-driven pipeline for pulse classification in EDM. Dynamic Time Warping (DTW) is utilized to estimate the similarity among pulses, independent of their duration, peak voltage, and predefined thresholds for time or voltage. Based on the constructed similarity matrix, an unsupervised learning model is developed to autonomously cluster pulses. This framework provides an adaptive method for pulse classification, eliminating the need for predefined criteria or extensive labeling, thereby enhancing the generalizability and efficiency of EDM process monitoring and control.",
+    "comment": "\\textbackslash textbfEI"
+  },
+  {
+    "ID": "Wu2025GeometricalFeatureClassification",
+    "author": "Wu, M and Zequan Yao and Mathias Verbeke and Peter Karsmakers and Dominiek Reynearts\\ast ",
+    "journal": "Procedia CIRP",
+    "title": "{G}eometrical feature classification in electrical discharge machining using in-process monitoring and machine learning",
+    "year": "2025",
+    "abstract": "Maintaining process stability in electrical discharge machining (EDM) during the fabrication of geometrically complex components remains challenging due to angular dependencies that modulate interelectrode gap conditions and discharge dynamics. This study demonstrates that the use of in-process discharge pulse analysis enables geometric feature classification by decoding angular geometry-mediated debris evacuation dynamics. Experimental investigations across two-dimensional connection angles (0\\textdegree \\textendash 180\\textdegree ) revealed systematic variations in pulse-type distributions: open circuits predominated at 0\\textdegree  (82.47\\%) under reciprocating motion-induced gap instability, while short-circuit incidence peaked at 90\\textdegree  (4.68\\%) due to dielectric flow stagnation. Acute angles (60\\textdegree ) exhibited elevated normal discharge frequencies (18.01\\%) linked to debris reattachment cycles, whereas obtuse angles (180\\textdegree ) demonstrated enhanced process efficiency through stabilized flushing regimes.\nThese trends are attributed to angular geometry directly governing debris evacuation pathways, plasma channel stability, and gap state transitions. To isolate these effects, machine learning models were developed to capture the underlying process dynamics. ResNet15 achieved superior classification accuracy (95\\%, 10-fold cross-validation repeated 10 times) by hierarchically modeling multi-temporal discharge correlations, outperforming conventional convolutional neural networks (constrained by spatial invariance limitations) and long short-term memory networks (ineffective for abrupt state-driven transitions).\nThe results establish that geometric features impose deterministic signatures on discharge pulse patterns, which can be decoded through temporal feature aggregation in machine learning architectures. This capability enables the disentanglement of geometry-dependent effects from stochastic process variability. By focusing on essential dynamics tied to geometric constraints rather than machine-specific conditions, the methodology supports extrapolation to diverse operational parameters. The findings advance real-time monitoring frameworks, providing a pathway for adaptive control systems in precision EDM manufacturing, where robust geometric feature recognition forms the basis for stabilizing complex component fabrication.",
+    "comment": "\\textbackslash textbfEI"
+  }
+]

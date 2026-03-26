@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+% --- Project Citation Macro ---
+
+% \usepackage[backend=biber, style=ieee, maxbibnames=99, url=false, eprint=false, date=year]{biblatex}
+\usepackage{biblatex}
+% --- Dummy Bibliography Data (for testing) ---
+\addbibresource{test.bib}
+
+\begin{document}
+
+I have several publications in this field, like \cite{wang2022}
+
+
+An enumerated list is presented below:
+\begin{enumerate}
+    \item This is the first item. Its own number is \theenumi.
+    \item This is the second item. \label{item:two}
+    \item This is the third item.
+\end{enumerate}
+
+A reference to the second item is made here: item~\ref{item:two}.
+
+% \bibliographystyle{elsarticle-num}
+% \bibliography{jobname.bib}
+\printbibliography
+\end{document}
+

@@ -1,0 +1,45 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+% \usepackage[backend=biber, style=ieee, maxbibnames=99]{biblatex}
+\usepackage[backend=biber, sorting=ydnt, style=ieee, maxbibnames=999,maxcitenames=999,url=true,eprint=false,date=year]{biblatex}
+% \addbibresource[label=paper]{MyPub_modified.bib} % Your .bib file
+\addbibresource[label=paper]{MyPaper_modified.bib} % Your .bib file
+\addbibresource[label=conference]{MyConference_modified.bib} % Your .bib file
+\addbibresource[label=patent]{MyPatent_modified.bib} % Modified MyPatent.bib
+\usepackage[normalem]{ulem}
+% \newcommand\hl{\bgroup\markoverwith
+%     {\textcolor{yellow}{\rule[-.5ex]{.1pt}{2.5ex}}}\ULon}
+
+\newcommand{\note}[1]{%
+    \colorbox{yellow!30}{\textcolor{OliveGreen}{#1}}%
+}
+\newcommand{\cnote}[1]{{#1}}
+    
+\usepackage{svg}
+\usepackage[off]{svg-extract}
+\svgsetup{inkscapeversion=1,inkscapepath=./figures/, inkscapedpi=300, inkscapearea=page, inkscapelatex=true, extractformat={pdf,eps},clean=true}
+\begin{document}
+\nocite{*} % Include all references from the .bib file
+% \pagenumbering{gobble} % suppress displaying page number
+\section{Publications}
+\subsection{Journal Paper}
+\begin{refsection}[paper]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+\subsection{Poster/Conference}
+\begin{refsection}[conference]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+\vspace{5mm}
+\section{Patents}
+\begin{refsection}[patent]
+  \nocite{*}
+  \printbibliography[heading=none, title={ }]
+\end{refsection}
+
+\end{document}

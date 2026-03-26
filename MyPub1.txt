@@ -1,0 +1,262 @@
+%0 
+%0 Journal Article
+%A Wu, M.; Zhang, J.; Abts, R.; Ferraris, E. & Verbeke*, M.
+%D 2025
+%T Deep Learning-based Characterization of Fused Filament Fabrication from Temporal Thermal Data
+%E
+%B Procedia CIRP
+%C
+%I 
+%V 133
+%6
+%N 
+%P 573-578
+%&
+%Y
+%S
+%7
+%8 April
+%9
+%?
+%! 
+%Z
+%@ 
+%(
+%)
+%*
+%L
+%M
+
+%2 \textbf{EI}
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2025DeepLearningbased
+%K 
+%X The stability of fused filament fabrication (FFF), crucial for achieving high production efficiency, is considerably affected by the manner in which temperature distributes and propagates throughout the printed region. The application of infrared (IR) thermal cameras for the collection of spatiotemporal thermal data during strand deposition is investigated in this research. A classification framework utilizing the X3D deep learning model was developed to categorize process states as Normal, Transition, or Failure. 
+The X3D model demonstrated high reliability in distinguishing Normal from Abnormal states with an accuracy of approximately 95\% and a weighted F1-score of 0.95, although performance in categorizing Transition from Failure states was constrained to around 65\%. 
+The effectiveness of the model in discerning stable and unstable process conditions has been affirmed through the findings, resulting in the provision of a practical tool for real-time quality assurance in FFF. 
+In addition, the X3D model showcased exceptional computational efficiency, processing a 1-second IR video clip (32\,Hz) in 6 milliseconds while utilizing only 0.67 GB of GPU memory, making this setup suitable for in-process monitoring and control.
+%Z \cnote{EI}
+
+
+%+
+%^
+
+%0 
+%0 Journal Article
+%A Wu, M.; Shukla, Shivam; Vrancken, Bey; Verbeke, Mathias & Karsmakers$^*$, Peter
+%D 2025
+%T Data-Driven Approach to Identify Acoustic Emission Source Motion and Positioning Effects in Laser Powder Bed Fusion with Frequency Analysis
+%E
+%B Procedia CIRP
+%C
+%I 
+%V 133
+%6
+%N 
+%P 531 - 536
+%&
+%Y
+%S
+%7
+%8 April
+%9
+%?
+%! 
+%Z
+%@ 
+%(
+%)
+%*
+%L
+%M
+
+%2 \textbf{EI}
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2025DataDrivenApproach
+%K 
+%X Acoustic signal analysis is a common technique for in-process monitoring of laser powder bed fusion (LPBF) to detect defects. However, the propagation of sound waves from the melting pool to sensors can introduce variability in the perceived acoustic signal due to the relative positioning between sensors and the melting pool. This study investigates this phenomenon using a data-driven approach. Sensors, both structural and airborne, not only capture process dynamics but also contextual factors in manufacturing, such as laser movement patterns, baseplate thickness, and printing positions. The frequency data derived from Fourier transforms of the acoustic signals per printing vector were employed as inputs for a 1D-Convolutional Neural Network (CNN) model that can classify these contextual factors. By leveraging Gradient-weighted Class Activation Mapping (Grad-CAM), frequencies crucial for printing positions and acoustic emission source dynamics were identified. The insights obtained from this research aid in developing robust acoustic monitoring systems for LPBF.
+%Z \cnote{EI}
+
+
+%+
+%^
+
+%0 
+%0 Journal Article
+%A Wu, M.; Yao, Zequan; Abts, Robrecht; Karsmakers, Peter; Verbeke, Mathias & Reynaerts$^*$, Dominiek
+%D 2025
+%T A Threshold-Free and Label-Free Pipeline for Adaptive Pulse Classification in Electrical Discharge Machining
+%E
+%B Procedia CIRP
+%C
+%I 
+%V 133
+%6
+%N 
+%P 692 - 697
+%&
+%Y
+%S
+%7
+%8 April
+%9
+%?
+%! 
+%Z
+%@ 
+%(
+%)
+%*
+%L
+%M
+
+%2 \textbf{EI}
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2025ThresholdFreeLabel
+%K 
+%X The surface quality and process accuracy of Electrical Discharge Machining (EDM) are critical performance metrics, which rely on accurate estimations of tool wear rate (TWR) and material removal rate (MRR). These estimations, in turn, necessitate effective classification of electrical discharge pulses. However, the hybrid nature of modern EDM power supplies—comprising resistor-capacitor (RC), inductor-capacitor (LC), and transistor modules—renders traditional threshold-based pulse classification methods highly machine-specific, limiting their applicability. Moreover, the manual labeling of pulses is both time-consuming and resource-intensive.
+This study proposes a threshold-free and label-free data-driven pipeline for pulse classification in EDM. Dynamic Time Warping (DTW) is utilized to estimate the similarity among pulses, independent of their duration, peak voltage, and predefined thresholds for time or voltage. Based on the constructed similarity matrix, an unsupervised learning model is developed to autonomously cluster pulses. This framework provides an adaptive method for pulse classification, eliminating the need for predefined criteria or extensive labeling, thereby enhancing the generalizability and efficiency of EDM process monitoring and control.
+%Z \cnote{EI}
+
+
+%+
+%^
+
+%0 
+%0 Journal Article
+%A Wu, M.; Arshad, M. H.; Saxena, K. K.; Qian, J. & Reynaerts, D.
+%D 2022
+%T Profile prediction in ECM using machine learning
+%E
+%B Procedia CIRP
+%C
+%I Elsevier
+%V 113
+%6
+%N 
+%P 410-416
+%&
+%Y
+%S
+%7
+%8 Oct
+%9
+%?
+%! 
+%Z
+%@ 2212-8271
+%(
+%)
+%*
+%L
+%M
+
+%2 \textbf{EI}
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2022ProfilepredictionECM
+%K 
+%X ECM (Electrochemical Machining) with a micro-second pulsed power supply can decrease stray current corrosion and thus provide better surface quality on top of higher machining accuracy. However, the use of a pulsed power supply makes it challenging to predict the final workpiece profile based on the typical multi-physical-based FEM(Finite Element method) models. First, it is impractical to introduce high-frequency pulsed electric current (ns - µs) into a multi-physical model because of time step limitations. Second, there arise problems of compatibility of the time-steps within each physical module, as e.g. hydrogen bubbles have a lifetime of ms, the power supply would use μs, and thermal phenomena take ms. Multi-scale models have been proposed, but the prediction accuracies are rather low and computation times are very long. In this article, based on machine learning approaches, we present 3 data-driven ECM models for predicting the final workpiece profile when using pulsed-ECM: the linear regression (LR) model, the neural network (NN) model, and the convolutional neural network (CNN) model. After training this data-driven ECM model with different levels of pulse voltage and electrolyte flow conditions, predictions and experimental validation are conducted. Experiments with parameters outside the training parameter window are also carried out to show the performance and general applicability of our data-driven ECM model. The machine learning model shows a good generalizing ability, the CNN model presents a prediction MSE of 7.60. The present results also demonstrate that more accurate predictions will be achieved when using in-processing data. Hence, the prediction accuracy of data-driven models can be further improved on top of advancing in-processing monitoring systems.
+%Z \cnote{EI}
+
+
+%+
+%^
+
+%0 
+%0 Journal Article
+%A Wu, M.; Guo, Z.; Qian, J. & Reynaerts, D.
+%D 2021
+%T Fabrication of Surface Micro Letters by Electrolyte Jet Mask Machining
+%E
+%B Procedia CIRP
+%C
+%I Elsevier B.V.
+%V 95
+%6
+%N 
+%P 827-832
+%&
+%Y
+%S
+%7
+%8 Jan
+%9
+%?
+%! 
+%Z
+%@ 2212-8271
+%(
+%)
+%*
+%L
+%M
+
+%2 cite: 2
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2021FabricationSurfaceMicro
+%K 
+%X This paper presents an experimental investigation employing lithography in Jet-ECM, namely mask electrolyte jet machining (MEJM). MEJM is a non-contact machining process which takes action to avoid manufacturing and assembling of tools (jet nozzles) in micro scale, and combines lithography with high resolution and Jet-ECM with great flexibility. The presented work investigates the effect of applied voltage and nozzle travel speed in a morphological study to test the feasibility of this hybrid process and to explore a method for complex manufacturing of surfaces features. As a case study, micro letters are produced. The process is characterized in terms of geometrical size, similarity ratio, and cumulative shape deviation. To evaluate the shaping accuracy, descriptive statistical analysis and box plot methods are employed. The results suggest MEJM could be a promising technology for batch manufacturing of micro surface structures.
+%Z \cnote{EI}
+
+
+%+
+%^
+
+%0 
+%0 Journal Article
+%A Wu, M.; Guo, Z.; He, J. & Chen, X.
+%D 2018
+%T Modeling and simulation of the material removal process in electrolyte jet machining of mass transfer in convection and electric migration
+%E
+%B Procedia CIRP
+%C
+%I ELSEVIER SCIENCE BV
+%V 68
+%6
+%N 
+%P 488-492
+%&
+%Y
+%S
+%7
+%8 
+%9
+%?
+%! 
+%Z
+%@ 2212-8271
+%(
+%)
+%*
+%L
+%M
+
+%2 cite: 8
+%3 article
+%4 
+%# 
+%$ 
+%F Wu2018Modelingsimulationmaterial
+%K 
+%X Electrochemical jet machining (Jet-ECM) is a non-contact machining process which employed jetted column electrolyte as tool to impinge on the workpiece surface. Throughout the developments of this technique, the research on removal mechanism about mass transfer in Jet-ECM is of few interests. This paper presents a multi-physical approach for modeling the material removal process by coupling electrochemical reactions, fluid dynamics and mass transfer as a consequence of diffusion, convection and migration of ions in electrolyte and electrolyte-electrode interface. The electrolyte flow field is calculated for incompressible flow by Navier-Stokes equations. The distribution of ions is found to be a significant factor to current density distribution and geometry change. The consideration of mass transfer is closer to reality.
+%Z \cnote{EI}
+
+
+%+
+%^
+

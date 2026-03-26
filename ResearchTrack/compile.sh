@@ -1,0 +1,6 @@
+cd "../" && python HilightAuthor.py && cd ResearchTrack &&
+rm -rf raw_contribution*.svg &&
+rm -rf *.aux *.log *.gz *.out *.bbl *.lof *.lot *.blg *.upa *.upb && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 raw_contribution.tex && biber raw_contribution && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 raw_contribution.tex && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 raw_contribution.tex && rm -rf *.aux *.log *.gz *.out *.bbl *.lof *.lot *.blg *.upa *.upb raw_contribution.spl raw_contribution.abs raw_contribution.run.xml raw_contribution.bcf raw_contribution-blx.bib &&
+rm -rf raw_contribution*.svg &&
+dvisvgm --pdf --no-fonts --bbox=min raw_contribution.pdf -p 1,2,3 --output="%f-%p" &&
+rm -rf *.aux *.log *.gz *.out *.bbl *.lof *.lot *.blg *.upa *.upb && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 ResearchTrack.tex && biber ResearchTrack && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 ResearchTrack.tex && pdflatex --shell-escape -interaction=nonstopmode -synctex=1 ResearchTrack.tex && rm -rf *.aux *.log *.gz *.out *.bbl *.lof *.lot *.blg *.upa *.upb ResearchTrack.spl ResearchTrack.abs ResearchTrack.run.xml ResearchTrack.bcf ResearchTrack-blx.bib

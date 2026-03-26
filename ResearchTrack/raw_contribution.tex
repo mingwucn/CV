@@ -1,0 +1,123 @@
+% \documentclass[9pt,a4paper]{article}
+\documentclass{myCitation}
+\addbibresource[label=paper]{../MyPaper_modified.bib} 
+\addbibresource[label=conference]{../MyConference_modified.bib}
+\addbibresource[label=patent]{../MyPatent_modified.bib} 
+% \graphicspath{{../images}}
+
+\newcommand{\enote}[1]{%
+    \colorbox{yellow!30}{\textcolor{OliveGreen}{#1}}%
+}
+\newcommand{\note}[1]{}
+\newcommand{\cnote}[1]{}
+
+\begin{document}
+\pagenumbering{gobble}
+\title { }
+\date{}
+\author{ }
+
+
+% \input{../paper_main.tex}
+% \input{../paper_cop.tex}
+% \input{../conf_main.tex}
+% \input{../conf_cop.tex}
+% \nocite{*}
+
+
+% Process inovation
+\scalebox{0.55}{
+    \bfseries
+    \setlength{\tabcolsep}{0pt}
+    \color{RoyalBlue4}
+    \begin{tabular}{lrl}
+        {[J:} & {\ref{Wu2020Fabricationsurfacemicrostructures}]}   & \textit{\textcolor{citeRed}{\, Int. J. Mach. Tools Manuf., 2020}}      \\
+        {[J:} & {\ref{Wu2023ExperimentalNumericalInvestigations}]} & \textit{\textcolor{citeRed}{\, J. Manuf. Sci. Eng. Trans. ASME.,2023}} \\
+        {[C:} & {\ref{Wu2021FabricationSurfaceMicro}]}             & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2021}}                      \\
+        {[J:} & {\ref{Wu2020FastFabricationComplex}]}              & \textit{\textcolor{citeRed}{\, Micromachines, 2020}}                   \\
+        {[P:} & {\ref{Wu2018kindmaskelectro}]}                     & \textit{\textcolor{citeRed}{\, CN Patent, 2018}}                       \\
+        {[P:} & {\ref{Wu2018MicroElectrolysisDischarge}]}          & \textit{\textcolor{citeRed}{\, CN Patent, 2018}}                       \\
+        {[P:} & {\ref{Wu2018kindmoldingmicro}]}                    & \textit{\textcolor{citeRed}{\, CN Patent, 2018}}                       \\
+        {[P:} & {\ref{Wu2018kinddevicemethod}]}                    & \textit{\textcolor{citeRed}{\, CN Patent, 2018}}                       \\
+        {[J:} & {\ref{Ding2025EnhancingCavitationErosion}]}        & \textit{\textcolor{black}{\, Tribol. Trans. Mater., 2025}}             \\
+        {[J:} & {\ref{Liang2025shellfishinspiredbionic}]}          & \textit{\textcolor{black}{\, J. Mech. Behav. Biomed. Mater., 2025}}    \\
+        {[J:} & {\ref{He2024ExploringElectrochemicalDirect}]}      & \textit{\textcolor{black}{\, Micromachines, 2024}}                     \\
+        {[J:} & {\ref{Liu2020ElectrochemicalDischargeGrinding}]}   & \textit{\textcolor{black}{\, Sci. Eng. Compos. Mater., 2020}}          \\
+        {[J:} & {\ref{Chen2018Jetelectrochemicalmachining}]}       & \textit{\textcolor{black}{\, J. Mater. Process. Technol., 2018}}       \\
+        {[J:} & {\ref{He2018onestephot}]}                          & \textit{\textcolor{black}{\, J. Manuf. Process, 2018}}                 \\
+    \end{tabular}
+}
+
+% Modeling
+\clearpage
+\scalebox{0.55}{
+    \bfseries
+    \setlength{\tabcolsep}{0pt}
+    \color{RoyalBlue4}
+    \begin{tabular}{lrl}
+        {[C:} & {\ref{Wu2025DeepLearningbased}]}                   & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2025}}                       \\
+        {[J:} & {\ref{Wu2023ExperimentalNumericalInvestigations}]} & \textit{\textcolor{citeRed}{\, J. Manuf. Sci. Eng. Trans. ASME., 2023}} \\
+        {[J:} & {\ref{Wu2020Fabricationsurfacemicrostructures}]}   & \textit{\textcolor{citeRed}{\, Int. J. Mach. Tools Manuf., 2020}}       \\
+        {[J:} & {\ref{Wu2022MultiIonBased}]}                       & \textit{\textcolor{citeRed}{\, Micromachines, 2022}}                    \\
+        {[C:} & {\ref{Wu2018Modelingsimulationmaterial}]}          & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2018}}                       \\
+        {[J:} & {\ref{Li2025Cavitationintensitymechanism}]}        & \textit{\textcolor{black}{\, J. Manuf. Sci. Eng. Trans. ASME., 2025}}   \\
+        {[J:} & {\ref{Xu2025Hybridhightemperature}]}               & \textit{\textcolor{black}{\, Tribol. Int., 2025}}                       \\
+        {[J:} & {\ref{Zhu2025Abrasiveflowmachining}]}              & \textit{\textcolor{black}{\, J. Manuf. Process, 2025}}                  \\
+        {[J:} & {\ref{Li2025AnisotropicTensileProperties}]}        & \textit{\textcolor{black}{\, Mater. Sci. Eng. A., 2025}}                \\
+        {[J:} & {\ref{Shi2025DesignManufactureFlexible}]}          & \textit{\textcolor{black}{\, J. Manuf. Mater. Process, 2025}}           \\
+        {[C:} & {\ref{Saxena2022‘virtualsensing’framework}]}       & \textit{\textcolor{black}{\, Proc. CIRP, 2022}}                         \\
+        {[C:} & {\ref{Wen2019simulationexperimentalstudy}]}        & \textit{\textcolor{black}{\, Mod. Manuf. Eng., 2019}}                   \\
+        {[C:} & {\ref{Sun2015SimulationExperimentalStudy}]}        & \textit{\textcolor{black}{\, Electromach. Mould., 2015}}                \\
+        {[P:} & {\ref{Luo2016MultiPotentialElectrolytic}]}         & \textit{\textcolor{black}{\, CN Patent, 2016}}                          \\
+    \end{tabular}
+}
+
+% AI
+\clearpage
+\scalebox{0.55}{
+    \bfseries
+    \setlength{\tabcolsep}{0pt}
+    \color{RoyalBlue4}
+    \begin{tabular}{lrl}
+        {[C:} & {\ref{Wu2025DataDrivenModels}]}                 & \textit{\textcolor{citeRed}{\, Eng. Appl. Artif. Intell., Under revision}} \\
+        {[J:} & {\ref{Yao2025Intelligentdischargestate}]}       & \textit{\textcolor{citeRed}{\, Expert Syst. Appl.,}}          \\
+        {[J:} & {\ref{Ge2025Tacklingdatascarcity}]}             & \textit{\textcolor{citeRed}{\, Compos. Part B: Eng., 2025}}                  \\
+        {[C:} & {\ref{Wu2025DeepLearningbased}]}                & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2025}}                          \\
+        {[C:} & {\ref{Wu2025DataDrivenApproach}]}               & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2025}}                          \\
+        {[C:} & {\ref{Wu2025GeometricalFeatureClassification}]} & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2025}}                          \\
+        {[C:} & {\ref{Wu2025ThresholdFreeLabel}]}               & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2025}}                          \\
+        {[C:} & {\ref{Wu2022ProfilepredictionECM}]}             & \textit{\textcolor{citeRed}{\, Proc. CIRP, 2022}}                          \\
+        {[C:} & {\ref{Wu2023unsupervisedlearningmethod}]}       & \textit{\textcolor{citeRed}{\, euspen, 2023}}                              \\
+        {[C:} & {\ref{Wu2025Linking3Dmodels}]}                  & \textit{\textcolor{citeRed}{\, Flanders Make Scientific Conf., 2025}}      \\
+        {[C:} & {\ref{Wu2023Representationmachiningstate}]}     & \textit{\textcolor{citeRed}{\, Flanders Make Scientific Conf., 2023}}      \\
+        {[J:} & {\ref{Ye2025Interpretabledeeptemporal}]}        & \textit{\textcolor{black}{\, J. Manuf. Syst., 2025}}                       \\
+        % {[C:} & {\ref{Yao2025Toolwearevaluation}]}              & \textit{\textcolor{black}{\, Proc. CIRP, 2025}}                         \\
+        {[J:} & {\ref{Chen2025Predictivemodellingsurface}]}     & \textit{\textcolor{black}{\, CIRP J. Manuf. Sci. Technol., 2025}}          \\
+        {[J:} & {\ref{Yao2025Predictioncratermorphology}]}      & \textit{\textcolor{black}{\, J. Intell. Manuf., 2024}}                     \\
+        {[J:} & {\ref{Yao2023Positiondependentmilling}]}        & \textit{\textcolor{black}{\, Mech. Syst. Signal Process., 2023}}           \\
+    \end{tabular}
+}
+
+\clearpage
+\section{Publications}
+\subsection{Journal Paper}
+\begin{enumerate}
+    \subsubsection{First/Cooresponding Author}
+    \input{../paper_main_item.tex}
+    \subsubsection{Collaboration}
+    \input{../paper_cop_item.tex}
+\end{enumerate}
+
+\subsection{Conference/Poster}
+\begin{enumerate}
+    \subsubsection{First/Cooresponding Author}
+    \input{../conf_main_item.tex}
+    \subsubsection{Collaboration}
+    \input{../conf_cop_item.tex}
+\end{enumerate}
+
+\subsection{Patent}
+\begin{enumerate}
+    \input{../patent_item.tex}
+\end{enumerate}
+\end{document}
